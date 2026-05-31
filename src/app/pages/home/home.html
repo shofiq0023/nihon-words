@@ -1,0 +1,114 @@
+<main class="page">
+
+    <div class="hero">
+        <h1>言葉 Nihon Words</h1>
+        <p>Minna no Nihongo N5 — vocabulary quiz</p>
+    </div>
+
+    <!-- Lesson selector -->
+    <section class="section">
+        <span class="section-label">Select lessons</span>
+        <div class="quick-actions">
+            <button (click)="selectAll()">Select all</button>
+            <button (click)="clearAll()">Clear</button>
+        </div>
+        <div class="lesson-grid">
+            @for (lesson of totalLessons; track lesson) {
+                <button
+                    class="lesson-btn"
+                    [class.selected]="isSelected(lesson)"
+                    (click)="toggleLesson(lesson)"
+                    [attr.aria-label]="'Lesson ' + lesson"
+                    [attr.aria-pressed]="isSelected(lesson)">
+                    {{ lesson }}
+                </button>
+            }
+        </div>
+        @if (selectedCount() > 0) {
+            <p class="count-msg">
+                <strong>{{ selectedCount() }} lesson{{ selectedCount() > 1 ? 's' : '' }}</strong> selected
+            </p>
+        } @else {
+            <p class="count-msg muted">No lessons selected</p>
+        }
+        @if (showError()) {
+            <p class="error-msg">Please select at least one lesson to continue.</p>
+        }
+    </section>
+
+    <!-- Preferences -->
+    <section class="section">
+        <span class="section-label">Quiz preferences</span>
+        <div class="pref-card">
+
+            <div class="pref-row">
+                <div class="pref-info">
+                    <p class="pref-title">Question script</p>
+                    <p class="pref-desc">How the Japanese word is shown</p>
+                </div>
+                <div class="toggle-group">
+                    <button [class.active]="script() === 'hiragana'" (click)="script.set('hiragana')">Hiragana</button>
+                    <button [class.active]="script() === 'kanji'" (click)="script.set('kanji')">Kanji</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="pref-row">
+                <div class="pref-info">
+                    <p class="pref-title">Answer language</p>
+                    <p class="pref-desc">Language for the 4 answer options</p>
+                </div>
+                <div class="toggle-group">
+                    <button [class.active]="answerLang() === 'english'" (click)="answerLang.set('english')">English</button>
+                    <button [class.active]="answerLang() === 'bangla'" (click)="answerLang.set('bangla')">বাংলা</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="pref-row">
+                <div class="pref-info">
+                    <p class="pref-title">Show pronunciation</p>
+                    <p class="pref-desc">Bangla pronunciation beside the question</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" [checked]="showPronunciation()" (change)="showPronunciation.set(!showPronunciation())">
+                    <span class="thumb"></span>
+                </label>
+            </div>
+
+            <hr>
+
+            <div class="pref-row">
+                <div class="pref-info">
+                    <p class="pref-title">Timed quiz</p>
+                    <p class="pref-desc">Each question has a countdown timer</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" [checked]="timed()" (change)="timed.set(!timed())">
+                    <span class="thumb"></span>
+                </label>
+            </div>
+
+            @if (timed()) {
+                <div class="pref-row timer-row">
+                    <p class="pref-desc">Time per question</p>
+                    <div class="slider-wrap">
+                        <span class="muted">10min</span>
+                        <input type="range" min="10" max="60" step="5"
+                               [value]="timerSeconds()"
+                               (input)="timerSeconds.set(+$any($event.target).value)">
+                        <span class="timer-val">{{ timerSeconds() }}min</span>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </section>
+
+    <button class="start-btn" (click)="startQuiz()">
+        Start quiz →
+    </button>
+
+</main>
