@@ -1,0 +1,28 @@
+<div class="bg-white border border-gray-100 rounded-2xl p-6">
+    <p class="text-[11px] font-bold uppercase tracking-widest text-gray-300 mb-2">
+        Q{{ question().id }}
+    </p>
+    <p class="text-3xl font-bold text-gray-900 mb-5 leading-snug">
+        {{ questionText }}
+    </p>
+
+    <div class="grid grid-cols-2 gap-2.5 sm:grid-cols-2" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr))">
+        @for (option of question().options; track option) {
+            <button
+                class="option-btn flex items-center gap-2 px-4 py-3 border border-gray-200 rounded-xl bg-gray-50 text-sm font-semibold text-gray-700 cursor-pointer text-left transition-all"
+                [class]="getOptionClass(option)"
+                [disabled]="answered"
+                (click)="select(option)">
+
+                @if (answered && option === question().correctAnswer) {
+                    <fa-icon [icon]="correctIcon" class="correct-icon shrink-0" />
+                }
+                @if (answered && option === selectedAnswer && option !== question().correctAnswer) {
+                    <fa-icon [icon]="incorrectIcon" class="wrong-icon shrink-0" />
+                }
+
+                {{ option }}
+            </button>
+        }
+    </div>
+</div>

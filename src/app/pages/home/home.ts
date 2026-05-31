@@ -1,6 +1,8 @@
 import { Component, signal, computed } from '@angular/core';
-import { Router } from '@angular/router';
+import {Router, RouterLink} from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {faArrowRightLong} from '@fortawesome/free-solid-svg-icons';
 
 export interface QuizConfig {
     lessons: number[];
@@ -13,11 +15,12 @@ export interface QuizConfig {
 
 @Component({
     selector: 'app-home',
-    imports: [FormsModule],
+    imports: [FormsModule, FontAwesomeModule, RouterLink],
     templateUrl: './home.html',
     styleUrl: './home.scss'
 })
 export class Home {
+    readonly arrowLongRight = faArrowRightLong;
     readonly totalLessons = Array.from({ length: 25 }, (_, i) => i + 1);
 
     selectedLessons = signal<Set<number>>(new Set());

@@ -1,0 +1,59 @@
+<div class="max-w-[480px] mx-auto px-4 py-12 pb-16 flex flex-col items-center gap-8">
+
+    <!-- Header -->
+    <div class="text-center">
+        <p class="text-2xl font-extrabold text-gray-900 mb-1">Quiz Complete!</p>
+        <p class="text-sm text-gray-400">Here's how you did</p>
+    </div>
+
+    <!-- Score ring -->
+    <div class="relative w-40 h-40">
+        <svg class="w-full h-full -rotate-90" viewBox="0 0 120 120">
+            <circle cx="60" cy="60" r="54" class="ring-bg" />
+            <circle
+                cx="60" cy="60" r="54"
+                class="ring-fill"
+                [style.stroke]="scoreRingColor"
+                [style.stroke-dashoffset]="scoreRingOffset"
+                [style.stroke-dasharray]="2 * 3.14159 * 54" />
+        </svg>
+        <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <span class="text-[32px] font-extrabold text-gray-900 leading-none">{{ percentage }}%</span>
+            <span class="text-xs text-gray-400 mt-0.5">score</span>
+        </div>
+    </div>
+
+    <!-- Performance message -->
+    <div class="text-center flex flex-col items-center gap-1.5">
+        <span class="text-3xl">{{ performanceEmoji }}</span>
+        <p class="text-base font-semibold text-gray-700">{{ performanceMessage }}</p>
+    </div>
+
+    <!-- Stat cards -->
+    <div class="grid grid-cols-3 gap-3 w-full">
+        @for (stat of stats; track stat.label) {
+            <div class="stat-card rounded-2xl p-4 text-center flex flex-col gap-1" [class]="stat.type">
+                <span class="stat-value text-[28px] font-extrabold leading-none">{{ stat.value }}</span>
+                <span class="text-[13px] font-bold text-gray-700">{{ stat.label }}</span>
+                <span class="text-[11px] text-gray-400">{{ stat.sub }}</span>
+            </div>
+        }
+    </div>
+
+    <!-- Actions -->
+    <div class="flex gap-3 w-full">
+        <button
+            class="flex-1 flex items-center justify-center gap-2 py-3 text-sm font-bold bg-gray-100 text-gray-700 rounded-xl cursor-pointer hover:opacity-90 active:scale-[0.99] transition-all"
+            (click)="playAgain()">
+            <fa-icon [icon]="icons.faRotateLeft" />
+            Play again
+        </button>
+        <button
+            class="flex-1 flex items-center justify-center gap-2 py-3 text-sm font-bold bg-[#185FA5] text-white rounded-xl cursor-pointer hover:opacity-90 active:scale-[0.99] transition-all"
+            (click)="goHome()">
+            <fa-icon [icon]="icons.faHome" />
+            Back to home
+        </button>
+    </div>
+
+</div>

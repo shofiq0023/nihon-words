@@ -1,21 +1,34 @@
-<main class="page">
+<main class="max-w-[680px] mx-auto px-4 py-8 pb-16">
 
-    <div class="hero">
-        <h1>言葉 Nihon Words</h1>
-        <p>Minna no Nihongo N5 — vocabulary quiz</p>
+    <div class="mb-8">
+        <h1 class="text-2xl font-semibold mb-1">言葉 Nihon Words</h1>
+        <p class="text-sm text-gray-500">Minna no Nihongo N5 — vocabulary quiz</p>
+        <a routerLink="/about" class="text-xs text-[#185FA5] hover:underline mt-1 inline-block">
+            About this app
+        </a>
     </div>
 
     <!-- Lesson selector -->
-    <section class="section">
-        <span class="section-label">Select lessons</span>
-        <div class="quick-actions">
-            <button (click)="selectAll()">Select all</button>
-            <button (click)="clearAll()">Clear</button>
+    <section class="mb-8">
+    <span class="block text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-2">
+      Select lessons
+    </span>
+        <div class="flex gap-2 mb-3">
+            <button
+                (click)="selectAll()"
+                class="text-xs px-3 py-1 border border-gray-200 rounded-md bg-transparent cursor-pointer hover:bg-gray-100 transition-colors">
+                Select all
+            </button>
+            <button
+                (click)="clearAll()"
+                class="text-xs px-3 py-1 border border-gray-200 rounded-md bg-transparent cursor-pointer hover:bg-gray-100 transition-colors">
+                Clear
+            </button>
         </div>
-        <div class="lesson-grid">
+        <div class="grid gap-2" style="grid-template-columns: repeat(auto-fill, minmax(52px, 1fr))">
             @for (lesson of totalLessons; track lesson) {
                 <button
-                    class="lesson-btn"
+                    class="lesson-btn py-2 border border-gray-200 rounded-lg bg-white text-[13px] font-medium cursor-pointer transition-all"
                     [class.selected]="isSelected(lesson)"
                     (click)="toggleLesson(lesson)"
                     [attr.aria-label]="'Lesson ' + lesson"
@@ -25,26 +38,28 @@
             }
         </div>
         @if (selectedCount() > 0) {
-            <p class="count-msg">
-                <strong>{{ selectedCount() }} lesson{{ selectedCount() > 1 ? 's' : '' }}</strong> selected
+            <p class="text-[13px] mt-2">
+                <strong class="font-semibold">{{ selectedCount() }} lesson{{ selectedCount() > 1 ? 's' : '' }}</strong> selected
             </p>
         } @else {
-            <p class="count-msg muted">No lessons selected</p>
+            <p class="text-[13px] mt-2 text-gray-400">No lessons selected</p>
         }
         @if (showError()) {
-            <p class="error-msg">Please select at least one lesson to continue.</p>
+            <p class="text-xs text-red-600 mt-1">Please select at least one lesson to continue.</p>
         }
     </section>
 
     <!-- Preferences -->
-    <section class="section">
-        <span class="section-label">Quiz preferences</span>
-        <div class="pref-card">
+    <section class="mb-8">
+    <span class="block text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-2">
+      Quiz preferences
+    </span>
+        <div class="border border-gray-200 rounded-xl px-5 py-4 flex flex-col gap-4">
 
-            <div class="pref-row">
-                <div class="pref-info">
-                    <p class="pref-title">Question script</p>
-                    <p class="pref-desc">How the Japanese word is shown</p>
+            <div class="flex items-center justify-between gap-3">
+                <div class="flex-1">
+                    <p class="text-sm font-medium mb-0.5">Question script</p>
+                    <p class="text-xs text-gray-400">How the Japanese word is shown</p>
                 </div>
                 <div class="toggle-group">
                     <button [class.active]="script() === 'hiragana'" (click)="script.set('hiragana')">Hiragana</button>
@@ -52,12 +67,12 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="border-gray-100">
 
-            <div class="pref-row">
-                <div class="pref-info">
-                    <p class="pref-title">Answer language</p>
-                    <p class="pref-desc">Language for the 4 answer options</p>
+            <div class="flex items-center justify-between gap-3">
+                <div class="flex-1">
+                    <p class="text-sm font-medium mb-0.5">Answer language</p>
+                    <p class="text-xs text-gray-400">Language for the 4 answer options</p>
                 </div>
                 <div class="toggle-group">
                     <button [class.active]="answerLang() === 'english'" (click)="answerLang.set('english')">English</button>
@@ -65,12 +80,12 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="border-gray-100">
 
-            <div class="pref-row">
-                <div class="pref-info">
-                    <p class="pref-title">Show pronunciation</p>
-                    <p class="pref-desc">Bangla pronunciation beside the question</p>
+            <div class="flex items-center justify-between gap-3">
+                <div class="flex-1">
+                    <p class="text-sm font-medium mb-0.5">Show pronunciation</p>
+                    <p class="text-xs text-gray-400">Bangla pronunciation beside the question</p>
                 </div>
                 <label class="switch">
                     <input type="checkbox" [checked]="showPronunciation()" (change)="showPronunciation.set(!showPronunciation())">
@@ -78,12 +93,12 @@
                 </label>
             </div>
 
-            <hr>
+            <hr class="border-gray-100">
 
-            <div class="pref-row">
-                <div class="pref-info">
-                    <p class="pref-title">Timed quiz</p>
-                    <p class="pref-desc">Each question has a countdown timer</p>
+            <div class="flex items-center justify-between gap-3">
+                <div class="flex-1">
+                    <p class="text-sm font-medium mb-0.5">Timed quiz</p>
+                    <p class="text-xs text-gray-400">Each question has a countdown timer</p>
                 </div>
                 <label class="switch">
                     <input type="checkbox" [checked]="timed()" (change)="timed.set(!timed())">
@@ -92,14 +107,14 @@
             </div>
 
             @if (timed()) {
-                <div class="pref-row timer-row">
-                    <p class="pref-desc">Time per question</p>
-                    <div class="slider-wrap">
-                        <span class="muted">10min</span>
-                        <input type="range" min="10" max="60" step="5"
+                <div class="flex items-center justify-between gap-3 flex-wrap">
+                    <p class="text-xs text-gray-400">Time per question</p>
+                    <div class="flex items-center gap-3 flex-1 max-w-[220px]">
+                        <span class="text-xs text-gray-400">5s</span>
+                        <input type="range" min="5" max="60" step="5" class="flex-1"
                                [value]="timerSeconds()"
                                (input)="timerSeconds.set(+$any($event.target).value)">
-                        <span class="timer-val">{{ timerSeconds() }}min</span>
+                        <span class="text-sm font-medium min-w-[32px] text-right">{{ timerSeconds() }}s</span>
                     </div>
                 </div>
             }
@@ -107,8 +122,10 @@
         </div>
     </section>
 
-    <button class="start-btn" (click)="startQuiz()">
-        Start quiz →
+    <button
+        class="w-full py-3 text-[15px] font-semibold bg-[#185FA5] text-white rounded-lg cursor-pointer flex items-center justify-center gap-2 hover:opacity-90 active:scale-[0.99] transition-all"
+        (click)="startQuiz()">
+        Start quiz <fa-icon [icon]="arrowLongRight" />
     </button>
 
 </main>

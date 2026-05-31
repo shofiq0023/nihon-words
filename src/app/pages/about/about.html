@@ -1,1 +1,136 @@
-<p>about works!</p>
+<main class="max-w-[680px] mx-auto px-4 py-8 pb-16">
+
+    <!-- Top back button -->
+    <button
+        (click)="goHome()"
+        class="flex items-center gap-1.5 text-sm text-gray-500 hover:text-[#185FA5] transition-colors cursor-pointer mb-6">
+        <fa-icon [icon]="icons.faArrowLeft" />
+        Back to home
+    </button>
+
+    <div class="mb-8">
+        <h1 class="text-2xl font-semibold mb-1">About</h1>
+        <p class="text-sm text-gray-500">How Nihon Words works</p>
+    </div>
+
+    <!-- What is this -->
+    <section class="mb-8">
+        <h2 class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-3">What is this?</h2>
+        <div class="border border-gray-100 rounded-xl p-5">
+            <p class="text-sm text-gray-600 leading-relaxed">
+                Nihon Words is a vocabulary quiz app based on the <strong class="font-semibold text-gray-800">Minna no Nihongo N5</strong> textbook.
+                It helps you practice Japanese vocabulary through multiple choice questions, with support for
+                both English and Bangla meanings, and Bangla pronunciation guides.
+            </p>
+        </div>
+    </section>
+
+    <!-- How to use -->
+    <section class="mb-8">
+        <h2 class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-3">How to use</h2>
+        <div class="border border-gray-100 rounded-xl overflow-hidden">
+
+            <div class="flex gap-4 p-5 border-b border-gray-100">
+                <div class="w-7 h-7 rounded-full bg-[#185FA5] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">1</div>
+                <div>
+                    <p class="text-sm font-semibold text-gray-800 mb-1">Select your lessons</p>
+                    <p class="text-sm text-gray-500 leading-relaxed">
+                        Choose one or more lessons from the 25 available N5 lessons. You must select at least one to start.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 p-5 border-b border-gray-100">
+                <div class="w-7 h-7 rounded-full bg-[#185FA5] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">2</div>
+                <div>
+                    <p class="text-sm font-semibold text-gray-800 mb-1">Configure your preferences</p>
+                    <p class="text-sm text-gray-500 leading-relaxed">
+                        Choose whether questions appear in Hiragana or Kanji, whether answers are in English or Bangla,
+                        and whether to show Bangla pronunciation alongside the question.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 p-5 border-b border-gray-100">
+                <div class="w-7 h-7 rounded-full bg-[#185FA5] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">3</div>
+                <div>
+                    <p class="text-sm font-semibold text-gray-800 mb-1">Take the quiz</p>
+                    <p class="text-sm text-gray-500 leading-relaxed">
+                        Each question shows a Japanese word with 4 answer options. Select the correct meaning.
+                        Once answered, the correct answer is highlighted and the question is locked.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 p-5">
+                <div class="w-7 h-7 rounded-full bg-[#185FA5] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">4</div>
+                <div>
+                    <p class="text-sm font-semibold text-gray-800 mb-1">See your results</p>
+                    <p class="text-sm text-gray-500 leading-relaxed">
+                        After finishing, you'll see your score, how many you got correct, wrong, and skipped,
+                        along with a performance message.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Quiz rules -->
+    <section class="mb-8">
+        <h2 class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-3">How questions are selected</h2>
+        <div class="border border-gray-100 rounded-xl overflow-hidden">
+
+            <div class="flex items-start justify-between gap-4 p-5 border-b border-gray-100">
+                <p class="text-sm text-gray-600">1 lesson selected</p>
+                <p class="text-sm font-semibold text-gray-800 text-right">All vocabulary from that lesson</p>
+            </div>
+
+            <div class="flex items-start justify-between gap-4 p-5 border-b border-gray-100">
+                <p class="text-sm text-gray-600">2 lessons selected</p>
+                <p class="text-sm font-semibold text-gray-800 text-right">Half the vocab from each lesson</p>
+            </div>
+
+            <div class="flex items-start justify-between gap-4 p-5">
+                <p class="text-sm text-gray-600">3 or more lessons selected</p>
+                <p class="text-sm font-semibold text-gray-800 text-right">15 words from each lesson</p>
+            </div>
+
+        </div>
+        <p class="text-xs text-gray-400 mt-2 px-1">Vocabulary and question order are randomized every time.</p>
+    </section>
+
+    <!-- Timed quiz -->
+    <section class="mb-8">
+        <h2 class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-3">Timed quiz</h2>
+        <div class="border border-gray-100 rounded-xl p-5">
+            <p class="text-sm text-gray-600 leading-relaxed">
+                When timed mode is enabled, a countdown runs for the entire quiz based on the time per question you set
+                (between 5s and 60s per question). When the timer reaches zero, the quiz ends automatically
+                and you are taken to the results page regardless of how many questions you've answered.
+            </p>
+        </div>
+    </section>
+
+    <!-- Source -->
+    <section>
+        <h2 class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 mb-3">Vocabulary source</h2>
+        <div class="border border-gray-100 rounded-xl p-5">
+            <p class="text-sm text-gray-600 leading-relaxed">
+                All vocabulary is sourced from the
+                <strong class="font-semibold text-gray-800">Minna no Nihongo Shokyu I (N5)</strong> textbook.
+                Questions include the original Japanese word in Hiragana or Kanji, with meanings available
+                in both English and Bangla.
+            </p>
+        </div>
+    </section>
+
+    <!-- Bottom back button -->
+    <button
+        (click)="goHome()"
+        class="mt-8 flex items-center gap-1.5 text-sm text-gray-500 hover:text-[#185FA5] transition-colors cursor-pointer">
+        <fa-icon [icon]="icons.faArrowLeft" />
+        Back to home
+    </button>
+
+</main>

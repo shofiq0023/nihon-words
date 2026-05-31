@@ -1,0 +1,18 @@
+// Timer urgent state + animation — needs @keyframes
+.timer {
+    &.urgent {
+        color: #e74c3c !important;
+        border-color: #e74c3c !important;
+        animation: pulse 0.8s ease-in-out infinite;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.6; }
+}
+
+// Finish button gradient fade
+.finish-gradient {
+    background: linear-gradient(to top, #f9fafb 70%, transparent);
+}
