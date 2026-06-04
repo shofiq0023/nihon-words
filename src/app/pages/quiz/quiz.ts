@@ -1,7 +1,7 @@
-import { Component, OnInit, OnDestroy, signal, computed } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { QuizService, QuizQuestion } from '../../services/quiz.service';
-import { Question } from './question/question';
+import {Component, computed, OnDestroy, OnInit, signal} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
+import {QuizQuestion, QuizService} from '../../services/quiz.service';
+import {Question} from './question/question';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {faAlarmClock, faArrowRightLong} from '@fortawesome/free-solid-svg-icons';
 
@@ -141,7 +141,4 @@ export class Quiz implements OnInit, OnDestroy {
     get timerUrgent(): boolean {
         return this.remainingSeconds() <= 10;
     }
-
-    protected readonly arrowLongRight = faArrowRightLong;
-    protected readonly faAlarmClock = faAlarmClock;
 }

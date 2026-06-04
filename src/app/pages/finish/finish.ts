@@ -1,9 +1,13 @@
-import { Component, OnInit, signal } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {
-    faTrophy, faCircleCheck, faCircleXmark,
-    faQuestionCircle, faRotateLeft, faHome
+    faCircleCheck,
+    faCircleXmark,
+    faHome,
+    faQuestionCircle,
+    faRotateLeft,
+    faTrophy
 } from '@fortawesome/free-solid-svg-icons';
 
 interface StatCard {

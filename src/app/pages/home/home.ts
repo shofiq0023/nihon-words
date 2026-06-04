@@ -1,6 +1,6 @@
-import { Component, signal, computed } from '@angular/core';
+import {Component, computed, signal} from '@angular/core';
 import {Router, RouterLink} from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {faArrowRightLong} from '@fortawesome/free-solid-svg-icons';
 

@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
-import { Vocabulary, Lesson } from '../models/vocabulary.model';
+import {Injectable} from '@angular/core';
+import {Lesson, Vocabulary} from '../models/vocabulary.model';
 import vocabularyData from '../../data/minna_no_nihongo_N5_vocabulary.json';
 
 export interface QuizQuestion {
@@ -24,12 +24,17 @@ export class QuizService {
         showPronunciation: boolean
     ): QuizQuestion[] {
         const selectedVocab = this.selectVocab(lessonNumbers);
-        const allVocab = this.allLessons.flatMap(l => l.vocabulary);
         const shuffled = this.shuffle(selectedVocab);
 
         return shuffled.map((vocab, index) => {
             const correctAnswer = answerLang === 'english' ? vocab.englishMeaning : vocab.banglaMeaning;
-            const distractors = this.getDistractors(vocab, allVocab, answerLang, 3);
+
+            // Get the full vocab pool from the same lesson as this word
+            const lessonPool = this.allLessons
+                .find(l => l.vocabulary.includes(vocab))
+                ?.vocabulary ?? [];
+
+            const distractors = this.getDistractors(vocab, lessonPool, answerLang, 3);
             const options = this.shuffle([correctAnswer, ...distractors]);
 
             return {
@@ -73,15 +78,26 @@ export class QuizService {
         count: number
     ): string[] {
         const correctAnswer = lang === 'english' ? correct.englishMeaning : correct.banglaMeaning;
-        const candidates = pool
-            .filter(v => {
-                const ans = lang === 'english' ? v.englishMeaning : v.banglaMeaning;
-                return ans !== correctAnswer;
-            })
-            .map(v => lang === 'english' ? v.englishMeaning : v.banglaMeaning);
 
-        const unique = [...new Set(candidates)];
-        return this.shuffle(unique).slice(0, count);
+        const extract = (v: Vocabulary) => lang === 'english' ? v.englishMeaning : v.banglaMeaning;
+
+        let candidates = [...new Set(
+            pool
+                .filter(v => extract(v) !== correctAnswer)
+                .map(extract)
+        )];
+
+        // Fallback to all vocab if lesson doesn't have enough distractors
+        if (candidates.length < count) {
+            const allVocab = this.allLessons.flatMap(l => l.vocabulary);
+            candidates = [...new Set(
+                allVocab
+                    .filter(v => extract(v) !== correctAnswer)
+                    .map(extract)
+            )];
+        }
+
+        return this.shuffle(candidates).slice(0, count);
     }
 
     private shuffle<T>(arr: T[]): T[] {

@@ -1,5 +1,5 @@
-import { Component, input, output } from '@angular/core';
-import { QuizQuestion } from '../../../services/quiz.service';
+import {Component, input, output} from '@angular/core';
+import {QuizQuestion} from '../../../services/quiz.service';
 import {faCheck, faXmark} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
