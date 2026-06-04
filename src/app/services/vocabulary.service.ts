@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {Lesson, Vocabulary, VocabularyData} from '../models/vocabulary.model';
-import vocabularyData from '../../data/minna_no_nihongo_N5_vocabulary.min.json';
+import vocabularyData from '../../data/minna_no_nihongo_N5_vocabulary.json';
 
 @Injectable({
     providedIn: 'root'

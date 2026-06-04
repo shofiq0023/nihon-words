@@ -36,13 +36,18 @@ export class Question {
 
     get questionText(): string {
         const q = this.question();
-        const word = q.script === 'hiragana' ? q.vocab.hiragana : (q.vocab.kanji || q.vocab.hiragana);
+        return q.script === 'hiragana' ? q.vocab.hiragana : (q.vocab.kanji || q.vocab.hiragana);
+    }
+
+    get pronunciationText(): string {
+        const q = this.question();
+
         if (q.showPronunciation && q.script === 'kanji') {
-            return `${word} (${q.vocab.banglaPronunciation})`;
+            return `(${q.vocab.banglaPronunciation})`;
         }
         if (q.showPronunciation) {
-            return `${word} (${q.vocab.banglaPronunciation})`;
+            return `(${q.vocab.banglaPronunciation})`;
         }
-        return word;
+        return '';
     }
 }
