@@ -2896,7 +2896,7 @@
         },
         {
           "hiragana": "いいえ、けっこうです",
-          "banglaPronunciation": "ইইয়ে, কোকোদেস",
+          "banglaPronunciation": "ইইয়ে, কেক্কোদেছু",
           "kanji": "",
           "englishMeaning": "No, thank you.",
           "banglaMeaning": "হা, আপনাকে ধন্যবাদ"
@@ -2938,7 +2938,7 @@
         },
         {
           "hiragana": "シャンハイ",
-          "banglaPronunciation": "শাংহাই",
+          "banglaPronunciation": "শানহাই",
           "kanji": "",
           "englishMeaning": "Shanghai",
           "banglaMeaning": "শাংহাই"
@@ -3261,7 +3261,7 @@
           "banglaPronunciation": "জানলেন দেসনে",
           "kanji": "残念ですね",
           "englishMeaning": "I'm sorry (to hear that)./ That's a pity.",
-          "banglaMeaning": "দু:খিত (কিছু শুনে)./ এটা সুন্দর।"
+          "banglaMeaning": "দু:খিত (কিছু শুনে)./ এটা একটা দুঃখের বিষয়।"
         },
         {
           "hiragana": "すみません",
@@ -3279,21 +3279,21 @@
         },
         {
           "hiragana": "ああ",
-          "banglaPronunciation": "আ আ",
+          "banglaPronunciation": "আআ",
           "kanji": "",
           "englishMeaning": "Oh",
           "banglaMeaning": "আহ"
         },
         {
           "hiragana": "いっしょに いかがですか",
-          "banglaPronunciation": "ইশেশানি ইকাগাদেসকা",
+          "banglaPronunciation": "ইশ্বোনি ইকাগাদেসকা",
           "kanji": "",
           "englishMeaning": "Won't you join me (us)?",
           "banglaMeaning": "(আমার/আমাদের) সাথে যোগ দিবে নাকি?"
         },
         {
           "hiragana": "[〜は]ちょっと....。",
-          "banglaPronunciation": "[〜ওয়া] চোতো....",
+          "banglaPronunciation": "[〜ওয়া] চৌত্তো....",
           "kanji": "",
           "englishMeaning": "[〜] is a bit difficult. (an euphemism used when declining an invitation)",
           "banglaMeaning": "একটু সমস্যা [〜]. (শ্রুতিমধুর ভাবে আমন্ত্রণ অস্বীকার করা)"
