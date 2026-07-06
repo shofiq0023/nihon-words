@@ -628,8 +628,8 @@
           "hiragana": "どうも",
           "banglaPronunciation": "দৌমো",
           "kanji": "",
-          "englishMeaning": "Well, thanks.",
-          "banglaMeaning": "ভালো, ধন্যবাদ"
+          "englishMeaning": "Thanks.",
+          "banglaMeaning": "ধন্যবাদ"
         },
         {
           "hiragana": "[どうも]ありがとう [ございます]",
@@ -1056,7 +1056,7 @@
         },
         {
           "hiragana": "〜じ",
-          "banglaPronunciation": "〜 ইমা",
+          "banglaPronunciation": "〜 জি",
           "kanji": "〜時",
           "englishMeaning": "-o'clock",
           "banglaMeaning": "ঘন্টা"
@@ -2102,7 +2102,7 @@
         },
         {
           "hiragana": "いっしょに",
-          "banglaPronunciation": "ইশেশানি",
+          "banglaPronunciation": "ঈশ্বোনি",
           "kanji": "一緒に",
           "englishMeaning": "Together",
           "banglaMeaning": "একসাথে"
