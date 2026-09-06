@@ -5,6 +5,7 @@
       "vocabulary": [
         {
           "hiragana": "わたし",
+          "englishPronunciation": "watashi",
           "banglaPronunciation": "ওয়াতাশি",
           "kanji": "私",
           "englishMeaning": "I",
@@ -12,6 +13,7 @@
         },
         {
           "hiragana": "わたしたち",
+          "englishPronunciation": "watashitachi",
           "banglaPronunciation": "ওয়াতাশিতাচি",
           "kanji": "私たち",
           "englishMeaning": "We",
@@ -19,6 +21,7 @@
         },
         {
           "hiragana": "わたしの",
+          "englishPronunciation": "watashi no",
           "banglaPronunciation": "ওয়াতাশিনো",
           "kanji": "私の",
           "englishMeaning": "My",
@@ -26,6 +29,7 @@
         },
         {
           "hiragana": "あなた",
+          "englishPronunciation": "anata",
           "banglaPronunciation": "আনাতা",
           "kanji": "あなた",
           "englishMeaning": "You",
@@ -33,6 +37,7 @@
         },
         {
           "hiragana": "あなたの",
+          "englishPronunciation": "anata no",
           "banglaPronunciation": "আনাতানো",
           "kanji": "あなたの",
           "englishMeaning": "Your",
@@ -40,62 +45,71 @@
         },
         {
           "hiragana": "あのひと (あのかた)",
+          "englishPronunciation": "ano hito (ano kata)",
           "banglaPronunciation": "আনোহিতো (আনোকাতা)",
           "kanji": "あの人、あの方",
           "englishMeaning": "That Person, he, she (あのかた is the polite equivalent of あのひと)",
-          "banglaMeaning": "ঐ ব্যক্তি, সে, তিনি"
+          "banglaMeaning": "ঐ ব্যক্তি, সে, তিনি (あのかた হলো あのひと এর মার্জিত রূপ)"
         },
         {
           "hiragana": "みなさん",
+          "englishPronunciation": "minasan",
           "banglaPronunciation": "মিনাসান",
           "kanji": "皆さん",
           "englishMeaning": "Ladies and Gentlemen, all of you",
-          "banglaMeaning": "ভদ্র মহিলা ও মহোদয়গণ, সবাই"
+          "banglaMeaning": "ভদ্রমহিলা ও মহোদয়গণ, আপনারা সবাই"
         },
         {
           "hiragana": "〜さん",
-          "banglaPronunciation": "সান",
+          "englishPronunciation": "~san",
+          "banglaPronunciation": "~সান",
           "kanji": "",
           "englishMeaning": "Mr., Mrs. (title of respect added to a name)",
-          "banglaMeaning": "জনাব, জনাবা (প্রাপ্ত বয়স্ক ব্যক্তিদের নামের পরে সম্মানার্থে বসে)"
+          "banglaMeaning": "জনাব, জনাবা (সম্মানার্থে নামের পরে বসে)"
         },
         {
           "hiragana": "〜ちゃん",
-          "banglaPronunciation": "চান",
+          "englishPronunciation": "~chan",
+          "banglaPronunciation": "~চান",
           "kanji": "",
           "englishMeaning": "Suffix often added to a child's name instead of 〜さん",
-          "banglaMeaning": "কিশোর কিশোরীদের নামের পরে বসে さん এর পরিবর্তে"
+          "banglaMeaning": "বাচ্চাদের নামের শেষে স্নেহ প্রকাশে ব্যবহৃত হয় (~さん এর পরিবর্তে)"
         },
         {
           "hiragana": "〜くん",
-          "banglaPronunciation": "কুন",
+          "englishPronunciation": "~kun",
+          "banglaPronunciation": "~কুন",
           "kanji": "〜君",
           "englishMeaning": "Suffix often added to a boy's name",
-          "banglaMeaning": "০ থেকে ৮ বছর বয়সের ছেলে বাচ্চাদের নামের পরে বসে"
+          "banglaMeaning": "সাধারণত ছেলেদের বা সমবয়সী/কনিষ্ঠদের নামের শেষে ব্যবহৃত হয়"
         },
         {
           "hiragana": "〜じん",
-          "banglaPronunciation": "জিন",
+          "englishPronunciation": "~jin",
+          "banglaPronunciation": "~জিন",
           "kanji": "〜人",
           "englishMeaning": "Suffix meaning 'a national of'. e.g. アメリカじん, an American",
-          "banglaMeaning": "নাগরিক (কোন দেশের নাগরিক বুঝাতে ঐ দেশের নামের পরে বসে যেমন: আমেরিকান)"
+          "banglaMeaning": "জাতীয়তা প্রকাশ করতে দেশের নামের পরে বসে (যেমন: আমেরিকান)"
         },
         {
           "hiragana": "せんせい",
+          "englishPronunciation": "sensei",
           "banglaPronunciation": "সেনসেই",
           "kanji": "先生",
           "englishMeaning": "Teacher, Instructor (not used when referring to one's own job)",
-          "banglaMeaning": "শিক্ষক, পরিদর্শক (নিজের পেশার পরিচয় দেয়ার ক্ষেত্রে বসবেনা)"
+          "banglaMeaning": "শিক্ষক, শিক্ষকতা পেশার সম্মানিত ব্যক্তি (নিজের পেশা বলতে ব্যবহৃত হয় না)"
         },
         {
           "hiragana": "きょうし",
-          "banglaPronunciation": "কিয়োউশি",
+          "englishPronunciation": "kyoushi",
+          "banglaPronunciation": "কিয়ৌশি",
           "kanji": "教師",
           "englishMeaning": "Teacher, Instructor",
-          "banglaMeaning": "শিক্ষক, পরিদর্শক (নিজের পেশার পরিচয় দেয়ার ক্ষেত্রে বসবে)"
+          "banglaMeaning": "শিক্ষক (নিজের পেশা পরিচয় দেয়ার ক্ষেত্রে ব্যবহৃত হয়)"
         },
         {
           "hiragana": "がくせい",
+          "englishPronunciation": "gakusei",
           "banglaPronunciation": "গাকুসেই",
           "kanji": "学生",
           "englishMeaning": "Student",
@@ -103,48 +117,55 @@
         },
         {
           "hiragana": "かいしゃいん",
+          "englishPronunciation": "kaishain",
           "banglaPronunciation": "কাইশাইন",
           "kanji": "会社員",
           "englishMeaning": "Company employee",
-          "banglaMeaning": "কোম্পানি কর্মচারী"
+          "banglaMeaning": "কোম্পানি চাকুরিজীবী"
         },
         {
           "hiragana": "しゃいん",
+          "englishPronunciation": "shain",
           "banglaPronunciation": "শাইন",
           "kanji": "社員",
           "englishMeaning": "Employee of ~ company",
-          "banglaMeaning": "কর্মচারী (কোম্পানির নাম)"
+          "banglaMeaning": "কর্মচারী (নির্দিষ্ট কোম্পানির নামের সাথে ব্যবহৃত হয়)"
         },
         {
           "hiragana": "ぎんこういん",
-          "banglaPronunciation": "গিনকোউইন",
+          "englishPronunciation": "ginkouin",
+          "banglaPronunciation": "গিনকৌইন",
           "kanji": "銀行員",
           "englishMeaning": "Bank employee",
-          "banglaMeaning": "ব্যাংক কর্মচারী"
+          "banglaMeaning": "ব্যাংক কর্মকর্তা / কর্মচারী"
         },
         {
           "hiragana": "いしゃ",
+          "englishPronunciation": "isha",
           "banglaPronunciation": "ইশা",
           "kanji": "医者",
           "englishMeaning": "Medical doctor",
-          "banglaMeaning": "ডাক্তার"
+          "banglaMeaning": "ডাক্তার / চিকিৎসক"
         },
         {
           "hiragana": "けんきゅうしゃ",
+          "englishPronunciation": "kenkyuusha",
           "banglaPronunciation": "কেনকিউশা",
           "kanji": "研究者",
           "englishMeaning": "Researcher, Scholar",
-          "banglaMeaning": "গবেষক, পণ্ডিত"
+          "banglaMeaning": "গবেষক"
         },
         {
           "hiragana": "エンジニア",
+          "englishPronunciation": "enjinia",
           "banglaPronunciation": "এনজিনিয়া",
           "kanji": "",
           "englishMeaning": "Engineer",
-          "banglaMeaning": "ইঞ্জিনিয়ার"
+          "banglaMeaning": "ইঞ্জিনিয়ার / প্রকৌশলী"
         },
         {
           "hiragana": "だいがく",
+          "englishPronunciation": "daigaku",
           "banglaPronunciation": "দাইগাকু",
           "kanji": "大学",
           "englishMeaning": "University",
@@ -152,48 +173,55 @@
         },
         {
           "hiragana": "びょういん",
-          "banglaPronunciation": "বিয়োউইন",
+          "englishPronunciation": "byouin",
+          "banglaPronunciation": "বিয়ৌইন",
           "kanji": "病院",
           "englishMeaning": "Hospital",
           "banglaMeaning": "হাসপাতাল"
         },
         {
           "hiragana": "でんき",
+          "englishPronunciation": "denki",
           "banglaPronunciation": "দেনকি",
           "kanji": "電気",
           "englishMeaning": "Electricity, Light",
-          "banglaMeaning": "বিদ্যুৎ, লাইট"
+          "banglaMeaning": "বিদ্যুৎ, বাতি"
         },
         {
           "hiragana": "だれ (どなた)",
+          "englishPronunciation": "dare (donata)",
           "banglaPronunciation": "দারে (দোনাতা)",
           "kanji": "",
           "englishMeaning": "Who (どなた is the polite equivalent of だれ)",
-          "banglaMeaning": "কে"
+          "banglaMeaning": "কে (どなた হলো だれ এর মার্জিত রূপ)"
         },
         {
           "hiragana": "〜さい",
-          "banglaPronunciation": "সাই",
+          "englishPronunciation": "~sai",
+          "banglaPronunciation": "~সাই",
           "kanji": "〜歳",
           "englishMeaning": "~ years old",
-          "banglaMeaning": "বয়স"
+          "banglaMeaning": "~ বছর বয়স"
         },
         {
           "hiragana": "なんさい (おいくつ)",
+          "englishPronunciation": "nansai (oikutsu)",
           "banglaPronunciation": "নানসাই (ওইকুৎসু)",
           "kanji": "何歳",
           "englishMeaning": "How old (おいくつ is the polite equivalent of なんさい)",
-          "banglaMeaning": "কত বছর বয়স ?"
+          "banglaMeaning": "বয়স কত? (おいくつ হলো なんさい এর মার্জিত রূপ)"
         },
         {
           "hiragana": "はい",
+          "englishPronunciation": "hai",
           "banglaPronunciation": "হাই",
           "kanji": "",
           "englishMeaning": "Yes",
-          "banglaMeaning": "হ্যা"
+          "banglaMeaning": "হ্যাঁ"
         },
         {
           "hiragana": "いいえ",
+          "englishPronunciation": "iie",
           "banglaPronunciation": "ইইয়ে",
           "kanji": "",
           "englishMeaning": "No",
@@ -201,69 +229,79 @@
         },
         {
           "hiragana": "しつれいですが",
-          "banglaPronunciation": "শিৎসুরেইদেসুগা",
+          "englishPronunciation": "shitsurei desu ga",
+          "banglaPronunciation": "শিৎসুরেই দেসু গা",
           "kanji": "失礼ですが",
           "englishMeaning": "Excuse me, but",
-          "banglaMeaning": "দু:খিত/ মাফ করবেন, কিন্তু"
+          "banglaMeaning": "ক্ষমা করবেন, কিন্তু..."
         },
         {
           "hiragana": "おなまえは?",
-          "banglaPronunciation": "ওনামায়েওয়া?",
+          "englishPronunciation": "onamae wa?",
+          "banglaPronunciation": "ওনামায়ে ওয়া?",
           "kanji": "お名前は?",
           "englishMeaning": "May I have your name?",
-          "banglaMeaning": "আপনার নাম জানতে পারি কি?"
+          "banglaMeaning": "আপনার নাম কী?"
         },
         {
           "hiragana": "はじめまして",
+          "englishPronunciation": "hajimemashite",
           "banglaPronunciation": "হাজিমেমাশিতে",
           "kanji": "初めまして",
           "englishMeaning": "How do you do (meeting first time with unknown person when introducing oneself)",
-          "banglaMeaning": "কি অবস্থা, আপনার সাথে দেখা করে ভালো লাগলো (অপরিচিত লোকের সাথে প্রথম দেখায় বলতে হয়)"
+          "banglaMeaning": "প্রথমবার সাক্ষাতে আত্মপরিচয় দেওয়ার সূচনা বাক্য"
         },
         {
           "hiragana": "どうぞよろしく おねがいします",
-          "banglaPronunciation": "দৌযো ইয়োরোশিকু ওনেগাইশিমাস",
+          "englishPronunciation": "douzo yoroshiku onegaishimasu",
+          "banglaPronunciation": "দোজো ইয়োরোশিকু ওনেগাইশিমাস",
           "kanji": "どうぞよろしく お願いします",
           "englishMeaning": "Pleased to meet you (end of self-introduction)",
-          "banglaMeaning": "আপনার সাথে পরিচিত হয়ে খুশি হলাম (পরিচয় দেয়ার শেষে বলতে হয় ভদ্রতা হিসেবে)"
+          "banglaMeaning": "আপনার সাথে পরিচিত হয়ে ভালো লাগলো / অনুগ্রহ করে আমার প্রতি সদয় হবেন"
         },
         {
           "hiragana": "こちらは〜さんです",
-          "banglaPronunciation": "কোচিরা ওয়া 〜 সান দেস",
+          "englishPronunciation": "kochira wa ~san desu",
+          "banglaPronunciation": "কোচিরা ওয়া ~সান দেসু",
           "kanji": "",
           "englishMeaning": "This is Mr./Mrs. ~",
-          "banglaMeaning": "এই হলো জনাব/জনাবা 〜"
+          "banglaMeaning": "ইনি হলেন জনাব/জনাবা ~"
         },
         {
           "hiragana": "〜からきました。",
-          "banglaPronunciation": "কারা কিমাশিতা",
+          "englishPronunciation": "~kara kimashita.",
+          "banglaPronunciation": "~কারা কিমাশিতা",
           "kanji": "〜から 来ました。",
           "englishMeaning": "I came (come) from ~.",
-          "banglaMeaning": "আমি 〜 এসেছি"
+          "banglaMeaning": "আমি ~ থেকে এসেছি"
         },
         {
           "hiragana": "アメリカ",
+          "englishPronunciation": "amerika",
           "banglaPronunciation": "আমেরিকা",
           "kanji": "",
           "englishMeaning": "America, U.S.A.",
-          "banglaMeaning": "আমেরিকা, ইউ.কে."
+          "banglaMeaning": "আমেরিকা"
         },
         {
           "hiragana": "イギリス",
+          "englishPronunciation": "igirisu",
           "banglaPronunciation": "ইগিরিসু",
           "kanji": "",
           "englishMeaning": "U.K.",
-          "banglaMeaning": "যুক্তরাজ্য, ইউ.কে."
+          "banglaMeaning": "যুক্তরাজ্য (ইউ.কে.)"
         },
         {
           "hiragana": "インド",
+          "englishPronunciation": "indo",
           "banglaPronunciation": "ইন্দো",
           "kanji": "",
           "englishMeaning": "India",
-          "banglaMeaning": "ইন্ডিয়া"
+          "banglaMeaning": "ভারত / ইন্ডিয়া"
         },
         {
           "hiragana": "インドネシア",
+          "englishPronunciation": "indoneshia",
           "banglaPronunciation": "ইন্দোনেশিয়া",
           "kanji": "",
           "englishMeaning": "Indonesia",
@@ -271,6 +309,7 @@
         },
         {
           "hiragana": "かんこく",
+          "englishPronunciation": "kankoku",
           "banglaPronunciation": "কানকোকু",
           "kanji": "韓国",
           "englishMeaning": "South Korea",
@@ -278,6 +317,7 @@
         },
         {
           "hiragana": "タイ",
+          "englishPronunciation": "tai",
           "banglaPronunciation": "তাই",
           "kanji": "",
           "englishMeaning": "Thailand",
@@ -285,13 +325,15 @@
         },
         {
           "hiragana": "ちゅうごく",
-          "banglaPronunciation": "চৌগোকু",
+          "englishPronunciation": "chuugoku",
+          "banglaPronunciation": "চুউগোকু",
           "kanji": "中国",
           "englishMeaning": "China",
           "banglaMeaning": "চীন"
         },
         {
           "hiragana": "ドイツ",
+          "englishPronunciation": "doitsu",
           "banglaPronunciation": "দোইৎসু",
           "kanji": "",
           "englishMeaning": "Germany",
@@ -299,6 +341,7 @@
         },
         {
           "hiragana": "にほん",
+          "englishPronunciation": "nihon",
           "banglaPronunciation": "নিহোন",
           "kanji": "日本",
           "englishMeaning": "Japan",
@@ -306,6 +349,7 @@
         },
         {
           "hiragana": "フランス",
+          "englishPronunciation": "furansu",
           "banglaPronunciation": "ফুরানসু",
           "kanji": "",
           "englishMeaning": "France",
@@ -313,6 +357,7 @@
         },
         {
           "hiragana": "ブラジル",
+          "englishPronunciation": "burajiru",
           "banglaPronunciation": "বুরাজিরু",
           "kanji": "",
           "englishMeaning": "Brazil",
@@ -325,6 +370,7 @@
       "vocabulary": [
         {
           "hiragana": "これ",
+          "englishPronunciation": "kore",
           "banglaPronunciation": "কোরে",
           "kanji": "",
           "englishMeaning": "This (thing here)",
@@ -332,6 +378,7 @@
         },
         {
           "hiragana": "それ",
+          "englishPronunciation": "sore",
           "banglaPronunciation": "সোরে",
           "kanji": "",
           "englishMeaning": "That (thing near you)",
@@ -339,6 +386,7 @@
         },
         {
           "hiragana": "あれ",
+          "englishPronunciation": "are",
           "banglaPronunciation": "আরে",
           "kanji": "",
           "englishMeaning": "That (thing over there)",
@@ -346,6 +394,7 @@
         },
         {
           "hiragana": "この〜",
+          "englishPronunciation": "kono~",
           "banglaPronunciation": "কোনো 〜",
           "kanji": "",
           "englishMeaning": "this ~, this ~ here",
@@ -353,6 +402,7 @@
         },
         {
           "hiragana": "その〜",
+          "englishPronunciation": "sono~",
           "banglaPronunciation": "সোনো 〜",
           "kanji": "",
           "englishMeaning": "that ~, that ~ near you",
@@ -360,6 +410,7 @@
         },
         {
           "hiragana": "あの〜",
+          "englishPronunciation": "ano~",
           "banglaPronunciation": "আনো 〜",
           "kanji": "",
           "englishMeaning": "that ~, that ~ over there",
@@ -367,6 +418,7 @@
         },
         {
           "hiragana": "ほん",
+          "englishPronunciation": "hon",
           "banglaPronunciation": "হোন",
           "kanji": "本",
           "englishMeaning": "Book",
@@ -374,6 +426,7 @@
         },
         {
           "hiragana": "じしょ",
+          "englishPronunciation": "jisho",
           "banglaPronunciation": "জিশো",
           "kanji": "辞書",
           "englishMeaning": "Dictionary",
@@ -381,13 +434,15 @@
         },
         {
           "hiragana": "ざっし",
-          "banglaPronunciation": "জাৎশি",
+          "englishPronunciation": "zasshi",
+          "banglaPronunciation": "জাশশি",
           "kanji": "雑誌",
           "englishMeaning": "Magazine",
           "banglaMeaning": "ম্যাগাজিন"
         },
         {
           "hiragana": "しんぶん",
+          "englishPronunciation": "shinbun",
           "banglaPronunciation": "শিনবুন",
           "kanji": "新聞",
           "englishMeaning": "Newspaper",
@@ -395,6 +450,7 @@
         },
         {
           "hiragana": "ノート",
+          "englishPronunciation": "nōto",
           "banglaPronunciation": "নো-তো",
           "kanji": "",
           "englishMeaning": "Notebook",
@@ -402,6 +458,7 @@
         },
         {
           "hiragana": "てちょう",
+          "englishPronunciation": "techō",
           "banglaPronunciation": "তেচৌ",
           "kanji": "手帳",
           "englishMeaning": "Pocket notebook",
@@ -409,6 +466,7 @@
         },
         {
           "hiragana": "めいし",
+          "englishPronunciation": "meishi",
           "banglaPronunciation": "মেইশি",
           "kanji": "名詞",
           "englishMeaning": "Business card",
@@ -416,6 +474,7 @@
         },
         {
           "hiragana": "カード",
+          "englishPronunciation": "kādo",
           "banglaPronunciation": "কাদো",
           "kanji": "",
           "englishMeaning": "card",
@@ -423,6 +482,7 @@
         },
         {
           "hiragana": "テレホンカード",
+          "englishPronunciation": "terehon kādo",
           "banglaPronunciation": "তেরেহোনকাদো",
           "kanji": "",
           "englishMeaning": "Telephone card",
@@ -430,6 +490,7 @@
         },
         {
           "hiragana": "えんぴつ",
+          "englishPronunciation": "enpitsu",
           "banglaPronunciation": "এনপিৎসু",
           "kanji": "鉛筆",
           "englishMeaning": "Pencil",
@@ -437,6 +498,7 @@
         },
         {
           "hiragana": "ボールペン",
+          "englishPronunciation": "bōrupen",
           "banglaPronunciation": "বোরুপেন",
           "kanji": "",
           "englishMeaning": "Ballpoint pen",
@@ -444,6 +506,7 @@
         },
         {
           "hiragana": "シャープペンシル",
+          "englishPronunciation": "shāpu penshiru",
           "banglaPronunciation": "শাপুপেনশিরু",
           "kanji": "",
           "englishMeaning": "Mechanical pencil, propelling pencil",
@@ -451,6 +514,7 @@
         },
         {
           "hiragana": "かぎ",
+          "englishPronunciation": "kagi",
           "banglaPronunciation": "কাগি",
           "kanji": "かぎ",
           "englishMeaning": "Key",
@@ -458,6 +522,7 @@
         },
         {
           "hiragana": "とけい",
+          "englishPronunciation": "tokei",
           "banglaPronunciation": "তোকেই",
           "kanji": "時計",
           "englishMeaning": "Watch, clock",
@@ -465,6 +530,7 @@
         },
         {
           "hiragana": "かさ",
+          "englishPronunciation": "kasa",
           "banglaPronunciation": "কাসা",
           "kanji": "傘",
           "englishMeaning": "Umbrella",
@@ -472,6 +538,7 @@
         },
         {
           "hiragana": "かばん",
+          "englishPronunciation": "kaban",
           "banglaPronunciation": "কাবান",
           "kanji": "",
           "englishMeaning": "Bag, briefcase",
@@ -479,13 +546,15 @@
         },
         {
           "hiragana": "[カセット]テープ",
-          "banglaPronunciation": "[কাসেতো] তেপু",
+          "englishPronunciation": "[kasetto] tēpu",
+          "banglaPronunciation": "[কাসেৎতো] তেপু",
           "kanji": "",
           "englishMeaning": "[Cassette] tape",
           "banglaMeaning": "ক্যাসেট টেপ"
         },
         {
           "hiragana": "テープレコーダー",
+          "englishPronunciation": "tēpu rekōdā",
           "banglaPronunciation": "তেপুরেকোদা",
           "kanji": "",
           "englishMeaning": "Tape recorder",
@@ -493,6 +562,7 @@
         },
         {
           "hiragana": "テレビ",
+          "englishPronunciation": "terebi",
           "banglaPronunciation": "তেরেবি",
           "kanji": "",
           "englishMeaning": "Television",
@@ -500,6 +570,7 @@
         },
         {
           "hiragana": "ラジオ",
+          "englishPronunciation": "rajio",
           "banglaPronunciation": "রাজিও",
           "kanji": "",
           "englishMeaning": "Radio",
@@ -507,6 +578,7 @@
         },
         {
           "hiragana": "カメラ",
+          "englishPronunciation": "kamera",
           "banglaPronunciation": "কামেরা",
           "kanji": "",
           "englishMeaning": "Camera",
@@ -514,6 +586,7 @@
         },
         {
           "hiragana": "コンピューター",
+          "englishPronunciation": "konpyūtā",
           "banglaPronunciation": "কোনপিউতা",
           "kanji": "",
           "englishMeaning": "Computer",
@@ -521,6 +594,7 @@
         },
         {
           "hiragana": "じどうしゃ",
+          "englishPronunciation": "jidōsha",
           "banglaPronunciation": "জিদৌশা",
           "kanji": "自動車",
           "englishMeaning": "Automobile, car",
@@ -528,6 +602,7 @@
         },
         {
           "hiragana": "つくえ",
+          "englishPronunciation": "tsukue",
           "banglaPronunciation": "ৎসুকুয়ে",
           "kanji": "机",
           "englishMeaning": "Desk",
@@ -535,6 +610,7 @@
         },
         {
           "hiragana": "いす",
+          "englishPronunciation": "isu",
           "banglaPronunciation": "ইসু",
           "kanji": "",
           "englishMeaning": "Chair",
@@ -542,6 +618,7 @@
         },
         {
           "hiragana": "チョコレート",
+          "englishPronunciation": "chokorēto",
           "banglaPronunciation": "চোকোরেতো",
           "kanji": "",
           "englishMeaning": "Chocolate",
@@ -549,6 +626,7 @@
         },
         {
           "hiragana": "コーヒー",
+          "englishPronunciation": "kōhī",
           "banglaPronunciation": "কোহি",
           "kanji": "",
           "englishMeaning": "Coffee",
@@ -556,6 +634,7 @@
         },
         {
           "hiragana": "えいご",
+          "englishPronunciation": "eigo",
           "banglaPronunciation": "এইগো",
           "kanji": "英語",
           "englishMeaning": "The English language",
@@ -563,6 +642,7 @@
         },
         {
           "hiragana": "にほんご",
+          "englishPronunciation": "nihongo",
           "banglaPronunciation": "নিহোনগো",
           "kanji": "日本語",
           "englishMeaning": "The Japanese language",
@@ -570,6 +650,7 @@
         },
         {
           "hiragana": "〜ご",
+          "englishPronunciation": "~go",
           "banglaPronunciation": "〜 গো",
           "kanji": "〜語",
           "englishMeaning": "~ language",
@@ -577,6 +658,7 @@
         },
         {
           "hiragana": "なん",
+          "englishPronunciation": "nan",
           "banglaPronunciation": "নান",
           "kanji": "何",
           "englishMeaning": "What",
@@ -584,6 +666,7 @@
         },
         {
           "hiragana": "そう",
+          "englishPronunciation": "sō",
           "banglaPronunciation": "সৌ",
           "kanji": "",
           "englishMeaning": "So",
@@ -591,6 +674,7 @@
         },
         {
           "hiragana": "ちがいます",
+          "englishPronunciation": "chigaimasu",
           "banglaPronunciation": "চিগাইমাসু",
           "kanji": "違います",
           "englishMeaning": "No, it isn't. / You are wrong.",
@@ -598,34 +682,39 @@
         },
         {
           "hiragana": "そうですか。",
-          "banglaPronunciation": "সৌদেসকা",
+          "englishPronunciation": "sō desu ka.",
+          "banglaPronunciation": "সৌদেসুকা",
           "kanji": "",
           "englishMeaning": "I see. / Is that so?",
           "banglaMeaning": "আমি দেখি / তাই নাকি?"
         },
         {
           "hiragana": "あのう",
+          "englishPronunciation": "anō",
           "banglaPronunciation": "আনৌ",
           "kanji": "",
           "englishMeaning": "Well (used to show hesitation)",
-          "banglaMeaning": "ভালো (দ্বিধা প্রকাশে ব্যবহার হয়)"
+          "banglaMeaning": "ইয়ে... (দ্বিধা প্রকাশে ব্যবহার হয়)"
         },
         {
           "hiragana": "ほんの きもちです",
-          "banglaPronunciation": "হোননো কিমোচি দেস",
+          "englishPronunciation": "hon no kimochi desu",
+          "banglaPronunciation": "হোননো কিমোচি দেসু",
           "kanji": "ほんの 気持ちです",
           "englishMeaning": "It's nothing./ It's a token of my gratitude.",
-          "banglaMeaning": "এটা কিছুনা / এটা আমার দায়িত্ব।"
+          "banglaMeaning": "এটা কিছুনা / এটা আমার সামান্য কৃতজ্ঞতার নিদর্শন।"
         },
         {
           "hiragana": "どうぞ",
+          "englishPronunciation": "dōzo",
           "banglaPronunciation": "দৌজো",
           "kanji": "",
           "englishMeaning": "Please./Here you are. (used when offering someone something)",
-          "banglaMeaning": "দয়া করে / আপনি এখানে। (কাউকে কোন কিছু অফার করার ক্ষেত্রে বসে)"
+          "banglaMeaning": "দয়া করে / এই নিন। (কাউকে কোন কিছু অফার করার ক্ষেত্রে বসে)"
         },
         {
           "hiragana": "どうも",
+          "englishPronunciation": "dōmo",
           "banglaPronunciation": "দৌমো",
           "kanji": "",
           "englishMeaning": "Thanks.",
@@ -633,21 +722,24 @@
         },
         {
           "hiragana": "[どうも]ありがとう [ございます]",
-          "banglaPronunciation": "[দৌমো] আরিগাতো গোজাইমাস]",
+          "englishPronunciation": "[dōmo] arigatō [gozaimasu]",
+          "banglaPronunciation": "[দৌমো] আরিগাতো [গোজাইমাসু]",
           "kanji": "",
           "englishMeaning": "Thank you [very much].",
           "banglaMeaning": "আপনাকে ধন্যবাদ (অসংখ্য)"
         },
         {
           "hiragana": "これから おせわに なります",
-          "banglaPronunciation": "কোরে কারা ওসেওয়ানি নারিমাস",
+          "englishPronunciation": "kore kara osewa ni narimasu",
+          "banglaPronunciation": "কোরে কারা ওসেওয়ানি নারিমাসু",
           "kanji": "これから お世話に なります",
           "englishMeaning": "I hope for your kind assistance hereafter.",
           "banglaMeaning": "আমি পরবর্তীতে আপনার সাহায্য আশা করি।"
         },
         {
           "hiragana": "こちらこそ よろしく",
-          "banglaPronunciation": "কোচিরা কোছো ইয়োরোশিকু",
+          "englishPronunciation": "kochira koso yoroshiku",
+          "banglaPronunciation": "কোচিরা কোসো ইয়োরোশিকু",
           "kanji": "",
           "englishMeaning": "I am pleased to meet you. (response to どうぞよろそく)",
           "banglaMeaning": "আপনার সাথে দেখা করে সন্তুষ্ট হলাম।"
@@ -659,6 +751,7 @@
       "vocabulary": [
         {
           "hiragana": "ここ",
+          "englishPronunciation": "koko",
           "banglaPronunciation": "কোকো",
           "kanji": "",
           "englishMeaning": "Here, this place",
@@ -666,6 +759,7 @@
         },
         {
           "hiragana": "そこ",
+          "englishPronunciation": "soko",
           "banglaPronunciation": "সোকো",
           "kanji": "",
           "englishMeaning": "There, that place near you",
@@ -673,6 +767,7 @@
         },
         {
           "hiragana": "あそこ",
+          "englishPronunciation": "asoko",
           "banglaPronunciation": "আসোকো",
           "kanji": "",
           "englishMeaning": "That place over there",
@@ -680,6 +775,7 @@
         },
         {
           "hiragana": "どこ",
+          "englishPronunciation": "doko",
           "banglaPronunciation": "দোকো",
           "kanji": "",
           "englishMeaning": "Where, what place",
@@ -687,6 +783,7 @@
         },
         {
           "hiragana": "こちら",
+          "englishPronunciation": "kochira",
           "banglaPronunciation": "কোচিরা",
           "kanji": "",
           "englishMeaning": "This way, this place (polite equivalent of ここ)",
@@ -694,6 +791,7 @@
         },
         {
           "hiragana": "そちら",
+          "englishPronunciation": "sochira",
           "banglaPronunciation": "সোচিরা",
           "kanji": "",
           "englishMeaning": "That way, that place (polite equivalent of そこ)",
@@ -701,6 +799,7 @@
         },
         {
           "hiragana": "あちら",
+          "englishPronunciation": "achira",
           "banglaPronunciation": "আচিরা",
           "kanji": "",
           "englishMeaning": "That way, that place over there (polite equivalent of あそこ)",
@@ -708,6 +807,7 @@
         },
         {
           "hiragana": "どちら",
+          "englishPronunciation": "dochira",
           "banglaPronunciation": "দোচিরা",
           "kanji": "",
           "englishMeaning": "Which way, where (polite equivalent of どこ)",
@@ -715,6 +815,7 @@
         },
         {
           "hiragana": "きょうしつ",
+          "englishPronunciation": "kyōshitsu",
           "banglaPronunciation": "কিয়োউশিৎসু",
           "kanji": "教室",
           "englishMeaning": "Classroom",
@@ -722,6 +823,7 @@
         },
         {
           "hiragana": "しょくどう",
+          "englishPronunciation": "shokudō",
           "banglaPronunciation": "শোকুদৌ",
           "kanji": "食堂",
           "englishMeaning": "Dining hall, canteen",
@@ -729,6 +831,7 @@
         },
         {
           "hiragana": "じむしょ",
+          "englishPronunciation": "jimusho",
           "banglaPronunciation": "জিমুশো",
           "kanji": "事務所",
           "englishMeaning": "Office",
@@ -736,6 +839,7 @@
         },
         {
           "hiragana": "かいぎしつ",
+          "englishPronunciation": "kaigishitsu",
           "banglaPronunciation": "কাইগিশিৎসু",
           "kanji": "会議室",
           "englishMeaning": "Conference room, assembly room",
@@ -743,6 +847,7 @@
         },
         {
           "hiragana": "うけつけ",
+          "englishPronunciation": "uketsuke",
           "banglaPronunciation": "উকেৎসুকে",
           "kanji": "受付",
           "englishMeaning": "Reception desk",
@@ -750,13 +855,15 @@
         },
         {
           "hiragana": "ロビー",
+          "englishPronunciation": "robī",
           "banglaPronunciation": "রোবি",
           "kanji": "",
           "englishMeaning": "Lobby",
-          "banglaMeaning": "করিডোর"
+          "banglaMeaning": "লবি (প্রবেশ কক্ষ)"
         },
         {
           "hiragana": "へや",
+          "englishPronunciation": "heya",
           "banglaPronunciation": "হেয়া",
           "kanji": "部屋",
           "englishMeaning": "Room",
@@ -764,6 +871,7 @@
         },
         {
           "hiragana": "トイレ (おてあらい)",
+          "englishPronunciation": "toire (otearai)",
           "banglaPronunciation": "তোইরে (ওতেআরাই)",
           "kanji": "お手洗い",
           "englishMeaning": "Toilet, rest room",
@@ -771,6 +879,7 @@
         },
         {
           "hiragana": "かいだん",
+          "englishPronunciation": "kaidan",
           "banglaPronunciation": "কাইদান",
           "kanji": "階段",
           "englishMeaning": "Staircase",
@@ -778,6 +887,7 @@
         },
         {
           "hiragana": "エレベータ",
+          "englishPronunciation": "erebēta",
           "banglaPronunciation": "এরেবেতা",
           "kanji": "",
           "englishMeaning": "Elevator, lift",
@@ -785,6 +895,7 @@
         },
         {
           "hiragana": "エスカレーター",
+          "englishPronunciation": "esukarētā",
           "banglaPronunciation": "এসুকারেতা",
           "kanji": "",
           "englishMeaning": "Escalator",
@@ -792,13 +903,15 @@
         },
         {
           "hiragana": "[お]くに",
+          "englishPronunciation": "[o]kuni",
           "banglaPronunciation": "[ও] কুনি",
           "kanji": "[お]国",
           "englishMeaning": "Country",
-          "banglaMeaning": "দেশ (ও সম্মাজনক অর্থে বসে)"
+          "banglaMeaning": "দেশ (ও সম্মানজনক অর্থে বসে)"
         },
         {
           "hiragana": "かいしゃ",
+          "englishPronunciation": "kaisha",
           "banglaPronunciation": "কাইশা",
           "kanji": "会社",
           "englishMeaning": "Company",
@@ -806,6 +919,7 @@
         },
         {
           "hiragana": "うち",
+          "englishPronunciation": "uchi",
           "banglaPronunciation": "উচি",
           "kanji": "家",
           "englishMeaning": "House, home",
@@ -813,6 +927,7 @@
         },
         {
           "hiragana": "でんわ",
+          "englishPronunciation": "denwa",
           "banglaPronunciation": "দেনওয়া",
           "kanji": "電話",
           "englishMeaning": "Telephone, telephone call",
@@ -820,6 +935,7 @@
         },
         {
           "hiragana": "くつ",
+          "englishPronunciation": "kutsu",
           "banglaPronunciation": "কুৎসু",
           "kanji": "靴",
           "englishMeaning": "Shoes",
@@ -827,13 +943,15 @@
         },
         {
           "hiragana": "ネクタイ",
+          "englishPronunciation": "nekutai",
           "banglaPronunciation": "নেকুতাই",
           "kanji": "",
           "englishMeaning": "Necktie",
           "banglaMeaning": "গলার টাই"
         },
         {
-          "hiragana": "ウイン",
+          "hiragana": "ワイン",
+          "englishPronunciation": "uin",
           "banglaPronunciation": "উয়াইন",
           "kanji": "",
           "englishMeaning": "Wine",
@@ -841,13 +959,15 @@
         },
         {
           "hiragana": "たばこ",
+          "englishPronunciation": "tabako",
           "banglaPronunciation": "তাবাকো",
           "kanji": "",
           "englishMeaning": "Tobacco, cigarette",
-          "banglaMeaning": "ট্যাবাকো, সিগারেট"
+          "banglaMeaning": "তামাক, সিগারেট"
         },
         {
           "hiragana": "うりば",
+          "englishPronunciation": "uriba",
           "banglaPronunciation": "উরিবা",
           "kanji": "売り場",
           "englishMeaning": "Department, counter (in a department store)",
@@ -855,13 +975,15 @@
         },
         {
           "hiragana": "ちか",
+          "englishPronunciation": "chika",
           "banglaPronunciation": "চিকা",
           "kanji": "地下",
           "englishMeaning": "Basement",
-          "banglaMeaning": "নিচতলা"
+          "banglaMeaning": "বেসমেন্ট"
         },
         {
           "hiragana": "〜かい (〜がい)",
+          "englishPronunciation": "~kai (~gai)",
           "banglaPronunciation": "〜কাই (〜গাই)",
           "kanji": "一階",
           "englishMeaning": "-th floor",
@@ -869,6 +991,7 @@
         },
         {
           "hiragana": "なんがい",
+          "englishPronunciation": "nangai",
           "banglaPronunciation": "নানগাই",
           "kanji": "何階",
           "englishMeaning": "What floor",
@@ -876,6 +999,7 @@
         },
         {
           "hiragana": "〜えん",
+          "englishPronunciation": "~en",
           "banglaPronunciation": "〜এন",
           "kanji": "一円",
           "englishMeaning": "-Yen",
@@ -883,6 +1007,7 @@
         },
         {
           "hiragana": "いくら",
+          "englishPronunciation": "ikura",
           "banglaPronunciation": "ইকুরা",
           "kanji": "",
           "englishMeaning": "How much",
@@ -890,6 +1015,7 @@
         },
         {
           "hiragana": "ひゃく",
+          "englishPronunciation": "hyaku",
           "banglaPronunciation": "হিয়াকু",
           "kanji": "百",
           "englishMeaning": "Hundred",
@@ -897,6 +1023,7 @@
         },
         {
           "hiragana": "せん",
+          "englishPronunciation": "sen",
           "banglaPronunciation": "সেন",
           "kanji": "千",
           "englishMeaning": "Thousand",
@@ -904,6 +1031,7 @@
         },
         {
           "hiragana": "まん",
+          "englishPronunciation": "man",
           "banglaPronunciation": "মান",
           "kanji": "万",
           "englishMeaning": "Ten thousand",
@@ -911,6 +1039,7 @@
         },
         {
           "hiragana": "すみません",
+          "englishPronunciation": "sumimasen",
           "banglaPronunciation": "সুমিমাসেন",
           "kanji": "",
           "englishMeaning": "Excuse me.",
@@ -918,13 +1047,15 @@
         },
         {
           "hiragana": "〜でございます",
-          "banglaPronunciation": "〜 দে গোজাইমাস",
+          "englishPronunciation": "~de gozaimasu",
+          "banglaPronunciation": "〜 দে গোজাইমাসু",
           "kanji": "",
           "englishMeaning": "polite equivalent of です",
           "banglaMeaning": "です এর ভদ্র বা সম্মানজনক রূপ"
         },
         {
           "hiragana": "[〜を] みせて ください",
+          "englishPronunciation": "[~o] misete kudasai",
           "banglaPronunciation": "[〜ও] মিসেতে কুদাসাই",
           "kanji": "[〜を] 見せて ください",
           "englishMeaning": "Please show me [〜]",
@@ -932,13 +1063,15 @@
         },
         {
           "hiragana": "じゃ",
+          "englishPronunciation": "ja",
           "banglaPronunciation": "জা",
           "kanji": "",
           "englishMeaning": "Well, then, in that case",
-          "banglaMeaning": "ভাল, তারপরে, এক্ষেত্রে"
+          "banglaMeaning": "তাহলে, তবে, এক্ষেত্রে"
         },
         {
           "hiragana": "[〜を]ください",
+          "englishPronunciation": "[~o] kudasai",
           "banglaPronunciation": "[〜ও] কুদাসাই",
           "kanji": "",
           "englishMeaning": "Give me [〜], please.",
@@ -946,6 +1079,7 @@
         },
         {
           "hiragana": "しんおおさか",
+          "englishPronunciation": "shin'ōsaka",
           "banglaPronunciation": "শিনওওসাকা",
           "kanji": "新大阪",
           "englishMeaning": "Name of a station in Osaka",
@@ -953,6 +1087,7 @@
         },
         {
           "hiragana": "イタリア",
+          "englishPronunciation": "itaria",
           "banglaPronunciation": "ইতারিয়া",
           "kanji": "",
           "englishMeaning": "Italy",
@@ -960,6 +1095,7 @@
         },
         {
           "hiragana": "スイス",
+          "englishPronunciation": "suisu",
           "banglaPronunciation": "সুইসু",
           "kanji": "",
           "englishMeaning": "Switzerland",
@@ -972,48 +1108,55 @@
       "vocabulary": [
         {
           "hiragana": "おきます I",
-          "banglaPronunciation": "ওকিমাস",
+          "englishPronunciation": "okimasu",
+          "banglaPronunciation": "ওকিমাসু",
           "kanji": "起きます",
           "englishMeaning": "Get up, wake up",
           "banglaMeaning": "ঘুম থেকে উঠা, জেগে উঠা"
         },
         {
           "hiragana": "ねます II",
-          "banglaPronunciation": "নেমাস",
+          "englishPronunciation": "nemasu",
+          "banglaPronunciation": "নেমাসু",
           "kanji": "寝ます",
           "englishMeaning": "Sleep, go to bed",
           "banglaMeaning": "ঘুমানো"
         },
         {
           "hiragana": "はたらきます I",
-          "banglaPronunciation": "হাতারাকিমাস",
+          "englishPronunciation": "hatarakimasu",
+          "banglaPronunciation": "হাতারাকিমাসু",
           "kanji": "働きます",
           "englishMeaning": "Work",
-          "banglaMeaning": "কাজ"
+          "banglaMeaning": "কাজ করা"
         },
         {
           "hiragana": "やすみます I",
-          "banglaPronunciation": "ইয়াসুমিমাস",
+          "englishPronunciation": "yasumimasu",
+          "banglaPronunciation": "ইয়াসুমিমাসু",
           "kanji": "休みます",
           "englishMeaning": "Take a rest, take a holiday",
           "banglaMeaning": "বিশ্রাম নেওয়া, অবসর নেওয়া"
         },
         {
           "hiragana": "べんきょうします III",
-          "banglaPronunciation": "বেনকিয়োউশিমাস",
+          "englishPronunciation": "benkyō shimasu",
+          "banglaPronunciation": "বেনকিয়োউশিমাসু",
           "kanji": "勉強します",
           "englishMeaning": "Study",
-          "banglaMeaning": "পড়াশোনা"
+          "banglaMeaning": "পড়াশোনা করা"
         },
         {
           "hiragana": "おわります I",
-          "banglaPronunciation": "ওয়ারিমাস",
+          "englishPronunciation": "owarimasu",
+          "banglaPronunciation": "ওয়ারিমাসু",
           "kanji": "終わります",
           "englishMeaning": "Finish",
           "banglaMeaning": "শেষ করা"
         },
         {
           "hiragana": "デパート",
+          "englishPronunciation": "depāto",
           "banglaPronunciation": "দেপাতো",
           "kanji": "",
           "englishMeaning": "Department store",
@@ -1021,6 +1164,7 @@
         },
         {
           "hiragana": "ぎんこう",
+          "englishPronunciation": "ginkō",
           "banglaPronunciation": "গিনকৌ",
           "kanji": "銀行",
           "englishMeaning": "Bank",
@@ -1028,6 +1172,7 @@
         },
         {
           "hiragana": "ゆうびんきょく",
+          "englishPronunciation": "yūbinkyoku",
           "banglaPronunciation": "ইউবিনকিয়োকু",
           "kanji": "郵便局",
           "englishMeaning": "Post office",
@@ -1035,6 +1180,7 @@
         },
         {
           "hiragana": "としょかん",
+          "englishPronunciation": "toshokan",
           "banglaPronunciation": "তোশোকান",
           "kanji": "図書館",
           "englishMeaning": "Library",
@@ -1042,6 +1188,7 @@
         },
         {
           "hiragana": "びじゅつかん",
+          "englishPronunciation": "bijutsukan",
           "banglaPronunciation": "বিজুৎসুকান",
           "kanji": "美術館",
           "englishMeaning": "Art museum",
@@ -1049,6 +1196,7 @@
         },
         {
           "hiragana": "いま",
+          "englishPronunciation": "ima",
           "banglaPronunciation": "ইমা",
           "kanji": "今",
           "englishMeaning": "Now",
@@ -1056,6 +1204,7 @@
         },
         {
           "hiragana": "〜じ",
+          "englishPronunciation": "~ji",
           "banglaPronunciation": "〜 জি",
           "kanji": "〜時",
           "englishMeaning": "-o'clock",
@@ -1063,13 +1212,15 @@
         },
         {
           "hiragana": "〜ふん (〜ぷん)",
-          "banglaPronunciation": "〜ফুন (পুন)",
+          "englishPronunciation": "~fun (~pun)",
+          "banglaPronunciation": "〜ফুন (〜পুন)",
           "kanji": "〜分",
           "englishMeaning": "-minute",
           "banglaMeaning": "মিনিট"
         },
         {
           "hiragana": "はん",
+          "englishPronunciation": "han",
           "banglaPronunciation": "হান",
           "kanji": "半",
           "englishMeaning": "Half",
@@ -1077,6 +1228,7 @@
         },
         {
           "hiragana": "なんじ",
+          "englishPronunciation": "nanji",
           "banglaPronunciation": "নানজি",
           "kanji": "何時",
           "englishMeaning": "What time",
@@ -1084,27 +1236,31 @@
         },
         {
           "hiragana": "なんぷん",
-          "banglaPronunciation": "নানবুন",
+          "englishPronunciation": "nanpun",
+          "banglaPronunciation": "নানপুন",
           "kanji": "何分",
           "englishMeaning": "What minute",
           "banglaMeaning": "কত মিনিট"
         },
         {
           "hiragana": "ごぜん",
+          "englishPronunciation": "gozen",
           "banglaPronunciation": "গোজেন",
           "kanji": "午前",
           "englishMeaning": "A.M., morning",
-          "banglaMeaning": "রাত ১২টা থেকে দুপর ১২ টা, সকাল"
+          "banglaMeaning": "রাত ১২টা থেকে দুপুর ১২ টা, সকাল"
         },
         {
           "hiragana": "ごご",
+          "englishPronunciation": "gogo",
           "banglaPronunciation": "গোগো",
           "kanji": "午後",
           "englishMeaning": "P.M., afternoon",
-          "banglaMeaning": "দুপর ১২ টা থেকে রাত ১২টা, বিকেল"
+          "banglaMeaning": "দুপুর ১২ টা থেকে রাত ১২টা, বিকেল"
         },
         {
           "hiragana": "あさ",
+          "englishPronunciation": "asa",
           "banglaPronunciation": "আসা",
           "kanji": "朝",
           "englishMeaning": "Morning",
@@ -1112,6 +1268,7 @@
         },
         {
           "hiragana": "ひる",
+          "englishPronunciation": "hiru",
           "banglaPronunciation": "হিরু",
           "kanji": "昼",
           "englishMeaning": "Daytime, noon",
@@ -1119,6 +1276,7 @@
         },
         {
           "hiragana": "ばん (よる)",
+          "englishPronunciation": "ban (yoru)",
           "banglaPronunciation": "বান (ইয়োরু)",
           "kanji": "晩（夜）",
           "englishMeaning": "Night, evening",
@@ -1126,6 +1284,7 @@
         },
         {
           "hiragana": "おととい",
+          "englishPronunciation": "ototoi",
           "banglaPronunciation": "ওতোতোই",
           "kanji": "一昨日",
           "englishMeaning": "The day before yesterday",
@@ -1133,6 +1292,7 @@
         },
         {
           "hiragana": "きのう",
+          "englishPronunciation": "kinō",
           "banglaPronunciation": "কিনৌ",
           "kanji": "昨日",
           "englishMeaning": "Yesterday",
@@ -1140,6 +1300,7 @@
         },
         {
           "hiragana": "きょう",
+          "englishPronunciation": "kyō",
           "banglaPronunciation": "কিয়ৌ",
           "kanji": "今日",
           "englishMeaning": "Today",
@@ -1147,6 +1308,7 @@
         },
         {
           "hiragana": "あした",
+          "englishPronunciation": "ashita",
           "banglaPronunciation": "আশিতা",
           "kanji": "明日",
           "englishMeaning": "Tomorrow",
@@ -1154,13 +1316,15 @@
         },
         {
           "hiragana": "あさって",
-          "banglaPronunciation": "আসাতে",
+          "englishPronunciation": "asatte",
+          "banglaPronunciation": "আসাৎতে",
           "kanji": "明後日",
           "englishMeaning": "The day after tomorrow",
           "banglaMeaning": "আগামীকালের পরের দিন"
         },
         {
           "hiragana": "けさ",
+          "englishPronunciation": "kesa",
           "banglaPronunciation": "কেসা",
           "kanji": "今朝",
           "englishMeaning": "This morning",
@@ -1168,6 +1332,7 @@
         },
         {
           "hiragana": "こんばん",
+          "englishPronunciation": "konban",
           "banglaPronunciation": "কোনবান",
           "kanji": "今晩",
           "englishMeaning": "This evening, tonight",
@@ -1175,6 +1340,7 @@
         },
         {
           "hiragana": "やすみ",
+          "englishPronunciation": "yasumi",
           "banglaPronunciation": "ইয়াসুমি",
           "kanji": "休み",
           "englishMeaning": "Rest, a holiday, a day off",
@@ -1182,6 +1348,7 @@
         },
         {
           "hiragana": "ひるやすみ",
+          "englishPronunciation": "hiruyasumi",
           "banglaPronunciation": "হিরুইয়াসুমি",
           "kanji": "昼休み",
           "englishMeaning": "Lunchtime",
@@ -1189,6 +1356,7 @@
         },
         {
           "hiragana": "まいあさ",
+          "englishPronunciation": "maiasa",
           "banglaPronunciation": "মাই আসা",
           "kanji": "毎朝",
           "englishMeaning": "Every morning",
@@ -1196,6 +1364,7 @@
         },
         {
           "hiragana": "まいばん",
+          "englishPronunciation": "maiban",
           "banglaPronunciation": "মাইবান",
           "kanji": "毎晩",
           "englishMeaning": "Every night",
@@ -1203,6 +1372,7 @@
         },
         {
           "hiragana": "まいにち",
+          "englishPronunciation": "mainichi",
           "banglaPronunciation": "মাইনিচি",
           "kanji": "毎日",
           "englishMeaning": "Every day",
@@ -1210,6 +1380,7 @@
         },
         {
           "hiragana": "げつようび",
+          "englishPronunciation": "getsuyōbi",
           "banglaPronunciation": "গেৎসুইয়োউবি",
           "kanji": "月曜日",
           "englishMeaning": "Monday",
@@ -1217,6 +1388,7 @@
         },
         {
           "hiragana": "かようび",
+          "englishPronunciation": "kayōbi",
           "banglaPronunciation": "কাইয়োউবি",
           "kanji": "火曜日",
           "englishMeaning": "Tuesday",
@@ -1224,6 +1396,7 @@
         },
         {
           "hiragana": "すいようび",
+          "englishPronunciation": "suiyōbi",
           "banglaPronunciation": "সুইইয়োউবি",
           "kanji": "水曜日",
           "englishMeaning": "Wednesday",
@@ -1231,6 +1404,7 @@
         },
         {
           "hiragana": "もくようび",
+          "englishPronunciation": "mokuyōbi",
           "banglaPronunciation": "মোকুইয়োউবি",
           "kanji": "木曜日",
           "englishMeaning": "Thursday",
@@ -1238,6 +1412,7 @@
         },
         {
           "hiragana": "きんようび",
+          "englishPronunciation": "kin'yōbi",
           "banglaPronunciation": "কিনইয়োউবি",
           "kanji": "金曜日",
           "englishMeaning": "Friday",
@@ -1245,6 +1420,7 @@
         },
         {
           "hiragana": "どようび",
+          "englishPronunciation": "doyōbi",
           "banglaPronunciation": "দোইয়োউবি",
           "kanji": "土曜日",
           "englishMeaning": "Saturday",
@@ -1252,6 +1428,7 @@
         },
         {
           "hiragana": "なんようび",
+          "englishPronunciation": "nan'yōbi",
           "banglaPronunciation": "নানইয়োউবি",
           "kanji": "何曜日",
           "englishMeaning": "What day of the week",
@@ -1259,6 +1436,7 @@
         },
         {
           "hiragana": "ばんごう",
+          "englishPronunciation": "bangō",
           "banglaPronunciation": "বানগৌ",
           "kanji": "番号",
           "englishMeaning": "Number",
@@ -1266,6 +1444,7 @@
         },
         {
           "hiragana": "なんばん",
+          "englishPronunciation": "nanban",
           "banglaPronunciation": "নানবান",
           "kanji": "何番",
           "englishMeaning": "What number",
@@ -1273,6 +1452,7 @@
         },
         {
           "hiragana": "〜から",
+          "englishPronunciation": "~kara",
           "banglaPronunciation": "〜 কারা",
           "kanji": "",
           "englishMeaning": "From ~",
@@ -1280,6 +1460,7 @@
         },
         {
           "hiragana": "〜まで",
+          "englishPronunciation": "~made",
           "banglaPronunciation": "〜 মাদে",
           "kanji": "",
           "englishMeaning": "Up to ~, until ~",
@@ -1287,6 +1468,7 @@
         },
         {
           "hiragana": "〜と〜",
+          "englishPronunciation": "~to~",
           "banglaPronunciation": "〜 তো 〜",
           "kanji": "",
           "englishMeaning": "And (used to connect nouns)",
@@ -1294,6 +1476,7 @@
         },
         {
           "hiragana": "そちら",
+          "englishPronunciation": "sochira",
           "banglaPronunciation": "সোচিরা",
           "kanji": "",
           "englishMeaning": "Your place",
@@ -1301,34 +1484,39 @@
         },
         {
           "hiragana": "たいへんですね。",
-          "banglaPronunciation": "তাইহেনদেসনে",
+          "englishPronunciation": "taihen desu ne.",
+          "banglaPronunciation": "তাইহেনদেসুনে",
           "kanji": "大変ですね。",
           "englishMeaning": "That's tough, isn't it? (used to expressing sympathy)",
           "banglaMeaning": "এটা কঠিন, তাই না? (সহানুভূতি প্রকাশে ব্যবহার হয়)"
         },
         {
           "hiragana": "えーと",
+          "englishPronunciation": "ēto",
           "banglaPronunciation": "এ-তো",
           "kanji": "",
           "englishMeaning": "Well, let me see",
-          "banglaMeaning": "ভালো, আমাকে দেখতে দাও"
+          "banglaMeaning": "ইয়ে, দেখি তো"
         },
         {
           "hiragana": "104",
-          "banglaPronunciation": "১০৪",
+          "englishPronunciation": "ichi-zero-yon",
+          "banglaPronunciation": "ইচি-জিরো-ইয়োন",
           "kanji": "",
           "englishMeaning": "Information, directory assistance",
           "banglaMeaning": "তথ্য নির্দেশনা নাম্বার"
         },
         {
           "hiragana": "おねがいします",
-          "banglaPronunciation": "ওনেগাইশিমাস",
+          "englishPronunciation": "onegaishimasu",
+          "banglaPronunciation": "ওনেগাইশিমাসু",
           "kanji": "お願いします",
           "englishMeaning": "Please (ask for a favor)",
           "banglaMeaning": "দয়া করুন (অনুগ্রহ অর্থে)"
         },
         {
           "hiragana": "かしこまりました",
+          "englishPronunciation": "kashikomarimashita",
           "banglaPronunciation": "কাশিকোমারিমাশিতা",
           "kanji": "畏まりました",
           "englishMeaning": "Certainly (sir, madam).",
@@ -1336,6 +1524,7 @@
         },
         {
           "hiragana": "おといあわせの ばんごう",
+          "englishPronunciation": "otoiawase no bangō",
           "banglaPronunciation": "ওতোইআওয়াসে নো বানগৌ",
           "kanji": "お問い合わ せの 番号",
           "englishMeaning": "The number being inquired about.",
@@ -1343,6 +1532,7 @@
         },
         {
           "hiragana": "どうもありがとう ございました",
+          "englishPronunciation": "dōmo arigatō gozaimashita",
           "banglaPronunciation": "দৌমো আরিগাতৌ গোজাইমাশিতা",
           "kanji": "",
           "englishMeaning": "Thank you very much",
@@ -1350,6 +1540,7 @@
         },
         {
           "hiragana": "ニューヨーク",
+          "englishPronunciation": "nyū yōku",
           "banglaPronunciation": "নিউ ইয়োকু",
           "kanji": "",
           "englishMeaning": "New York",
@@ -1357,6 +1548,7 @@
         },
         {
           "hiragana": "ペキン",
+          "englishPronunciation": "pekin",
           "banglaPronunciation": "পেকিন",
           "kanji": "",
           "englishMeaning": "Beijing",
@@ -1364,6 +1556,7 @@
         },
         {
           "hiragana": "ロンドン",
+          "englishPronunciation": "rondon",
           "banglaPronunciation": "রোনদোন",
           "kanji": "",
           "englishMeaning": "London",
@@ -1371,6 +1564,7 @@
         },
         {
           "hiragana": "バンコク",
+          "englishPronunciation": "bankoku",
           "banglaPronunciation": "বানকোকু",
           "kanji": "",
           "englishMeaning": "Bangkok",
@@ -1378,6 +1572,7 @@
         },
         {
           "hiragana": "ロサンゼルス",
+          "englishPronunciation": "rosanzerusu",
           "banglaPronunciation": "রোসানজেরুসু",
           "kanji": "",
           "englishMeaning": "Los Angeles",
@@ -1390,43 +1585,43 @@
       "vocabulary": [
         {
           "hiragana": "いきます I",
-          "banglaPronunciation": "ইকিমাস",
+          "banglaPronunciation": "ইকিমাসু",
           "kanji": "行きます",
           "englishMeaning": "Go",
           "banglaMeaning": "যাওয়া"
         },
         {
           "hiragana": "きます III",
-          "banglaPronunciation": "কিমাস",
+          "banglaPronunciation": "কিমাসু",
           "kanji": "来ます",
           "englishMeaning": "Come",
           "banglaMeaning": "আসা"
         },
         {
           "hiragana": "かえります I",
-          "banglaPronunciation": "কায়েরিমাস",
+          "banglaPronunciation": "কায়েরিমাসু",
           "kanji": "帰ります",
           "englishMeaning": "Go home, return",
-          "banglaMeaning": "ফিরে যাওয়া/ আসা"
+          "banglaMeaning": "ফিরে যাওয়া/আসা"
         },
         {
           "hiragana": "がっこう",
-          "banglaPronunciation": "গাকৌ",
+          "banglaPronunciation": "গাক্কৌ",
           "kanji": "学校",
           "englishMeaning": "School",
           "banglaMeaning": "বিদ্যালয়"
         },
         {
           "hiragana": "スーパー",
-          "banglaPronunciation": "সুপা",
-          "kanji": "駅",
+          "banglaPronunciation": "সূপাঃ",
+          "kanji": "",
           "englishMeaning": "Supermarket",
           "banglaMeaning": "সুপারমার্কেট"
         },
         {
           "hiragana": "えき",
           "banglaPronunciation": "একি",
-          "kanji": "",
+          "kanji": "駅",
           "englishMeaning": "Station",
           "banglaMeaning": "স্টেশন"
         },
@@ -1456,7 +1651,7 @@
           "banglaPronunciation": "চিকাতেৎসু",
           "kanji": "地下鉄",
           "englishMeaning": "Subway, underground",
-          "banglaMeaning": "সাবওয়ে, মাটির নিচে"
+          "banglaMeaning": "সাবওয়ে, পাতাল রেল"
         },
         {
           "hiragana": "しんかんせん",
@@ -1474,7 +1669,7 @@
         },
         {
           "hiragana": "タクシー",
-          "banglaPronunciation": "তাকুশি",
+          "banglaPronunciation": "তাকুশী",
           "kanji": "",
           "englishMeaning": "Taxi",
           "banglaMeaning": "ট্যাক্সি"
@@ -1511,15 +1706,15 @@
           "hiragana": "かれ",
           "banglaPronunciation": "কারে",
           "kanji": "彼",
-          "englishMeaning": "He, boyfriend, lover",
-          "banglaMeaning": "সে, বয়ফ্রেন্ড, ভালোবাসা"
+          "englishMeaning": "He, boyfriend",
+          "banglaMeaning": "সে (পুরুষ), প্রেমিক"
         },
         {
           "hiragana": "かのじょ",
           "banglaPronunciation": "কানোজো",
           "kanji": "彼女",
-          "englishMeaning": "She, girlfriend, lover",
-          "banglaMeaning": "সে, গার্লফ্রেন্ড, ভালোবাসা"
+          "englishMeaning": "She, girlfriend",
+          "banglaMeaning": "সে (নারী), প্রেমিকা"
         },
         {
           "hiragana": "かぞく",
@@ -1533,25 +1728,25 @@
           "banglaPronunciation": "হিতোরিদে",
           "kanji": "一人で",
           "englishMeaning": "Alone, by oneself",
-          "banglaMeaning": "একাকী, নিজে নিজে"
+          "banglaMeaning": "একাকী, একা একা"
         },
         {
           "hiragana": "せんしゅう",
-          "banglaPronunciation": "সেনশু",
+          "banglaPronunciation": "সেনশূ",
           "kanji": "先週",
           "englishMeaning": "Last week",
           "banglaMeaning": "গত সপ্তাহ"
         },
         {
           "hiragana": "こんしゅう",
-          "banglaPronunciation": "কোনশু",
+          "banglaPronunciation": "কোনশূ",
           "kanji": "今週",
           "englishMeaning": "This week",
           "banglaMeaning": "এই সপ্তাহ"
         },
         {
           "hiragana": "らいしゅう",
-          "banglaPronunciation": "রাইশু",
+          "banglaPronunciation": "রাইশূ",
           "kanji": "来週",
           "englishMeaning": "Next week",
           "banglaMeaning": "আগামী সপ্তাহ"
@@ -1601,9 +1796,9 @@
         {
           "hiragana": "〜がつ",
           "banglaPronunciation": "〜গাৎসু",
-          "kanji": "一月",
+          "kanji": "〜月",
           "englishMeaning": "-th month of the year",
-          "banglaMeaning": "- মাস"
+          "banglaMeaning": "- মাস (বছরের মাস নির্দেশক)"
         },
         {
           "hiragana": "なんがつ",
@@ -1614,7 +1809,7 @@
         },
         {
           "hiragana": "ついたち",
-          "banglaPronunciation": "সুইতাচি",
+          "banglaPronunciation": "ৎসুইতাচি",
           "kanji": "1日",
           "englishMeaning": "First day of the month",
           "banglaMeaning": "১ তারিখ"
@@ -1623,99 +1818,99 @@
           "hiragana": "ふつか",
           "banglaPronunciation": "ফুৎসুকা",
           "kanji": "2日",
-          "englishMeaning": "Second, two days",
-          "banglaMeaning": "২ তারিখ"
+          "englishMeaning": "Second day of the month, two days",
+          "banglaMeaning": "২ তারিখ / দুই দিন"
         },
         {
           "hiragana": "みっか",
           "banglaPronunciation": "মিক্কা",
           "kanji": "3日",
-          "englishMeaning": "Third, tree days",
-          "banglaMeaning": "৩ তারিখ"
+          "englishMeaning": "Third day of the month, three days",
+          "banglaMeaning": "৩ তারিখ / তিন দিন"
         },
         {
           "hiragana": "よっか",
           "banglaPronunciation": "ইয়োক্কা",
           "kanji": "4日",
-          "englishMeaning": "Fourth, four days",
-          "banglaMeaning": "৪ তারিখ"
+          "englishMeaning": "Fourth day of the month, four days",
+          "banglaMeaning": "৪ তারিখ / চার দিন"
         },
         {
           "hiragana": "いつか",
           "banglaPronunciation": "ইৎসুকা",
           "kanji": "5日",
-          "englishMeaning": "Fifth, five days",
-          "banglaMeaning": "৫ তারিখ"
+          "englishMeaning": "Fifth day of the month, five days",
+          "banglaMeaning": "৫ তারিখ / পাঁচ দিন"
         },
         {
           "hiragana": "むいか",
           "banglaPronunciation": "মুইকা",
           "kanji": "6日",
-          "englishMeaning": "Sixth, six days",
-          "banglaMeaning": "৬ তারিখ"
+          "englishMeaning": "Sixth day of the month, six days",
+          "banglaMeaning": "৬ তারিখ / ছয় দিন"
         },
         {
           "hiragana": "なのか",
           "banglaPronunciation": "নানোকা",
           "kanji": "7日",
-          "englishMeaning": "Seventh, seven days",
-          "banglaMeaning": "৭ তারিখ"
+          "englishMeaning": "Seventh day of the month, seven days",
+          "banglaMeaning": "৭ তারিখ / সাত দিন"
         },
         {
           "hiragana": "ようか",
-          "banglaPronunciation": "ইয়োকা",
+          "banglaPronunciation": "ইয়ৌকা",
           "kanji": "8日",
-          "englishMeaning": "Eighth, eight days",
-          "banglaMeaning": "৮ তারিখ"
+          "englishMeaning": "Eighth day of the month, eight days",
+          "banglaMeaning": "৮ তারিখ / আট দিন"
         },
         {
           "hiragana": "ここのか",
           "banglaPronunciation": "কোকোনোকা",
           "kanji": "9日",
-          "englishMeaning": "Ninth, nine days",
-          "banglaMeaning": "৯ তারিখ"
+          "englishMeaning": "Ninth day of the month, nine days",
+          "banglaMeaning": "৯ তারিখ / নয় দিন"
         },
         {
           "hiragana": "とおか",
           "banglaPronunciation": "তৌকা",
           "kanji": "10日",
-          "englishMeaning": "Tenth, ten days",
-          "banglaMeaning": "১০ তারিখ"
+          "englishMeaning": "Tenth day of the month, ten days",
+          "banglaMeaning": "১০ তারিখ / দশ দিন"
         },
         {
           "hiragana": "じゅうよっか",
-          "banglaPronunciation": "জুয়িয়োক্কা",
+          "banglaPronunciation": "জূইয়োক্কা",
           "kanji": "14日",
-          "englishMeaning": "Fourteenth, fourteen days",
-          "banglaMeaning": "১৪ তারিখ"
+          "englishMeaning": "Fourteenth day of the month, fourteen days",
+          "banglaMeaning": "১৪ তারিখ / চৌদ্দ দিন"
         },
         {
           "hiragana": "はつか",
           "banglaPronunciation": "হাৎসুকা",
           "kanji": "20日",
-          "englishMeaning": "Twentieth, twenty days",
-          "banglaMeaning": "২০ তারিখ"
+          "englishMeaning": "Twentieth day of the month, twenty days",
+          "banglaMeaning": "২০ তারিখ / বিশ দিন"
         },
         {
           "hiragana": "にじゅうよっか",
-          "banglaPronunciation": "নিজুইয়োক্কা",
+          "banglaPronunciation": "নিজূইয়োক্কা",
           "kanji": "24日",
-          "englishMeaning": "Twenty fourth, twenty four days",
-          "banglaMeaning": "২৪ তারিখ"
+          "englishMeaning": "Twenty-fourth day of the month, twenty-four days",
+          "banglaMeaning": "২৪ তারিখ / চব্বিশ দিন"
         },
         {
           "hiragana": "〜にち",
           "banglaPronunciation": "〜নিচি",
-          "kanji": "一日",
+          "kanji": "〜日",
           "englishMeaning": "-th day of the month, -days",
-          "banglaMeaning": "- দিন"
+          "banglaMeaning": "- তারিখ / - দিন"
         },
         {
           "hiragana": "なんにち",
           "banglaPronunciation": "নাননিচি",
           "kanji": "何日",
-          "englishMeaning": "Which day of the month, How many days",
-          "banglaMeaning": "কোন দিন / কত দিন"
+          "englishMeaning": "Which day of the month, how many days",
+          "banglaMeaning": "কোন তারিখ / কত দিন"
         },
         {
           "hiragana": "いつ",
@@ -1726,80 +1921,80 @@
         },
         {
           "hiragana": "たんじょうび",
-          "banglaPronunciation": "তানজোউবি",
+          "banglaPronunciation": "তানজৌবি",
           "kanji": "誕生日",
           "englishMeaning": "Birthday",
           "banglaMeaning": "জন্মদিন"
         },
         {
           "hiragana": "ふつう",
-          "banglaPronunciation": "ফুৎসু",
+          "banglaPronunciation": "ফুৎসূ",
           "kanji": "普通",
           "englishMeaning": "Local (train)",
-          "banglaMeaning": "লোকাল ট্রেন"
+          "banglaMeaning": "লোকাল (ট্রেন)"
         },
         {
           "hiragana": "きゅうこう",
-          "banglaPronunciation": "কিউউকৌ",
+          "banglaPronunciation": "কীয়ূকৌ",
           "kanji": "急行",
-          "englishMeaning": "Rapid",
-          "banglaMeaning": "র‍্যাপিড ট্রেন"
+          "englishMeaning": "Rapid train",
+          "banglaMeaning": "র‍্যাপিড (দ্রুতগামী) ট্রেন"
         },
         {
           "hiragana": "とっきゅう",
-          "banglaPronunciation": "তোক্কিউউ",
+          "banglaPronunciation": "তোক্কীয়ূ",
           "kanji": "特急",
-          "englishMeaning": "Express",
-          "banglaMeaning": "এক্সপ্রেস ট্রেন"
+          "englishMeaning": "Express train",
+          "banglaMeaning": "এক্সপ্রেস (বিশেষ দ্রুতগামী) ট্রেন"
         },
         {
           "hiragana": "つぎの",
           "banglaPronunciation": "ৎসুগিনো",
           "kanji": "次の",
           "englishMeaning": "Next",
-          "banglaMeaning": "পরের"
+          "banglaMeaning": "পরের / পরবর্তী"
         },
         {
           "hiragana": "どういたしまして",
           "banglaPronunciation": "দৌইতাশিমাশিতে",
           "kanji": "",
-          "englishMeaning": "You're welcome./ Don't mention it.",
-          "banglaMeaning": "আপনাকে স্বাগতম"
+          "englishMeaning": "You're welcome / Don't mention it",
+          "banglaMeaning": "স্বাগতম / কোনো ব্যাপার না"
         },
         {
-          "hiragana": "ばんせん",
-          "banglaPronunciation": "বানসেন",
-          "kanji": "番線",
-          "englishMeaning": "Platform~, -th platform",
-          "banglaMeaning": "প্ল্যাটফর্ম"
+          "hiragana": "〜ばんせん",
+          "banglaPronunciation": "〜বানসেন",
+          "kanji": "〜番線",
+          "englishMeaning": "Platform number ~",
+          "banglaMeaning": "〜 নম্বর প্ল্যাটফর্ম"
         },
         {
           "hiragana": "はかた",
           "banglaPronunciation": "হাকাতা",
           "kanji": "博多",
-          "englishMeaning": "Name of a town in Kyushu",
-          "banglaMeaning": "কিউশুর একটা শহরের নাম"
+          "englishMeaning": "Hakata (town/station in Kyushu)",
+          "banglaMeaning": "হাকাতা (কিউশুর একটি স্থান/স্টেশন)"
         },
         {
           "hiragana": "ふしみ",
           "banglaPronunciation": "ফুশিমি",
           "kanji": "伏見",
-          "englishMeaning": "Name of a town in Kyoto",
-          "banglaMeaning": "কিয়োতোর একটা শহরের নাম"
+          "englishMeaning": "Fushimi (town/district in Kyoto)",
+          "banglaMeaning": "ফুশিমি (কিয়োতোর একটি স্থান)"
         },
         {
           "hiragana": "こうしえん",
           "banglaPronunciation": "কৌশিয়েন",
           "kanji": "甲子園",
-          "englishMeaning": "Name of a town in Osaka",
-          "banglaMeaning": "ওওসাকার একটা শহরের নাম"
+          "englishMeaning": "Koshien (town/stadium near Osaka)",
+          "banglaMeaning": "কৌশিয়েন (ওসাকার নিকটবর্তী স্থান/স্টেডিয়াম)"
         },
         {
           "hiragana": "おおさかじょう",
           "banglaPronunciation": "ওওসাকাজৌ",
           "kanji": "大阪城",
-          "englishMeaning": "Osaka castle, a famous castle in Osaka",
-          "banglaMeaning": "ওওসাকা দুর্গ, ওওসাকার বিখ্যাত দুর্গ"
+          "englishMeaning": "Osaka Castle",
+          "banglaMeaning": "ওসাকা দুর্গ"
         }
       ]
     },
@@ -1808,107 +2003,107 @@
       "vocabulary": [
         {
           "hiragana": "たべます II",
-          "banglaPronunciation": "তাবেমাস",
+          "banglaPronunciation": "তাবেমাসু",
           "kanji": "食べます",
           "englishMeaning": "Eat",
           "banglaMeaning": "খাওয়া"
         },
         {
           "hiragana": "のみます I",
-          "banglaPronunciation": "নোমিমাস",
+          "banglaPronunciation": "নোমিমাসু",
           "kanji": "飲みます",
           "englishMeaning": "Drink",
           "banglaMeaning": "পান করা"
         },
         {
           "hiragana": "すいます I [たばこを〜]",
-          "banglaPronunciation": "সুইমাস [তাবাকো ও〜]",
-          "kanji": "吸います",
+          "banglaPronunciation": "সুইমাসু [তাবাকো ও〜]",
+          "kanji": "吸います [タバコを〜]",
           "englishMeaning": "Smoke [a cigarette]",
-          "banglaMeaning": "ধূমপান করা"
+          "banglaMeaning": "ধূমপান করা [সিগারেট〜]"
         },
         {
           "hiragana": "みます II",
-          "banglaPronunciation": "মিমাস",
+          "banglaPronunciation": "মিমাসু",
           "kanji": "見ます",
           "englishMeaning": "See, look at, watch",
           "banglaMeaning": "দেখা, তাকানো"
         },
         {
           "hiragana": "ききます I",
-          "banglaPronunciation": "কিকিমাস",
+          "banglaPronunciation": "কিকিমাসু",
           "kanji": "聞きます",
           "englishMeaning": "Hear, listen",
           "banglaMeaning": "শোনা"
         },
         {
           "hiragana": "よみます I",
-          "banglaPronunciation": "ইয়োমিমাস",
+          "banglaPronunciation": "ইয়োমিমাসু",
           "kanji": "読みます",
           "englishMeaning": "Read",
           "banglaMeaning": "পড়া"
         },
         {
           "hiragana": "かきます I",
-          "banglaPronunciation": "কাকিমাস",
+          "banglaPronunciation": "কাকিমাসু",
           "kanji": "書きます",
           "englishMeaning": "Write, draw, paint",
-          "banglaMeaning": "লেখা, আর্ট, আঁকা"
+          "banglaMeaning": "লেখা, আঁকা"
         },
         {
           "hiragana": "かいます I",
-          "banglaPronunciation": "কাইমাস",
+          "banglaPronunciation": "কাইমাসু",
           "kanji": "買います",
           "englishMeaning": "Buy",
-          "banglaMeaning": "ক্রয় করা"
+          "banglaMeaning": "কেনা / ক্রয় করা"
         },
         {
           "hiragana": "とります I [しゃしんを〜]",
-          "banglaPronunciation": "তোরিমাস [শাশিন ও〜]",
-          "kanji": "取ります [写真を〜]",
+          "banglaPronunciation": "তোরিমাসু [শাশিন ও〜]",
+          "kanji": "撮ります [写真を〜]",
           "englishMeaning": "Take [a photograph]",
-          "banglaMeaning": "তোলা [ছবি]"
+          "banglaMeaning": "তোলা [ছবি〜]"
         },
         {
           "hiragana": "します III",
-          "banglaPronunciation": "শিমাস",
+          "banglaPronunciation": "শিমাসু",
           "kanji": "",
-          "englishMeaning": "Do",
+          "englishMeaning": "Do, play",
           "banglaMeaning": "করা, খেলা"
         },
         {
           "hiragana": "あいます I [ともだちに〜]",
-          "banglaPronunciation": "আইমাস [তোমোদাচিনি〜]",
+          "banglaPronunciation": "আইমাসু [তোমোদাচিনি〜]",
           "kanji": "会います [友達に〜]",
           "englishMeaning": "Meet [a friend]",
-          "banglaMeaning": "সাক্ষাৎ করা [বন্ধুর সাথে]"
+          "banglaMeaning": "সাক্ষাৎ করা [বন্ধুর সাথে〜]"
         },
         {
           "hiragana": "ごはん",
           "banglaPronunciation": "গোহান",
-          "kanji": "",
+          "kanji": "ご飯",
           "englishMeaning": "A meal, cooked rice",
-          "banglaMeaning": "খাবার, রান্না করা খাবার"
+          "banglaMeaning": "খাবার, ভাত"
         },
         {
           "hiragana": "あさごはん",
           "banglaPronunciation": "আসাগোহান",
-          "kanji": "朝ごはん",
+          "kanji": "朝ご飯",
           "englishMeaning": "Breakfast",
           "banglaMeaning": "সকালের নাস্তা"
         },
         {
           "hiragana": "ひるごはん",
           "banglaPronunciation": "হিরুগোহান",
-          "kanji": "昼ごはん",
+          "kanji": "昼ご飯",
           "englishMeaning": "Lunch",
           "banglaMeaning": "দুপুরের খাবার"
         },
         {
           "hiragana": "ばんごはん",
           "banglaPronunciation": "বানগোহান",
-          "kanji": "晩ごはん",
-          "englishMeaning": "Supper",
+          "kanji": "晩ご飯",
+          "englishMeaning": "Supper, dinner",
           "banglaMeaning": "রাতের খাবার"
         },
         {
@@ -1916,7 +2111,7 @@
           "banglaPronunciation": "পান",
           "kanji": "",
           "englishMeaning": "Bread",
-          "banglaMeaning": "রুটি"
+          "banglaMeaning": "পাঁউরুটি / রুটি"
         },
         {
           "hiragana": "たまご",
@@ -1930,7 +2125,7 @@
           "banglaPronunciation": "নিকু",
           "kanji": "肉",
           "englishMeaning": "Meat",
-          "banglaMeaning": "মাংশ"
+          "banglaMeaning": "মাংস"
         },
         {
           "hiragana": "さかな",
@@ -1972,39 +2167,39 @@
           "banglaPronunciation": "কৌচা",
           "kanji": "紅茶",
           "englishMeaning": "Black tea",
-          "banglaMeaning": "কালো চা, রং চা"
+          "banglaMeaning": "ব্ল্যাক টি / লাল চা"
         },
         {
           "hiragana": "ぎゅうにゅう [ミルク]",
-          "banglaPronunciation": "গিয়্যুনিয়্যু [মিরুকু]",
+          "banglaPronunciation": "গিয়ূনীঊ [মিরুকু]",
           "kanji": "牛乳",
           "englishMeaning": "Milk",
           "banglaMeaning": "দুধ"
         },
         {
           "hiragana": "ジュース",
-          "banglaPronunciation": "জু-সু",
+          "banglaPronunciation": "জুউসু",
           "kanji": "",
           "englishMeaning": "Juice",
           "banglaMeaning": "জুস"
         },
         {
           "hiragana": "ビール",
-          "banglaPronunciation": "বি-রু",
+          "banglaPronunciation": "বীুরু",
           "kanji": "",
           "englishMeaning": "Beer",
           "banglaMeaning": "বিয়ার"
         },
         {
           "hiragana": "[お]さけ",
-          "banglaPronunciation": "ওসাকে",
+          "banglaPronunciation": "[ও]সাকে",
           "kanji": "[お]酒",
           "englishMeaning": "Alcohol, Japanese rice wine",
-          "banglaMeaning": "মদ, ভাতের তৈরি জাপানি মদ"
+          "banglaMeaning": "মদ, জাপানি রাইস ওয়াইন"
         },
         {
           "hiragana": "ビデオ",
-          "banglaPronunciation": "ভিদেও",
+          "banglaPronunciation": "বিদিয়ো",
           "kanji": "",
           "englishMeaning": "Video tape, video deck",
           "banglaMeaning": "ভিডিও"
@@ -2013,12 +2208,12 @@
           "hiragana": "えいが",
           "banglaPronunciation": "এইগা",
           "kanji": "映画",
-          "englishMeaning": "Movie",
-          "banglaMeaning": "সিনেমা"
+          "englishMeaning": "Movie, film",
+          "banglaMeaning": "চলচ্চিত্র / সিনেমা"
         },
         {
           "hiragana": "CD",
-          "banglaPronunciation": "সিডি",
+          "banglaPronunciation": "সীডি",
           "kanji": "",
           "englishMeaning": "CD, Compact Disc",
           "banglaMeaning": "সিডি"
@@ -2032,7 +2227,7 @@
         },
         {
           "hiragana": "レポート",
-          "banglaPronunciation": "রেপোতো",
+          "banglaPronunciation": "রেপৌতো",
           "kanji": "",
           "englishMeaning": "Report",
           "banglaMeaning": "রিপোর্ট"
@@ -2042,7 +2237,7 @@
           "banglaPronunciation": "শাশিন",
           "kanji": "写真",
           "englishMeaning": "Photograph",
-          "banglaMeaning": "ছবি"
+          "banglaMeaning": "ছবি / আলোকচিত্র"
         },
         {
           "hiragana": "みせ",
@@ -2056,7 +2251,7 @@
           "banglaPronunciation": "রেসুতোরান",
           "kanji": "",
           "englishMeaning": "Restaurant",
-          "banglaMeaning": "রেস্টারেন্ট"
+          "banglaMeaning": "রেস্তোরাঁ"
         },
         {
           "hiragana": "にわ",
@@ -2081,38 +2276,38 @@
         },
         {
           "hiragana": "サッカー",
-          "banglaPronunciation": "সাক্কা",
+          "banglaPronunciation": "সাক্কাঅঃ",
           "kanji": "",
           "englishMeaning": "Soccer, football",
-          "banglaMeaning": "ফুটবল"
+          "banglaMeaning": "ফুটবল / সকার"
         },
         {
           "hiragana": "[お]はなみ",
-          "banglaPronunciation": "[ও] হানামি",
+          "banglaPronunciation": "[ও]হানামি",
           "kanji": "[お]花見",
           "englishMeaning": "Cherry-blossom viewing",
-          "banglaMeaning": "চেরি ফুলের উৎসব"
+          "banglaMeaning": "চেরি ফুল দেখার উৎসব"
         },
         {
           "hiragana": "なに",
           "banglaPronunciation": "নানি",
           "kanji": "何",
           "englishMeaning": "What",
-          "banglaMeaning": "কি, কী?"
+          "banglaMeaning": "কী"
         },
         {
           "hiragana": "いっしょに",
-          "banglaPronunciation": "ঈশ্বোনি",
+          "banglaPronunciation": "ইশশোনি",
           "kanji": "一緒に",
           "englishMeaning": "Together",
           "banglaMeaning": "একসাথে"
         },
         {
           "hiragana": "ちょっと",
-          "banglaPronunciation": "চোতো",
+          "banglaPronunciation": "চোটতো",
           "kanji": "",
           "englishMeaning": "A little while, a little bit",
-          "banglaMeaning": "কিছুক্ষন, অল্প একটু"
+          "banglaMeaning": "একটু / কিছুক্ষণের জন্য"
         },
         {
           "hiragana": "いつも",
@@ -2126,49 +2321,49 @@
           "banglaPronunciation": "তোকিদোকি",
           "kanji": "時々",
           "englishMeaning": "Sometimes",
-          "banglaMeaning": "মাঝেমাঝে"
+          "banglaMeaning": "মাঝে মাঝে"
         },
         {
           "hiragana": "それから",
           "banglaPronunciation": "সোরেকারা",
           "kanji": "",
           "englishMeaning": "After that, and then",
-          "banglaMeaning": "এরপরে"
+          "banglaMeaning": "তারপরে / এরপরে"
         },
         {
           "hiragana": "ええ",
           "banglaPronunciation": "এএ",
           "kanji": "",
           "englishMeaning": "Yes",
-          "banglaMeaning": "হ্যা"
+          "banglaMeaning": "হ্যাঁ"
         },
         {
           "hiragana": "いいですね",
-          "banglaPronunciation": "ইইদেসনে",
+          "banglaPronunciation": "ইইদেসুনে",
           "kanji": "",
-          "englishMeaning": "That's good",
-          "banglaMeaning": "এটা ভালো"
+          "englishMeaning": "That's good. / Sound good.",
+          "banglaMeaning": "বেশ ভালো / তা-ই হোক"
         },
         {
           "hiragana": "わかりました",
           "banglaPronunciation": "ওয়াকারিমাশিতা",
           "kanji": "分かりました",
-          "englishMeaning": "I see, understand",
-          "banglaMeaning": "বুঝতে পেরেছি"
+          "englishMeaning": "I see / I understood",
+          "banglaMeaning": "বুঝতে পেরেছি / ঠিক আছে"
         },
         {
           "hiragana": "なんですか。",
-          "banglaPronunciation": "নানদেসকা",
+          "banglaPronunciation": "নানদেসু কা",
           "kanji": "何ですか。",
-          "englishMeaning": "Yes?",
-          "banglaMeaning": "হ্যা, কি হয়েছে?"
+          "englishMeaning": "Yes? / What is it?",
+          "banglaMeaning": "হ্যাঁ, বলুন? / কী ব্যাপার?"
         },
         {
           "hiragana": "じゃ、また [あした]",
           "banglaPronunciation": "জা, মাতা [আশিতা]",
-          "kanji": "",
+          "kanji": "じゃ、また [明日]",
           "englishMeaning": "See you [tomorrow]",
-          "banglaMeaning": "দেখা হবে [আগামীকাল]"
+          "banglaMeaning": "তাহলে আবার দেখা হবে [আগামীকাল]"
         },
         {
           "hiragana": "メキシコ",
@@ -2184,84 +2379,84 @@
       "vocabulary": [
         {
           "hiragana": "きります I",
-          "banglaPronunciation": "কিরিমাস",
+          "banglaPronunciation": "কিরিমাসু",
           "kanji": "切ります",
           "englishMeaning": "Cut, slice",
-          "banglaMeaning": "কাটা, টুকরো টুকরো"
+          "banglaMeaning": "কাটা, টুকরো করা"
         },
         {
           "hiragana": "おくります I",
-          "banglaPronunciation": "ওকুরিমাস",
+          "banglaPronunciation": "ওকুরিমাসু",
           "kanji": "送ります",
           "englishMeaning": "Send",
           "banglaMeaning": "পাঠানো"
         },
         {
           "hiragana": "あげます II",
-          "banglaPronunciation": "আগেমাস",
-          "kanji": "上げます",
+          "banglaPronunciation": "আগেমাসু",
+          "kanji": "あげます",
           "englishMeaning": "Give",
           "banglaMeaning": "দেওয়া"
         },
         {
           "hiragana": "もらいます I",
-          "banglaPronunciation": "মোরাইমাস",
-          "kanji": "貰います",
+          "banglaPronunciation": "মোরাইমাসু",
+          "kanji": "もらいます",
           "englishMeaning": "Receive",
-          "banglaMeaning": "গ্রহণ করা"
+          "banglaMeaning": "গ্রহণ করা / পাওয়া"
         },
         {
           "hiragana": "かします I",
-          "banglaPronunciation": "কাশিমাস",
+          "banglaPronunciation": "কাশিমাসু",
           "kanji": "貸します",
           "englishMeaning": "Lend",
-          "banglaMeaning": "ধার দেয়া"
+          "banglaMeaning": "ধার দেওয়া"
         },
         {
           "hiragana": "かります I",
-          "banglaPronunciation": "কারিমাস",
+          "banglaPronunciation": "কারিমাসু",
           "kanji": "借ります",
           "englishMeaning": "Borrow",
-          "banglaMeaning": "ধার করা, ঋণ করা"
+          "banglaMeaning": "ধার করা"
         },
         {
           "hiragana": "おしえます II",
-          "banglaPronunciation": "ওশিয়েমাস",
+          "banglaPronunciation": "ওশিয়েমাসু",
           "kanji": "教えます",
           "englishMeaning": "Teach",
-          "banglaMeaning": "শিক্ষা দেয়া"
+          "banglaMeaning": "শেখানো"
         },
         {
           "hiragana": "ならいます I",
-          "banglaPronunciation": "নারাইমাস",
+          "banglaPronunciation": "নারাইমাসু",
           "kanji": "習います",
           "englishMeaning": "Learn",
           "banglaMeaning": "শেখা"
         },
         {
-          "hiragana": "かけます II [でんわ を〜]",
-          "banglaPronunciation": "কাকেমাস [দেনওয়া ও〜]",
-          "kanji": "[電話 を〜]",
+          "hiragana": "かけます II [でんわを〜]",
+          "banglaPronunciation": "কাকেমাসু [দেনওয়া ও〜]",
+          "kanji": "かけます [電話を〜]",
           "englishMeaning": "Make [a telephone call]",
-          "banglaMeaning": "তৈরি করা [টেলিফোন কল করা]"
+          "banglaMeaning": "ফোন করা [টেলিফোন কল করা]"
         },
         {
           "hiragana": "て",
           "banglaPronunciation": "তে",
           "kanji": "手",
           "englishMeaning": "Hand, arm",
-          "banglaMeaning": "হাত, বাহু"
+          "banglaMeaning": "হাত"
         },
         {
           "hiragana": "はし",
           "banglaPronunciation": "হাশি",
-          "kanji": "",
-          "englishMeaning": "Chopisticks",
-          "banglaMeaning": "কাঠি"
+          "kanji": "箸",
+          "englishMeaning": "Chopsticks",
+          "banglaMeaning": "চপস্টিক / খাবার কাঠি"
         },
         {
           "hiragana": "スプーン",
-          "banglaPronunciation": "সুপুন",
+          "banglaPronunciation": "সুপূন",
           "kanji": "",
           "englishMeaning": "Spoon",
           "banglaMeaning": "চামচ"
@@ -2275,7 +2470,7 @@
         },
         {
           "hiragana": "フォーク",
-          "banglaPronunciation": "ফো-কু",
+          "banglaPronunciation": "ফোোকু",
           "kanji": "",
           "englishMeaning": "Fork",
           "banglaMeaning": "কাঁটা চামচ"
@@ -2283,37 +2478,37 @@
         {
           "hiragana": "はさみ",
           "banglaPronunciation": "হাসামি",
-          "kanji": "",
+          "kanji": "鋏",
           "englishMeaning": "Scissors",
-          "banglaMeaning": "কাঁচি, কেঁচি"
+          "banglaMeaning": "কাঁচি"
         },
         {
-          "hiragana": "ファアクス",
-          "banglaPronunciation": "ফ্যাআকুসু",
+          "hiragana": "ファクス",
+          "banglaPronunciation": "ফাকুসু",
           "kanji": "",
           "englishMeaning": "Fax",
           "banglaMeaning": "ফ্যাক্স"
         },
         {
           "hiragana": "ワープロ",
-          "banglaPronunciation": "ওয়া-পুরো",
+          "banglaPronunciation": "ওয়াাপুরো",
           "kanji": "",
           "englishMeaning": "Word processor",
           "banglaMeaning": "ওয়ার্ড প্রসেসর"
         },
         {
           "hiragana": "パソコン",
-          "banglaPronunciation": "পাসোকান",
+          "banglaPronunciation": "পাসোকোন",
           "kanji": "",
           "englishMeaning": "Personal computer",
-          "banglaMeaning": "ব্যক্তিগত কম্পিউটার"
+          "banglaMeaning": "পার্সোনাল কম্পিউটার / পিসি"
         },
         {
           "hiragana": "パンチ",
           "banglaPronunciation": "পানচি",
           "kanji": "",
           "englishMeaning": "Punch",
-          "banglaMeaning": "পান্চ মেশিন"
+          "banglaMeaning": "পঞ্চিং মেশিন"
         },
         {
           "hiragana": "ホッチキス",
@@ -2324,7 +2519,7 @@
         },
         {
           "hiragana": "セロテープ",
-          "banglaPronunciation": "সেরোতে-পু",
+          "banglaPronunciation": "সেরোতেএপু",
           "kanji": "",
           "englishMeaning": "Scotch tape, clear adhesive tape",
           "banglaMeaning": "স্কচটেপ"
@@ -2334,7 +2529,7 @@
           "banglaPronunciation": "কেশিগোমু",
           "kanji": "消しゴム",
           "englishMeaning": "Eraser",
-          "banglaMeaning": "ইরেজার, মুছনি রাবার"
+          "banglaMeaning": "ইরেজার / রাবার"
         },
         {
           "hiragana": "かみ",
@@ -2369,56 +2564,56 @@
           "banglaPronunciation": "নিমোৎসু",
           "kanji": "荷物",
           "englishMeaning": "Baggage, parcel",
-          "banglaMeaning": "লাগেজ, মালপত্র"
+          "banglaMeaning": "মালামাল / লাগেজ"
         },
         {
           "hiragana": "おかね",
           "banglaPronunciation": "ওকানে",
           "kanji": "お金",
           "englishMeaning": "Money",
-          "banglaMeaning": "টাকা"
+          "banglaMeaning": "টাকা / অর্থ"
         },
         {
           "hiragana": "きっぷ",
           "banglaPronunciation": "কিপ্পু",
           "kanji": "切符",
           "englishMeaning": "Ticket",
-          "banglaMeaning": "টিকেট"
+          "banglaMeaning": "টিকিট"
         },
         {
           "hiragana": "クリスマス",
           "banglaPronunciation": "কুরিসুমাসু",
           "kanji": "",
           "englishMeaning": "Christmas",
-          "banglaMeaning": "বড়দিন, ক্রিসমাস"
+          "banglaMeaning": "ক্রিসমাস / বড়দিন"
         },
         {
           "hiragana": "ちち",
           "banglaPronunciation": "চিচি",
           "kanji": "父",
           "englishMeaning": "My father",
-          "banglaMeaning": "নিজের বাবা"
+          "banglaMeaning": "আমার বাবা"
         },
         {
           "hiragana": "はは",
           "banglaPronunciation": "হাহা",
           "kanji": "母",
           "englishMeaning": "My mother",
-          "banglaMeaning": "নিজের মা"
+          "banglaMeaning": "আমার মা"
         },
         {
           "hiragana": "おとうさん",
           "banglaPronunciation": "ওতৌসান",
           "kanji": "お父さん",
           "englishMeaning": "Someone else's father",
-          "banglaMeaning": "অন্যের বাবা"
+          "banglaMeaning": "অন্যের বাবা / বাবা (সম্বোধন)"
         },
         {
           "hiragana": "おかあさん",
           "banglaPronunciation": "ওকাআসান",
           "kanji": "お母さん",
           "englishMeaning": "Someone else's mother",
-          "banglaMeaning": "অন্যের মা"
+          "banglaMeaning": "অন্যের মা / মা (সম্বোধন)"
         },
         {
           "hiragana": "もう",
@@ -2439,56 +2634,56 @@
           "banglaPronunciation": "কোরেকারা",
           "kanji": "",
           "englishMeaning": "From now on, soon",
-          "banglaMeaning": "এখন থেকে, শিগ্রই"
+          "banglaMeaning": "এখন থেকে / শীঘ্রই"
         },
         {
           "hiragana": "[〜,]すてきですね",
-          "banglaPronunciation": "সুতেকিদেসনে",
+          "banglaPronunciation": "সুতেকিদেসুনে",
           "kanji": "",
           "englishMeaning": "What a nice [〜]",
-          "banglaMeaning": "কি সুন্দর [〜!]"
+          "banglaMeaning": "কী সুন্দর [〜!]"
         },
         {
-          "hiragana": "ごめん ください",
+          "hiragana": "ごめんください",
           "banglaPronunciation": "গোমেন কুদাসাই",
           "kanji": "",
-          "englishMeaning": "Excuse me./ Anybody home?/ May I come in? (an expression used by a visitor)",
-          "banglaMeaning": "মাফ করবেন / বাড়িতে কেউ আছেন? আমি কি ভেতরে আসতে পারি? (দর্শনার্থী জিজ্ঞাসা করে)"
+          "englishMeaning": "Excuse me / Is anyone home? / May I come in?",
+          "banglaMeaning": "ক্ষমা করবেন / বাড়িতে কেউ আছেন? (অতিথি আসার পর হাঁক দেওয়ার বাক্য)"
         },
         {
           "hiragana": "いらっしゃい",
           "banglaPronunciation": "ইরাশশাই",
           "kanji": "",
-          "englishMeaning": "How nice of you come. (welcome)",
-          "banglaMeaning": "কি সুন্দর আপনি এসেছেন (স্বাগতম)"
+          "englishMeaning": "Welcome!",
+          "banglaMeaning": "স্বাগতম!"
         },
         {
           "hiragana": "どうぞ おあがり ください",
           "banglaPronunciation": "দৌজো ওআগারি কুদাসাই",
-          "kanji": "どうぞお上がり りください",
+          "kanji": "どうぞお上がりください",
           "englishMeaning": "Do come in.",
-          "banglaMeaning": "ভেতরে আসুন"
+          "banglaMeaning": "দয়া করে ভেতরে আসুন"
         },
         {
           "hiragana": "しつれいします III",
-          "banglaPronunciation": "শিৎসুরেইশিমাস",
+          "banglaPronunciation": "শিৎসুরেইশিমাসু",
           "kanji": "失礼します",
-          "englishMeaning": "Thank you./May I? {I'm afraid I'll be disturbing you)",
-          "banglaMeaning": "আপনাকে ধন্যবাদ./ আমি কি? (ভয় করছে আপনাকে বিরক্ত করবো)"
+          "englishMeaning": "May I? / Excuse me for disturbing you",
+          "banglaMeaning": "ভেতরে আসার অনুমতি প্রার্থনা / মাফ করবেন (অন্যের ঘরে প্রবেশকালে বলবেন)"
         },
         {
           "hiragana": "[〜は] いかがですか。",
-          "banglaPronunciation": "[〜 ওয়া] ইকাগাদেসকা",
+          "banglaPronunciation": "[〜 ওয়া] ইকাগাদেসু কা",
           "kanji": "",
-          "englishMeaning": "Won't you have / Would you like to have [〜]? (when offering something)",
-          "banglaMeaning": "তোমার তো নেই [〜]? / আপনাকে কি আরও দেবো [〜]? (যখন কিছু অফার করা হয়)"
+          "englishMeaning": "Won't you have [〜]? / Would you like [〜]?",
+          "banglaMeaning": "[〜] নিলে কেমন হয়? / আপনি কি [〜] নেবেন? (অফার করার ক্ষেত্রে)"
         },
         {
           "hiragana": "いただきます I",
-          "banglaPronunciation": "ইতাদাকিমাস",
-          "kanji": "",
-          "englishMeaning": "Thank you./ I accept. (said before starting to eat or drink)",
-          "banglaMeaning": "ধন্যবাদ./ গ্রহণ করছি। (খাবার বা পান করার শুরুতে বলতে হয়)"
+          "banglaPronunciation": "ইতাদাকিমাসু",
+          "kanji": "頂きます",
+          "englishMeaning": "Thank you for the meal (said before eating/drinking)",
+          "banglaMeaning": "খাবার গ্রহণ করছি (খাওয়া বা পান করার আগে বলার শিষ্টাচার)"
         },
         {
           "hiragana": "りょこう",
@@ -2501,12 +2696,12 @@
           "hiragana": "おみやげ",
           "banglaPronunciation": "ওমিয়াগে",
           "kanji": "お土産",
-          "englishMeaning": "Souvenir, present",
-          "banglaMeaning": "স্যুভেনির, উপহার"
+          "englishMeaning": "Souvenir, gift",
+          "banglaMeaning": "স্মারক উপহার / স্যুভেনির"
         },
         {
           "hiragana": "ヨーロッパ",
-          "banglaPronunciation": "ইয়োরোপ্পা",
+          "banglaPronunciation": "ইয়ৌরোপ্পা",
           "kanji": "",
           "englishMeaning": "Europe",
           "banglaMeaning": "ইউরোপ"
@@ -2533,7 +2728,7 @@
         {
           "hiragana": "きれい [な]",
           "banglaPronunciation": "কিরেই [না]",
-          "kanji": "",
+          "kanji": "綺麗 [な]",
           "englishMeaning": "Beautiful, clean",
           "banglaMeaning": "সুন্দর, পরিষ্কার"
         },
@@ -2547,15 +2742,15 @@
         {
           "hiragana": "にぎやか [な]",
           "banglaPronunciation": "নিগিয়াকা [না]",
-          "kanji": "",
+          "kanji": "賑やか [な]",
           "englishMeaning": "Lively",
-          "banglaMeaning": "প্রাণোবন্তো"
+          "banglaMeaning": "প্রাণবন্ত, জমজমাট"
         },
         {
-          "hiragana": "ゆうめい [な",
+          "hiragana": "ゆうめい [な]",
           "banglaPronunciation": "ইউমেই [না]",
           "kanji": "有名 [な]",
-          "englishMeaning": "famous",
+          "englishMeaning": "Famous",
           "banglaMeaning": "বিখ্যাত"
         },
         {
@@ -2570,14 +2765,14 @@
           "banglaPronunciation": "গেনকি [না]",
           "kanji": "元気 [な]",
           "englishMeaning": "Healthy, sound, cheerful",
-          "banglaMeaning": "স্বাস্থ্য, শব্দ, আনন্দিত"
+          "banglaMeaning": "সুস্থ, প্রফুল্ল"
         },
         {
           "hiragana": "ひま [な]",
           "banglaPronunciation": "হিমা [না]",
           "kanji": "暇 [な]",
           "englishMeaning": "Free (time)",
-          "banglaMeaning": "অবসর সময়"
+          "banglaMeaning": "অবসর"
         },
         {
           "hiragana": "べんり [な]",
@@ -2619,12 +2814,12 @@
           "banglaPronunciation": "ফুরুই",
           "kanji": "古い",
           "englishMeaning": "Old (not of age)",
-          "banglaMeaning": "পুরাতন (বয়স নয়)"
+          "banglaMeaning": "পুরোনো (বস্তুর ক্ষেত্রে)"
         },
         {
           "hiragana": "いい (よい)",
           "banglaPronunciation": "ইই (ইয়োই)",
-          "kanji": "",
+          "kanji": "良い",
           "englishMeaning": "Good",
           "banglaMeaning": "ভালো"
         },
@@ -2639,22 +2834,22 @@
           "hiragana": "あつい",
           "banglaPronunciation": "আৎসুই",
           "kanji": "暑い",
-          "englishMeaning": "Hot",
-          "banglaMeaning": "গরম"
+          "englishMeaning": "Hot (weather/climate)",
+          "banglaMeaning": "গরম (আবহাওয়া)"
         },
         {
           "hiragana": "さむい",
           "banglaPronunciation": "সামুই",
           "kanji": "寒い",
           "englishMeaning": "Cold (referring to temperature)",
-          "banglaMeaning": "ঠান্ডা (তাপমাত্রা)"
+          "banglaMeaning": "ঠান্ডা (আবহাওয়া)"
         },
         {
           "hiragana": "つめたい",
           "banglaPronunciation": "ৎসুমেতাই",
           "kanji": "冷たい",
           "englishMeaning": "Cold (referring to touch)",
-          "banglaMeaning": "ঠান্ডা (স্পর্শ করে, ফ্রিজিং)"
+          "banglaMeaning": "ঠান্ডা (স্পর্শজনিত/পানীয়)"
         },
         {
           "hiragana": "むずかしい",
@@ -2675,33 +2870,33 @@
           "banglaPronunciation": "তাকাই",
           "kanji": "高い",
           "englishMeaning": "Expensive, tall, high",
-          "banglaMeaning": "ব্যয়বহুল, লম্বা, উঁচু"
+          "banglaMeaning": "ব্যয়বহুল, উঁচু"
         },
         {
           "hiragana": "やすい",
           "banglaPronunciation": "ইয়াসুই",
           "kanji": "安い",
-          "englishMeaning": "Inexpensive",
-          "banglaMeaning": "মিতব্যয়ী, সস্তা"
+          "englishMeaning": "Inexpensive, cheap",
+          "banglaMeaning": "সস্তা"
         },
         {
           "hiragana": "ひくい",
           "banglaPronunciation": "হিকুই",
           "kanji": "低い",
           "englishMeaning": "Low",
-          "banglaMeaning": "কম, নিম্ন"
+          "banglaMeaning": "নিচু, কম"
         },
         {
           "hiragana": "おもしろい",
           "banglaPronunciation": "ওমোশিরোই",
           "kanji": "面白い",
           "englishMeaning": "Interesting",
-          "banglaMeaning": "মজাদার"
+          "banglaMeaning": "মজাদার, আকর্ষণীয়"
         },
         {
           "hiragana": "おいしい",
           "banglaPronunciation": "ওইশিই",
-          "kanji": "",
+          "kanji": "美味しい",
           "englishMeaning": "Delicious, tasty",
           "banglaMeaning": "সুস্বাদু"
         },
@@ -2717,7 +2912,7 @@
           "banglaPronunciation": "তানোশিই",
           "kanji": "楽しい",
           "englishMeaning": "Enjoyable",
-          "banglaMeaning": "উপভোগ্য"
+          "banglaMeaning": "আনন্দদায়ক"
         },
         {
           "hiragana": "しろい",
@@ -2751,15 +2946,15 @@
           "hiragana": "さくら",
           "banglaPronunciation": "সাকুরা",
           "kanji": "桜",
-          "englishMeaning": "Cherry (blossom)",
-          "banglaMeaning": "চেরি (ফুল ফোটা)"
+          "englishMeaning": "Cherry blossom",
+          "banglaMeaning": "চেরি ফুল"
         },
         {
           "hiragana": "やま",
           "banglaPronunciation": "ইয়ামা",
           "kanji": "山",
           "englishMeaning": "Mountain",
-          "banglaMeaning": "পর্বত"
+          "banglaMeaning": "পাহাড়, পর্বত"
         },
         {
           "hiragana": "まち",
@@ -2773,70 +2968,70 @@
           "banglaPronunciation": "তাবেমোনো",
           "kanji": "食べ物",
           "englishMeaning": "Food",
-          "banglaMeaning": "খাদ্য"
+          "banglaMeaning": "খাবার"
         },
         {
           "hiragana": "くるま",
           "banglaPronunciation": "কুরুমা",
           "kanji": "車",
           "englishMeaning": "Car",
-          "banglaMeaning": "গাড়ি"
+          "banglaMeaning": "গাড়ি"
         },
         {
           "hiragana": "ところ",
           "banglaPronunciation": "তোকোরো",
           "kanji": "所",
           "englishMeaning": "Place",
-          "banglaMeaning": "স্থান, জায়গা"
+          "banglaMeaning": "জায়গা, স্থান"
         },
         {
           "hiragana": "りょう",
           "banglaPronunciation": "রিয়ৌ",
           "kanji": "寮",
-          "englishMeaning": "Dormitory, Hostel",
-          "banglaMeaning": "ছাত্র হোস্টেল"
+          "englishMeaning": "Dormitory",
+          "banglaMeaning": "হোস্টেল"
         },
         {
           "hiragana": "べんきょう",
           "banglaPronunciation": "বেনকিয়ৌ",
           "kanji": "勉強",
           "englishMeaning": "Study",
-          "banglaMeaning": "পড়াশোনা"
+          "banglaMeaning": "পড়াশোনা"
         },
         {
           "hiragana": "せいかつ",
           "banglaPronunciation": "সেইকাৎসু",
           "kanji": "生活",
           "englishMeaning": "Life",
-          "banglaMeaning": "জীবন"
+          "banglaMeaning": "জীবনযাত্রা"
         },
         {
           "hiragana": "おしごと",
           "banglaPronunciation": "ওশিগোতো",
           "kanji": "お仕事",
           "englishMeaning": "Work, business",
-          "banglaMeaning": "কাজ, ব্যবসা"
+          "banglaMeaning": "কাজ"
         },
         {
           "hiragana": "どう",
           "banglaPronunciation": "দৌ",
           "kanji": "",
           "englishMeaning": "How",
-          "banglaMeaning": "কিভাবে"
+          "banglaMeaning": "কেমন"
         },
         {
           "hiragana": "どんな",
           "banglaPronunciation": "দোননা",
           "kanji": "",
           "englishMeaning": "What kind of ~",
-          "banglaMeaning": "কোন ধরনের〜"
+          "banglaMeaning": "কী ধরণের 〜"
         },
         {
           "hiragana": "どれ",
           "banglaPronunciation": "দোরে",
           "kanji": "",
           "englishMeaning": "Which one (of three or more)",
-          "banglaMeaning": "কোনটা (তিনটা বা অধিক)"
+          "banglaMeaning": "কোনটি (তিন বা ততোধিক বস্তুর মধ্যে)"
         },
         {
           "hiragana": "とても",
@@ -2849,113 +3044,113 @@
           "hiragana": "あまり",
           "banglaPronunciation": "আমারি",
           "kanji": "",
-          "englishMeaning": "Not so (used to negetive)",
-          "banglaMeaning": "তেতটা না (নাবোধক)"
+          "englishMeaning": "Not so (used with negative)",
+          "banglaMeaning": "খুব একটা না (না-বোধক বাক্যে ব্যবহৃত)"
         },
         {
           "hiragana": "そして",
           "banglaPronunciation": "সোশিতে",
           "kanji": "",
           "englishMeaning": "And (used to connect sentences)",
-          "banglaMeaning": "এবং (দুটি বাক্যকে যোগ করে)"
+          "banglaMeaning": "এবং (বাক্য যুক্ত করতে ব্যবহৃত)"
         },
         {
           "hiragana": "〜が、〜",
           "banglaPronunciation": "〜 গা, 〜",
           "kanji": "",
           "englishMeaning": "〜, but 〜",
-          "banglaMeaning": "কিন্তু"
+          "banglaMeaning": "〜, কিন্তু 〜"
         },
         {
           "hiragana": "おげんきですか。",
-          "banglaPronunciation": "ওগেনকিদেসকা",
-          "kanji": "お元気です か。",
+          "banglaPronunciation": "ওগেনকি দেসু কা",
+          "kanji": "お元気ですか。",
           "englishMeaning": "How are you?",
-          "banglaMeaning": "কেমন আছেন/আছো?"
+          "banglaMeaning": "আপনি কেমন আছেন?"
         },
         {
           "hiragana": "そうですね。",
-          "banglaPronunciation": "সৌদেসনে",
+          "banglaPronunciation": "সৌ দেসু নে",
           "kanji": "",
-          "englishMeaning": "Well let me see. (pausing)",
-          "banglaMeaning": "ভালো আমাকে দেখতে দিন (বিরতি)"
+          "englishMeaning": "Well, let me see.",
+          "banglaMeaning": "তাই তো... / দেখি... (ভেবে দেখার সময়)"
         },
         {
-          "hiragana": "にほんの せいかつ に なれましたか?",
-          "banglaPronunciation": "নিহোননো সেইকাৎসুনি নারেমাশিতাকা?",
-          "kanji": "日本の 生活に 慣れました か?",
-          "englishMeaning": "Have you got used to the life in Japan?",
-          "banglaMeaning": "আপনি কি জাপানি জীবন যাপনে অভ্যস্ত?"
+          "hiragana": "にほんの せいかつ に なれましたか。",
+          "banglaPronunciation": "নিহোন নো সেইকাৎসু নি নারেমাশিতা কা?",
+          "kanji": "日本の 生活に 慣れましたか。",
+          "englishMeaning": "Have you gotten used to life in Japan?",
+          "banglaMeaning": "জাপানের জীবনে কি অভ্যস্ত হয়েছেন?"
         },
         {
           "hiragana": "[〜,]もう いっぱい いかがですか。",
-          "banglaPronunciation": "মৌ ইপ্পাই ইকাগাদেসকা?",
-          "kanji": "[〜,]もう 一杯 いかがでか。",
+          "banglaPronunciation": "[〜,] মৌ ইপ্পাই ইকাগাদেসু কা?",
+          "kanji": "[〜,]もう 一杯 いかがですか。",
           "englishMeaning": "Won't you have another cup of [〜]?",
-          "banglaMeaning": "[〜] আরও এক কাপ দেবো কি?"
+          "banglaMeaning": "আর এক কাপ [〜] নেবেন কি?"
         },
         {
-          "hiragana": "いいえ、けっこうです",
-          "banglaPronunciation": "ইইয়ে, কেক্কোদেছু",
+          "hiragana": "いいえ、けっこうです。",
+          "banglaPronunciation": "ইইয়ে, কেক্কৌ দেসু",
           "kanji": "",
           "englishMeaning": "No, thank you.",
-          "banglaMeaning": "হা, আপনাকে ধন্যবাদ"
+          "banglaMeaning": "না, লাগবে না / ধন্যবাদ"
         },
         {
-          "hiragana": "もう〜です[ね]。",
-          "banglaPronunciation": "মৌ 〜 দেসনে",
+          "hiragana": "もう〜ですね。",
+          "banglaPronunciation": "মৌ 〜 দেসু নে",
           "kanji": "",
           "englishMeaning": "It's already ~ [isn't it?]",
-          "banglaMeaning": "এটা ইতিমধ্যে 〜 [তাই নয় কি?]"
+          "banglaMeaning": "ইতিমধ্যে 〜 হয়ে গেছে [তাই না?]"
         },
         {
-          "hiragana": "そろそろ しつれいします",
-          "banglaPronunciation": "সোরোসোরো শিৎসুরেইশিমাস",
-          "kanji": "そろそろ 失礼します",
+          "hiragana": "そろそろ しつれいします。",
+          "banglaPronunciation": "সোরোসোরো শিৎসুরেই শিমাসু",
+          "kanji": "そろそろ 失礼します。",
           "englishMeaning": "It's almost time to leave now.",
-          "banglaMeaning": "এখন যাওয়ার সময় হয়ে গেছে"
+          "banglaMeaning": "এবার ওঠার/বিদায় নেওয়ার সময় হয়েছে"
         },
         {
-          "hiragana": "また いらっしゃって ください",
+          "hiragana": "また いらっしゃってください。",
           "banglaPronunciation": "মাতা ইরাশশাৎতে কুদাসাই",
           "kanji": "",
           "englishMeaning": "Please come again.",
-          "banglaMeaning": "দয়া করে আবার আসবেন।"
+          "banglaMeaning": "দয়া করে আবার আসবেন"
         },
         {
           "hiragana": "ふじさん",
           "banglaPronunciation": "ফুজিসান",
           "kanji": "富士山",
-          "englishMeaning": "Mt. Fuji, the highest mountain in Japan.",
-          "banglaMeaning": "মাউন্ট ফুজি, জাপানের সর্বোচ্চপর্বত"
+          "englishMeaning": "Mt. Fuji",
+          "banglaMeaning": "মাউন্ট ফুজি (জাপানের সর্বোচ্চ পর্বত)"
         },
         {
           "hiragana": "びわこ",
           "banglaPronunciation": "বিওয়াকো",
           "kanji": "琵琶湖",
-          "englishMeaning": "Lake Biwa, the biggest lake in japan.",
-          "banglaMeaning": "বিওয়া লেক, জাপানের সবচেয়ে বড় লেক"
+          "englishMeaning": "Lake Biwa",
+          "banglaMeaning": "বিওয়া হ্রদ (জাপানের বৃহত্তম হ্রদ)"
         },
         {
           "hiragana": "シャンハイ",
           "banglaPronunciation": "শানহাই",
           "kanji": "",
           "englishMeaning": "Shanghai",
-          "banglaMeaning": "শাংহাই"
+          "banglaMeaning": "সাংহাই"
         },
         {
           "hiragana": "しちにんのさむらい",
           "banglaPronunciation": "শিচিনিন নো সামুরাই",
           "kanji": "七人の侍",
           "englishMeaning": "The Seven Samurai",
-          "banglaMeaning": "সেভেন সামুরাই (বিখ্যাত সিনেমার নাম)"
+          "banglaMeaning": "দ্য সেভেন সামুরাই (বিখ্যাত জাপানি চলচ্চিত্র)"
         },
         {
           "hiragana": "きんかくじ",
           "banglaPronunciation": "কিনকাকুজি",
           "kanji": "金閣寺",
           "englishMeaning": "Kinkakuji Temple",
-          "banglaMeaning": "কিনকাকুজি মন্দির (স্বর্ণ মন্দির)"
+          "banglaMeaning": "কিনকাকু-জি মন্দির (স্বর্ণ প্যাভিলিয়ন)"
         }
       ]
     },
@@ -2964,52 +3159,52 @@
       "vocabulary": [
         {
           "hiragana": "わかります I",
-          "banglaPronunciation": "ওয়াকারিমাস",
+          "banglaPronunciation": "ওয়াকারিমাসু",
           "kanji": "分かります",
           "englishMeaning": "Understand",
           "banglaMeaning": "বুঝতে পারা"
         },
         {
           "hiragana": "あります I",
-          "banglaPronunciation": "আরিমাস",
-          "kanji": "",
+          "banglaPronunciation": "আরিমাসু",
+          "kanji": "有ります",
           "englishMeaning": "Have (thing)",
-          "banglaMeaning": "আছে (বস্তু)"
+          "banglaMeaning": "আছে (জড় বস্তু)"
         },
         {
           "hiragana": "すき [な]",
-          "banglaPronunciation": "সুকি না",
+          "banglaPronunciation": "সুকি [না]",
           "kanji": "好き [な]",
           "englishMeaning": "Like",
-          "banglaMeaning": "পছন্দ"
+          "banglaMeaning": "পছন্দের"
         },
         {
           "hiragana": "きらい [な]",
-          "banglaPronunciation": "কিরাই না",
+          "banglaPronunciation": "কিরাই [না]",
           "kanji": "嫌い [な]",
           "englishMeaning": "Dislike",
-          "banglaMeaning": "অপছন্দ"
+          "banglaMeaning": "অপছন্দের"
         },
         {
           "hiragana": "じょうず [な]",
-          "banglaPronunciation": "জৌজু না",
+          "banglaPronunciation": "জৌ জ্যু [না]",
           "kanji": "上手 [な]",
           "englishMeaning": "Good at",
           "banglaMeaning": "দক্ষ"
         },
         {
           "hiragana": "へた [な]",
-          "banglaPronunciation": "হেতা না",
+          "banglaPronunciation": "হেতা [না]",
           "kanji": "下手 [な]",
           "englishMeaning": "Poor at",
           "banglaMeaning": "অদক্ষ"
         },
         {
           "hiragana": "りょうり",
-          "banglaPronunciation": "রিয়োউরি",
+          "banglaPronunciation": "রিয়ৌরি",
           "kanji": "料理",
-          "englishMeaning": "Dish (cooked food)",
-          "banglaMeaning": "ডিশ (রান্না করা খাবার)"
+          "englishMeaning": "Dish (cooked food), cooking",
+          "banglaMeaning": "রান্না করা খাবার, রান্না"
         },
         {
           "hiragana": "のみもの",
@@ -3020,7 +3215,7 @@
         },
         {
           "hiragana": "スポーツ",
-          "banglaPronunciation": "সুপোৎসু",
+          "banglaPronunciation": "সুপোotsu",
           "kanji": "",
           "englishMeaning": "Sport",
           "banglaMeaning": "খেলাধুলা"
@@ -3029,22 +3224,22 @@
           "hiragana": "やきゅう",
           "banglaPronunciation": "ইয়াকিয়্যু",
           "kanji": "野球",
-          "englishMeaning": "baseball",
+          "englishMeaning": "Baseball",
           "banglaMeaning": "বেসবল"
         },
         {
           "hiragana": "ダンス",
           "banglaPronunciation": "দানসু",
           "kanji": "",
-          "englishMeaning": "dance",
+          "englishMeaning": "Dance",
           "banglaMeaning": "নাচ, নৃত্য"
         },
         {
           "hiragana": "おんがく",
-          "banglaPronunciation": "উনগাকু",
+          "banglaPronunciation": "ওনগাকু",
           "kanji": "音楽",
           "englishMeaning": "Music",
-          "banglaMeaning": "মিউজিক, সংগীত"
+          "banglaMeaning": "সংগীত"
         },
         {
           "hiragana": "うた",
@@ -3057,7 +3252,7 @@
           "hiragana": "クラシック",
           "banglaPronunciation": "কুরাশিক্কু",
           "kanji": "",
-          "englishMeaning": "Clasial music",
+          "englishMeaning": "Classical music",
           "banglaMeaning": "ক্লাসিক্যাল সংগীত"
         },
         {
@@ -3065,7 +3260,7 @@
           "banglaPronunciation": "জাজু",
           "kanji": "",
           "englishMeaning": "Jazz",
-          "banglaMeaning": "জাজ"
+          "banglaMeaning": "জ্যাজ সংগীত"
         },
         {
           "hiragana": "コンサート",
@@ -3085,48 +3280,48 @@
           "hiragana": "かぶき",
           "banglaPronunciation": "কাবুকি",
           "kanji": "歌舞伎",
-          "englishMeaning": "Kabuki (traditional Japanese music)",
-          "banglaMeaning": "কাবুকি (জাপানি ট্রাডিশনাল সংগীত)"
+          "englishMeaning": "Kabuki (traditional Japanese drama)",
+          "banglaMeaning": "কাবুকি (ঐতিহ্যবাহী জাপানি নাট্যশিল্প)"
         },
         {
           "hiragana": "え",
           "banglaPronunciation": "এ",
           "kanji": "絵",
           "englishMeaning": "Picture, drawing",
-          "banglaMeaning": "ছবি, আঁকা"
+          "banglaMeaning": "ছবি, চিত্র"
         },
         {
           "hiragana": "じ",
           "banglaPronunciation": "জি",
           "kanji": "字",
           "englishMeaning": "Letter, character",
-          "banglaMeaning": "বর্ণ"
+          "banglaMeaning": "অক্ষর, বর্ণ"
         },
         {
           "hiragana": "かんじ",
           "banglaPronunciation": "কানজি",
           "kanji": "漢字",
-          "englishMeaning": "Chinese characters",
-          "banglaMeaning": "চীনা বর্ণমালা"
+          "englishMeaning": "Kanji characters",
+          "banglaMeaning": "কানজি (চীনা অক্ষরভিত্তিক জাপানি বর্ণ)"
         },
         {
           "hiragana": "ひらがな",
           "banglaPronunciation": "হিরাগানা",
-          "kanji": "",
+          "kanji": "平仮名",
           "englishMeaning": "Hiragana script",
-          "banglaMeaning": "হিরাগানা"
+          "banglaMeaning": "হিরাগানা বর্ণমালা"
         },
         {
           "hiragana": "かたかな",
           "banglaPronunciation": "কাতাকানা",
-          "kanji": "",
+          "kanji": "片仮名",
           "englishMeaning": "Katakana script",
-          "banglaMeaning": "কাতাকানা"
+          "banglaMeaning": "কাতাকানা বর্ণমালা"
         },
         {
           "hiragana": "ローマじ",
-          "banglaPronunciation": "রো-মাজি",
-          "kanji": "",
+          "banglaPronunciation": "রোওমাজি",
+          "kanji": "ローマ字",
           "englishMeaning": "The Roman alphabet",
           "banglaMeaning": "রোমান বর্ণমালা"
         },
@@ -3135,14 +3330,14 @@
           "banglaPronunciation": "কোমাকাই ওকানে",
           "kanji": "細かい お金",
           "englishMeaning": "Small change",
-          "banglaMeaning": "খুচরা ভাংতি করা"
+          "banglaMeaning": "খুচরা টাকা"
         },
         {
           "hiragana": "チケット",
-          "banglaPronunciation": "চিকেতো",
+          "banglaPronunciation": "চিকেত্তো",
           "kanji": "",
           "englishMeaning": "Ticket",
-          "banglaMeaning": "টিকেট"
+          "banglaMeaning": "টিকিট"
         },
         {
           "hiragana": "じかん",
@@ -3153,17 +3348,17 @@
         },
         {
           "hiragana": "ようじ",
-          "banglaPronunciation": "ইয়োউজি",
+          "banglaPronunciation": "ইয়ৌজি",
           "kanji": "用事",
           "englishMeaning": "Something to do, errand",
-          "banglaMeaning": "কিছু করা, কাজ"
+          "banglaMeaning": "জরুরি কাজ, ব্যস্ততা"
         },
         {
           "hiragana": "やくそく",
           "banglaPronunciation": "ইয়াকুসোকু",
           "kanji": "約束",
           "englishMeaning": "Appointment, promise",
-          "banglaMeaning": "প্রতিশ্রুতি"
+          "banglaMeaning": "প্রতিশ্রুতি, অ্যাপয়েন্টমেন্ট"
         },
         {
           "hiragana": "ごしゅじん",
@@ -3173,9 +3368,9 @@
           "banglaMeaning": "অন্যের স্বামী"
         },
         {
-          "hiragana": "おっと/しゅじん",
+          "hiragana": "おっと / しゅじん",
           "banglaPronunciation": "ওত্তো / শুজিন",
-          "kanji": "夫/主人",
+          "kanji": "夫 / 主人",
           "englishMeaning": "My husband",
           "banglaMeaning": "নিজের স্বামী"
         },
@@ -3184,40 +3379,40 @@
           "banglaPronunciation": "ওকুসান",
           "kanji": "奥さん",
           "englishMeaning": "Someone else's wife",
-          "banglaMeaning": "অন্যের বউ"
+          "banglaMeaning": "অন্যের স্ত্রী"
         },
         {
-          "hiragana": "つま/かない",
+          "hiragana": "つま / かない",
           "banglaPronunciation": "ৎসুমা / কানাই",
-          "kanji": "妻/家内",
+          "kanji": "妻 / 家内",
           "englishMeaning": "My wife",
-          "banglaMeaning": "নিজের বউ"
+          "banglaMeaning": "নিজের স্ত্রী"
         },
         {
           "hiragana": "こども",
           "banglaPronunciation": "কোদোমো",
           "kanji": "子供",
           "englishMeaning": "Child",
-          "banglaMeaning": "শিশু, বাচ্চা"
+          "banglaMeaning": "শিশু, সন্তান"
         },
         {
           "hiragana": "よく",
           "banglaPronunciation": "ইয়োকু",
           "kanji": "",
           "englishMeaning": "Well, much",
-          "banglaMeaning": "ভালো, বেশি"
+          "banglaMeaning": "খুব ভালোভাবে, বেশি"
         },
         {
           "hiragana": "だいたい",
           "banglaPronunciation": "দাইতাই",
-          "kanji": "",
+          "kanji": "大体",
           "englishMeaning": "Mostly, roughly",
-          "banglaMeaning": "অধিকাংশ, বেশিরভাগ"
+          "banglaMeaning": "মোটামুটি, অধিকাংশ"
         },
         {
           "hiragana": "たくさん",
           "banglaPronunciation": "তাকুসান",
-          "kanji": "",
+          "kanji": "沢山",
           "englishMeaning": "Many, much",
           "banglaMeaning": "অনেক, প্রচুর"
         },
@@ -3226,91 +3421,91 @@
           "banglaPronunciation": "সুকোশি",
           "kanji": "少し",
           "englishMeaning": "A little, a few",
-          "banglaMeaning": "কম, অল্প পরিমান"
+          "banglaMeaning": "একটু, অল্প পরিমাণ"
         },
         {
           "hiragana": "ぜんぜん",
           "banglaPronunciation": "জেনজেন",
           "kanji": "全然",
-          "englishMeaning": "Not at all (negative)",
-          "banglaMeaning": "একদমই না"
+          "englishMeaning": "Not at all (used with negative)",
+          "banglaMeaning": "একদমই না (না-বোধক বাক্যে)"
         },
         {
           "hiragana": "はやく",
           "banglaPronunciation": "হাইয়াকু",
-          "kanji": "早く",
+          "kanji": "早く / 速く",
           "englishMeaning": "Early, quickly, fast",
-          "banglaMeaning": "দ্রুত, তারাতারি"
+          "banglaMeaning": "তাড়াতাড়ি, দ্রুত"
         },
         {
           "hiragana": "〜から",
           "banglaPronunciation": "〜কারা",
           "kanji": "",
           "englishMeaning": "Because ~",
-          "banglaMeaning": "বলে, কারণে"
+          "banglaMeaning": "কারণ 〜, তাই 〜"
         },
         {
           "hiragana": "どうして / なぜ",
           "banglaPronunciation": "দৌশিতে / নাজে",
-          "kanji": "",
+          "kanji": "何故",
           "englishMeaning": "Why",
           "banglaMeaning": "কেন"
         },
         {
-          "hiragana": "ざんねんですね",
-          "banglaPronunciation": "জানলেন দেসনে",
-          "kanji": "残念ですね",
-          "englishMeaning": "I'm sorry (to hear that)./ That's a pity.",
-          "banglaMeaning": "দু:খিত (কিছু শুনে)./ এটা একটা দুঃখের বিষয়।"
+          "hiragana": "ざんねんですね。",
+          "banglaPronunciation": "জাননেন দেসু নে",
+          "kanji": "残念ですね。",
+          "englishMeaning": "That's a pity. / I'm sorry to hear that.",
+          "banglaMeaning": "দুঃখের বিষয়। / শুনে খারাপ লাগলো।"
         },
         {
           "hiragana": "すみません",
           "banglaPronunciation": "সুমিমাসেন",
           "kanji": "",
-          "englishMeaning": "I am sorry.",
-          "banglaMeaning": "আমি দু:খিত"
+          "englishMeaning": "I am sorry / Excuse me",
+          "banglaMeaning": "আমি দুঃখিত / ক্ষমা করবেন"
         },
         {
           "hiragana": "もしもし",
           "banglaPronunciation": "মোশিমোশি",
           "kanji": "",
           "englishMeaning": "Hello (on phone)",
-          "banglaMeaning": "হ্যালো (ফোনে কথা বলা)"
+          "banglaMeaning": "হ্যালো (ফোনে কথোপকথনে)"
         },
         {
           "hiragana": "ああ",
           "banglaPronunciation": "আআ",
           "kanji": "",
           "englishMeaning": "Oh",
-          "banglaMeaning": "আহ"
+          "banglaMeaning": "ওহ / আচ্ছা"
         },
         {
-          "hiragana": "いっしょに いかがですか",
-          "banglaPronunciation": "ইশ্বোনি ইকাগাদেসকা",
-          "kanji": "",
+          "hiragana": "いっしょに いかがですか。",
+          "banglaPronunciation": "ইশশোনি ইকাগাদেসু কা?",
+          "kanji": "一緒に いかがですか。",
           "englishMeaning": "Won't you join me (us)?",
-          "banglaMeaning": "(আমার/আমাদের) সাথে যোগ দিবে নাকি?"
+          "banglaMeaning": "একসাথে হলে কেমন হয়?"
         },
         {
-          "hiragana": "[〜は]ちょっと....。",
-          "banglaPronunciation": "[〜ওয়া] চৌত্তো....",
+          "hiragana": "[〜は] ちょっと……。",
+          "banglaPronunciation": "[〜ওয়া] চ্যেন্তো...",
           "kanji": "",
-          "englishMeaning": "[〜] is a bit difficult. (an euphemism used when declining an invitation)",
-          "banglaMeaning": "একটু সমস্যা [〜]. (শ্রুতিমধুর ভাবে আমন্ত্রণ অস্বীকার করা)"
+          "englishMeaning": "[〜] is a bit difficult. (used when politely declining)",
+          "banglaMeaning": "[〜] একটু সমস্যা... (নম্রভাবে আমন্ত্রণ প্রত্যাখ্যান করার সময়)"
         },
         {
           "hiragana": "だめですか。",
-          "banglaPronunciation": "দামে দেসকা",
+          "banglaPronunciation": "দামে দেসু কা?",
           "kanji": "",
-          "englishMeaning": "So you cannot (come)?",
-          "banglaMeaning": "তাহলে আপনি পারবেন না (আসতে)?"
+          "englishMeaning": "So it's not possible?",
+          "banglaMeaning": "তাহলে কি সম্ভব নয়?"
         },
         {
           "hiragana": "また こんど おねがいします。",
-          "banglaPronunciation": "মাতা কোনদো ওনেগাইশিমাস",
+          "banglaPronunciation": "মাতা কোনোদো ওনেগাইশিমাসু",
           "kanji": "また 今度 お願いします。",
-          "englishMeaning": "Please ask me again some other time. (used when refusing an invitation indirectly, considering someone's feelings)",
-          "banglaMeaning": "দয়া করে আমাকে অন্য কোন সময় বলবেন। (কারো অনুভূতি বিবেচনা করে পরোক্ষভাবে কোন আমন্ত্রণ প্রত্যাখান করা)"
+          "englishMeaning": "Please ask me again another time.",
+          "banglaMeaning": "অন্য কোনো সময় আমন্ত্রণ জানানোর অনুরোধ রইল"
         }
       ]
     },
@@ -3319,55 +3514,63 @@
       "vocabulary": [
         {
           "hiragana": "います II",
+          "englishPronunciation": "imasu II",
           "banglaPronunciation": "ইমাস",
           "kanji": "",
           "englishMeaning": "Exist, be (animate things)",
-          "banglaMeaning": "অস্তিত্ব, থাকা (প্রাণী)"
+          "banglaMeaning": "থাকা, অস্তিত্ব থাকা (সজীব বস্তু)"
         },
         {
           "hiragana": "あります I",
+          "englishPronunciation": "arimasu I",
           "banglaPronunciation": "আরিমাস",
           "kanji": "",
           "englishMeaning": "Exist, be (inanimate things)",
-          "banglaMeaning": "অস্তিত্ব, থাকা (বস্তু)"
+          "banglaMeaning": "থাকা, অস্তিত্ব থাকা (নির্জীব বস্তু)"
         },
         {
           "hiragana": "いろいろ [な]",
-          "banglaPronunciation": "ইরোইরো না",
+          "englishPronunciation": "iroiro [na]",
+          "banglaPronunciation": "ইরোইরো [না]",
           "kanji": "色々 [な]",
           "englishMeaning": "Various",
           "banglaMeaning": "বিভিন্ন"
         },
         {
           "hiragana": "おとこのひと",
-          "banglaPronunciation": "ওতোকোনোহিতো",
+          "englishPronunciation": "otoko no hito",
+          "banglaPronunciation": "ওতোকো নো হিতো",
           "kanji": "男の人",
           "englishMeaning": "Man",
           "banglaMeaning": "পুরুষ"
         },
         {
           "hiragana": "おんなのひと",
-          "banglaPronunciation": "ওননানোহিতো",
+          "englishPronunciation": "onna no hito",
+          "banglaPronunciation": "ওন্না নো হিতো",
           "kanji": "女の人",
           "englishMeaning": "Woman",
           "banglaMeaning": "মহিলা"
         },
         {
           "hiragana": "おとこのこ",
-          "banglaPronunciation": "ওতোকোনোকো",
+          "englishPronunciation": "otoko no ko",
+          "banglaPronunciation": "ওতোকো নো কো",
           "kanji": "男の子",
           "englishMeaning": "Boy",
           "banglaMeaning": "ছেলে"
         },
         {
           "hiragana": "おんなのこ",
-          "banglaPronunciation": "ওননানোকো",
+          "englishPronunciation": "onna no ko",
+          "banglaPronunciation": "ওন্না নো কো",
           "kanji": "女の子",
           "englishMeaning": "Girl",
           "banglaMeaning": "মেয়ে"
         },
         {
           "hiragana": "いぬ",
+          "englishPronunciation": "inu",
           "banglaPronunciation": "ইনু",
           "kanji": "犬",
           "englishMeaning": "Dog",
@@ -3375,6 +3578,7 @@
         },
         {
           "hiragana": "ねこ",
+          "englishPronunciation": "neko",
           "banglaPronunciation": "নেকো",
           "kanji": "猫",
           "englishMeaning": "Cat",
@@ -3382,6 +3586,7 @@
         },
         {
           "hiragana": "き",
+          "englishPronunciation": "ki",
           "banglaPronunciation": "কি",
           "kanji": "木",
           "englishMeaning": "Tree, wood",
@@ -3389,6 +3594,7 @@
         },
         {
           "hiragana": "もの",
+          "englishPronunciation": "mono",
           "banglaPronunciation": "মোনো",
           "kanji": "物",
           "englishMeaning": "Thing",
@@ -3396,6 +3602,7 @@
         },
         {
           "hiragana": "フイルム",
+          "englishPronunciation": "fuirumu",
           "banglaPronunciation": "ফুইরুমু",
           "kanji": "",
           "englishMeaning": "Film",
@@ -3403,6 +3610,7 @@
         },
         {
           "hiragana": "でんち",
+          "englishPronunciation": "denchi",
           "banglaPronunciation": "দেনচি",
           "kanji": "電池",
           "englishMeaning": "Battery",
@@ -3410,6 +3618,7 @@
         },
         {
           "hiragana": "はこ",
+          "englishPronunciation": "hako",
           "banglaPronunciation": "হাকো",
           "kanji": "箱",
           "englishMeaning": "Box",
@@ -3417,6 +3626,7 @@
         },
         {
           "hiragana": "スイッチ",
+          "englishPronunciation": "suicchi",
           "banglaPronunciation": "সুইচ্চি",
           "kanji": "",
           "englishMeaning": "Switch",
@@ -3424,13 +3634,15 @@
         },
         {
           "hiragana": "れいぞうこ",
-          "banglaPronunciation": "রেইজৌকো",
+          "englishPronunciation": "reizouko",
+          "banglaPronunciation": "রেইজোকো",
           "kanji": "冷蔵庫",
           "englishMeaning": "Refrigerator",
-          "banglaMeaning": "রিফ্রেজারেটর"
+          "banglaMeaning": "রেফ্রিজারেটর"
         },
         {
           "hiragana": "テーブル",
+          "englishPronunciation": "teeburu",
           "banglaPronunciation": "তেবুরু",
           "kanji": "",
           "englishMeaning": "Table",
@@ -3438,6 +3650,7 @@
         },
         {
           "hiragana": "ベッド",
+          "englishPronunciation": "beddo",
           "banglaPronunciation": "বেদ্দো",
           "kanji": "",
           "englishMeaning": "Bed",
@@ -3445,6 +3658,7 @@
         },
         {
           "hiragana": "たな",
+          "englishPronunciation": "tana",
           "banglaPronunciation": "তানা",
           "kanji": "棚",
           "englishMeaning": "Shelf",
@@ -3452,6 +3666,7 @@
         },
         {
           "hiragana": "ドア",
+          "englishPronunciation": "doa",
           "banglaPronunciation": "দোআ",
           "kanji": "",
           "englishMeaning": "Door",
@@ -3459,6 +3674,7 @@
         },
         {
           "hiragana": "まど",
+          "englishPronunciation": "mado",
           "banglaPronunciation": "মাদো",
           "kanji": "窓",
           "englishMeaning": "Window",
@@ -3466,6 +3682,7 @@
         },
         {
           "hiragana": "ポスト",
+          "englishPronunciation": "posuto",
           "banglaPronunciation": "পোসুতো",
           "kanji": "",
           "englishMeaning": "Mailbox, postbox",
@@ -3473,6 +3690,7 @@
         },
         {
           "hiragana": "ビル",
+          "englishPronunciation": "biru",
           "banglaPronunciation": "বিরু",
           "kanji": "",
           "englishMeaning": "Building",
@@ -3480,20 +3698,23 @@
         },
         {
           "hiragana": "こうえん",
-          "banglaPronunciation": "কৌয়েন",
+          "englishPronunciation": "kouen",
+          "banglaPronunciation": "কোয়েন",
           "kanji": "公園",
           "englishMeaning": "Park",
-          "banglaMeaning": "উদ্যান"
+          "banglaMeaning": "পার্ক, উদ্যান"
         },
         {
           "hiragana": "きっさてん",
+          "englishPronunciation": "kissaten",
           "banglaPronunciation": "কিস্সাতেন",
           "kanji": "喫茶店",
           "englishMeaning": "Coffee shop",
-          "banglaMeaning": "কফি দোকান"
+          "banglaMeaning": "কফি শপ"
         },
         {
           "hiragana": "ほんや",
+          "englishPronunciation": "hon'ya",
           "banglaPronunciation": "হোনইয়া",
           "kanji": "本屋",
           "englishMeaning": "Bookstore",
@@ -3501,6 +3722,7 @@
         },
         {
           "hiragana": "〜や",
+          "englishPronunciation": "~ya",
           "banglaPronunciation": "〜 ইয়া",
           "kanji": "〜屋",
           "englishMeaning": "~store",
@@ -3508,20 +3730,23 @@
         },
         {
           "hiragana": "のりば",
+          "englishPronunciation": "noriba",
           "banglaPronunciation": "নোরিবা",
           "kanji": "乗り場",
           "englishMeaning": "A fixed place to catch taxis, trains, etc.",
-          "banglaMeaning": "নির্দিষ্ট জায়গা যেখান থেকে ট্যাক্সি, ট্রেন ইত্যাদিতে চড়া যায়।"
+          "banglaMeaning": "যানবাহন (ট্যাক্সি, ট্রেন ইত্যাদি) ওঠার নির্দিষ্ট স্থান"
         },
         {
           "hiragana": "けん",
+          "englishPronunciation": "ken",
           "banglaPronunciation": "কেন",
           "kanji": "県",
           "englishMeaning": "Prefecture",
-          "banglaMeaning": "অঞ্চল"
+          "banglaMeaning": "প্রিফেকচার (প্রশাসনিক অঞ্চল)"
         },
         {
           "hiragana": "うえ",
+          "englishPronunciation": "ue",
           "banglaPronunciation": "উয়ে",
           "kanji": "上",
           "englishMeaning": "On, above, over",
@@ -3529,6 +3754,7 @@
         },
         {
           "hiragana": "した",
+          "englishPronunciation": "shita",
           "banglaPronunciation": "শিতা",
           "kanji": "下",
           "englishMeaning": "Under, below, beneath",
@@ -3536,41 +3762,47 @@
         },
         {
           "hiragana": "まえ",
+          "englishPronunciation": "mae",
           "banglaPronunciation": "মায়ে",
           "kanji": "前",
           "englishMeaning": "Front, before",
-          "banglaMeaning": "সামনে, পূর্বে"
+          "banglaMeaning": "সামনে"
         },
         {
           "hiragana": "うしろ",
+          "englishPronunciation": "ushiro",
           "banglaPronunciation": "উশিরো",
           "kanji": "後ろ",
           "englishMeaning": "Back, behind",
-          "banglaMeaning": "পিছনে, পরে"
+          "banglaMeaning": "পেছনে"
         },
         {
           "hiragana": "みぎ",
+          "englishPronunciation": "migi",
           "banglaPronunciation": "মিগি",
           "kanji": "右",
           "englishMeaning": "Right (side)",
-          "banglaMeaning": "ডানে"
+          "banglaMeaning": "ডান, ডানে"
         },
         {
           "hiragana": "ひだり",
+          "englishPronunciation": "hidari",
           "banglaPronunciation": "হিদারি",
           "kanji": "左",
           "englishMeaning": "Left (side)",
-          "banglaMeaning": "বামে"
+          "banglaMeaning": "বাম, বামে"
         },
         {
           "hiragana": "なか",
+          "englishPronunciation": "naka",
           "banglaPronunciation": "নাকা",
           "kanji": "中",
           "englishMeaning": "In, inside",
-          "banglaMeaning": "মধ্যে, ভেতরে"
+          "banglaMeaning": "ভেতরে, মধ্যে"
         },
         {
           "hiragana": "そと",
+          "englishPronunciation": "soto",
           "banglaPronunciation": "সোতো",
           "kanji": "外",
           "englishMeaning": "Outside",
@@ -3578,77 +3810,88 @@
         },
         {
           "hiragana": "となり",
+          "englishPronunciation": "tonari",
           "banglaPronunciation": "তোনারি",
           "kanji": "隣",
           "englishMeaning": "Next, next door",
-          "banglaMeaning": "পরবতী, পরের দরজা"
+          "banglaMeaning": "পাশে, পাশের ঘর"
         },
         {
           "hiragana": "ちかく",
+          "englishPronunciation": "chikaku",
           "banglaPronunciation": "চিকাকু",
           "kanji": "近く",
           "englishMeaning": "Near, vicinity",
-          "banglaMeaning": "কাছে, স্বচ্ছ"
+          "banglaMeaning": "কাছে, নিকটে"
         },
         {
           "hiragana": "あいだ",
+          "englishPronunciation": "aida",
           "banglaPronunciation": "আইদা",
           "kanji": "間",
           "englishMeaning": "Between, among",
-          "banglaMeaning": "মধ্যে, মাঝখানে"
+          "banglaMeaning": "মাঝখানে, মধ্যে"
         },
         {
           "hiragana": "〜や〜、[など]",
-          "banglaPronunciation": "〜ইয়া 〜、[নাদো]",
+          "englishPronunciation": "~ya ~, [nado]",
+          "banglaPronunciation": "〜ইয়া 〜, [নাদো]",
           "kanji": "",
           "englishMeaning": "〜,〜, and so on",
-          "banglaMeaning": "〜,〜, এবং আরও অনেক কিছু"
+          "banglaMeaning": "〜, 〜, এবং ইত্যাদি"
         },
         {
           "hiragana": "いちばん〜",
+          "englishPronunciation": "ichiban ~",
           "banglaPronunciation": "ইচিবান 〜",
           "kanji": "一番 〜",
           "englishMeaning": "The most ~, top",
-          "banglaMeaning": "সবচেয়ে, সর্বোচ্চ"
+          "banglaMeaning": "সবচেয়ে 〜"
         },
         {
           "hiragana": "〜だんめ",
+          "englishPronunciation": "~danme",
           "banglaPronunciation": "〜 দানমে",
           "kanji": "〜段目",
           "englishMeaning": "The -th shelf (だん is the counter for shelves)",
-          "banglaMeaning": "〜নাম্বার (তাক গণনা করা হয়)"
+          "banglaMeaning": "〜 নম্বর তাক"
         },
         {
           "hiragana": "[どうも]すみません",
+          "englishPronunciation": "[doumo] sumimasen",
           "banglaPronunciation": "[দৌমো] সুমিমাসেন",
           "kanji": "",
           "englishMeaning": "[Thank you] Sorry",
-          "banglaMeaning": "[ধন্যবাদ] দু:খিত"
+          "banglaMeaning": "[আপনাকে অনেক] ধন্যবাদ / দুঃখিত"
         },
         {
           "hiragana": "チリソース",
-          "banglaPronunciation": "চিরি সো-সু",
+          "englishPronunciation": "chiri soosu",
+          "banglaPronunciation": "চিরি সোসু",
           "kanji": "",
           "englishMeaning": "Chili sauce",
           "banglaMeaning": "চিলি সস"
         },
         {
           "hiragana": "おく",
+          "englishPronunciation": "oku",
           "banglaPronunciation": "ওকু",
           "kanji": "奥",
           "englishMeaning": "The back",
-          "banglaMeaning": "পেছনে"
+          "banglaMeaning": "ভেতরের অংশ, শেষ প্রান্ত"
         },
         {
           "hiragana": "スパイス、コーナー",
-          "banglaPronunciation": "সুপাইসু কো-না-",
+          "englishPronunciation": "supaisu, koonaa",
+          "banglaPronunciation": "সুপাইসু, কোনা",
           "kanji": "",
           "englishMeaning": "Spice corner",
-          "banglaMeaning": "স্পাইস কর্ণার"
+          "banglaMeaning": "মশলার কর্ণার"
         },
         {
           "hiragana": "とうきょう ディズニーランド",
-          "banglaPronunciation": "তোকিয়ৌ দেইজুনি-রান্দো",
+          "englishPronunciation": "toukyou deizuniirando",
+          "banglaPronunciation": "তোকিও দেইজুনীরান্দো",
           "kanji": "東京 ディズニーランド",
           "englishMeaning": "Tokyo Disneyland",
           "banglaMeaning": "টোকিও ডিজনিল্যান্ড"
@@ -3660,6 +3903,7 @@
       "vocabulary": [
         {
           "hiragana": "います II [こどもが〜]",
+          "englishPronunciation": "imasu II [kodomo ga~]",
           "banglaPronunciation": "ইমাস [কোদোমো গা〜]",
           "kanji": "[子供が〜]",
           "englishMeaning": "Have [a child]",
@@ -3667,104 +3911,119 @@
         },
         {
           "hiragana": "います II [にほんに〜]",
-          "banglaPronunciation": "ইমাস [নিহোন নি]",
+          "englishPronunciation": "imasu II [nihon ni~]",
+          "banglaPronunciation": "ইমাস [নিহোন নি〜]",
           "kanji": "[日本に〜]",
           "englishMeaning": "Stay, be [in Japan]",
-          "banglaMeaning": "অবস্থান, থাকা [জাপানে]"
+          "banglaMeaning": "অবস্থান করা, থাকা [জাপানে]"
         },
         {
           "hiragana": "かかります I",
+          "englishPronunciation": "kakarimasu I",
           "banglaPronunciation": "কাকারিমাস",
           "kanji": "",
           "englishMeaning": "Take (time or money)",
-          "banglaMeaning": "নেওয়া, লাগা (সময় বা টাকা)"
+          "banglaMeaning": "লাগা (সময় বা টাকা)"
         },
         {
           "hiragana": "やすみます I [かいしゃを〜]",
-          "banglaPronunciation": "ইয়াসুমিমাস [কাইশা ও 〜]",
+          "englishPronunciation": "yasumimasu I [kaisha o~]",
+          "banglaPronunciation": "ইয়াসুমিমাস [কাইশা ও〜]",
           "kanji": "休みます [会社を〜]",
           "englishMeaning": "Take a day off [work]",
           "banglaMeaning": "ছুটি নেওয়া [কাজ থেকে]"
         },
         {
           "hiragana": "ひとつ",
+          "englishPronunciation": "hitotsu",
           "banglaPronunciation": "হিতোৎসু",
           "kanji": "1つ",
           "englishMeaning": "One (used when counting things)",
-          "banglaMeaning": "এক (সাধারণ জিনিস গণনার ক্ষেত্রে বসে)"
+          "banglaMeaning": "একটি (সাধারণ বস্তু গণনায়)"
         },
         {
           "hiragana": "ふたつ",
+          "englishPronunciation": "futatsu",
           "banglaPronunciation": "ফুতাৎসু",
           "kanji": "2つ",
           "englishMeaning": "Two",
-          "banglaMeaning": "দুই"
+          "banglaMeaning": "দুইটি"
         },
         {
           "hiragana": "みっつ",
+          "englishPronunciation": "mittsu",
           "banglaPronunciation": "মিৎৎসু",
           "kanji": "3つ",
           "englishMeaning": "Three",
-          "banglaMeaning": "তিন"
+          "banglaMeaning": "তিনটি"
         },
         {
           "hiragana": "よっつ",
+          "englishPronunciation": "yottsu",
           "banglaPronunciation": "ইয়োৎৎসু",
-          "kanji": "つ",
+          "kanji": "4つ",
           "englishMeaning": "Four",
-          "banglaMeaning": "চার"
+          "banglaMeaning": "চারটি"
         },
         {
           "hiragana": "いつつ",
+          "englishPronunciation": "itsutsu",
           "banglaPronunciation": "ইৎসুৎসু",
           "kanji": "5つ",
           "englishMeaning": "Five",
-          "banglaMeaning": "পাঁচ"
+          "banglaMeaning": "পাঁচটি"
         },
         {
           "hiragana": "むっつ",
+          "englishPronunciation": "muttsu",
           "banglaPronunciation": "মুৎৎসু",
           "kanji": "6つ",
           "englishMeaning": "Six",
-          "banglaMeaning": "ছয়"
+          "banglaMeaning": "ছয়টি"
         },
         {
           "hiragana": "ななつ",
+          "englishPronunciation": "nanatsu",
           "banglaPronunciation": "নানাৎসু",
           "kanji": "7つ",
           "englishMeaning": "Seven",
-          "banglaMeaning": "সাত"
+          "banglaMeaning": "সাতটি"
         },
         {
           "hiragana": "やっつ",
+          "englishPronunciation": "yattsu",
           "banglaPronunciation": "ইয়াৎৎসু",
           "kanji": "8つ",
           "englishMeaning": "Eight",
-          "banglaMeaning": "আট"
+          "banglaMeaning": "আটটি"
         },
         {
           "hiragana": "ここのつ",
+          "englishPronunciation": "kokonotsu",
           "banglaPronunciation": "কোকোনোৎসু",
           "kanji": "9つ",
           "englishMeaning": "Nine",
-          "banglaMeaning": "ইয়"
+          "banglaMeaning": "নয়টি"
         },
         {
           "hiragana": "とお",
-          "banglaPronunciation": "তৌ",
-          "kanji": "1 0",
+          "englishPronunciation": "too",
+          "banglaPronunciation": "তোও",
+          "kanji": "10",
           "englishMeaning": "Ten",
-          "banglaMeaning": "দশ"
+          "banglaMeaning": "দশটি"
         },
         {
           "hiragana": "いくつ",
+          "englishPronunciation": "ikutsu",
           "banglaPronunciation": "ইকুৎসু",
           "kanji": "",
           "englishMeaning": "How many",
-          "banglaMeaning": "কয়টা?"
+          "banglaMeaning": "কয়টি?"
         },
         {
           "hiragana": "ひとり",
+          "englishPronunciation": "hitori",
           "banglaPronunciation": "হিতোরি",
           "kanji": "一人",
           "englishMeaning": "One person",
@@ -3772,6 +4031,7 @@
         },
         {
           "hiragana": "ふたり",
+          "englishPronunciation": "futari",
           "banglaPronunciation": "ফুতারি",
           "kanji": "二人",
           "englishMeaning": "Two person",
@@ -3779,34 +4039,39 @@
         },
         {
           "hiragana": "〜にん",
+          "englishPronunciation": "~nin",
           "banglaPronunciation": "〜নিন",
           "kanji": "〜人",
           "englishMeaning": "~people",
-          "banglaMeaning": "〜 মানুষ"
+          "banglaMeaning": "〜জন"
         },
         {
           "hiragana": "〜だい",
+          "englishPronunciation": "~dai",
           "banglaPronunciation": "〜দাই",
           "kanji": "〜台",
           "englishMeaning": "Count for Machines, cars, etc.",
-          "banglaMeaning": "ভারী জিনিস (যন্ত্রপাতি, গাড়ি ইত্যাদি) গণনার ক্ষেত্রে ব্যবহার হয়।"
+          "banglaMeaning": "যন্ত্রপাতি, গাড়ি ইত্যাদি গণনার একক"
         },
         {
           "hiragana": "〜まい",
+          "englishPronunciation": "~mai",
           "banglaPronunciation": "〜মাই",
           "kanji": "〜枚",
           "englishMeaning": "Count for paper, stamps, shirt, etc.",
-          "banglaMeaning": "পাতলা জিনিস (কাগজ, স্টামপস, শার্ট ইত্যাদি) গণনার ক্ষেত্রে ব্যবহার হয়"
+          "banglaMeaning": "পাতলা জিনিস (কাগজ, স্ট্যাম্প, শার্ট ইত্যাদি) গণনার একক"
         },
         {
           "hiragana": "〜かい",
+          "englishPronunciation": "~kai",
           "banglaPronunciation": "〜কাই",
           "kanji": "〜回",
           "englishMeaning": "〜times",
-          "banglaMeaning": "সময় গণনা, কত বার"
+          "banglaMeaning": "〜বার (সংখ্যা গণনা)"
         },
         {
           "hiragana": "りんご",
+          "englishPronunciation": "ringo",
           "banglaPronunciation": "রিনগো",
           "kanji": "",
           "englishMeaning": "Apple",
@@ -3814,27 +4079,31 @@
         },
         {
           "hiragana": "みかん",
+          "englishPronunciation": "mikan",
           "banglaPronunciation": "মিকান",
           "kanji": "",
           "englishMeaning": "Mandarin orange",
-          "banglaMeaning": "চায়না কমলা"
+          "banglaMeaning": "কমলালেবু"
         },
         {
           "hiragana": "サンドイッチ",
+          "englishPronunciation": "sandoicchi",
           "banglaPronunciation": "সানদোইচ্চি",
           "kanji": "",
           "englishMeaning": "Sandwich",
           "banglaMeaning": "স্যান্ডউইচ"
         },
         {
-          "hiragana": "カーレ [ライス]",
+          "hiragana": "カレー [ライス]",
+          "englishPronunciation": "karee [raisu]",
           "banglaPronunciation": "কারে [রাইসু]",
           "kanji": "",
           "englishMeaning": "Curry [and rice]",
-          "banglaMeaning": "তরকারি [এবং ভাত]"
+          "banglaMeaning": "কারি [এবং ভাত]"
         },
         {
           "hiragana": "アイスクリーム",
+          "englishPronunciation": "aisukuriimu",
           "banglaPronunciation": "আইসুকুরিমু",
           "kanji": "",
           "englishMeaning": "Ice cream",
@@ -3842,76 +4111,87 @@
         },
         {
           "hiragana": "きって",
+          "englishPronunciation": "kitte",
           "banglaPronunciation": "কিত্তে",
           "kanji": "切手",
           "englishMeaning": "Postage stamp",
-          "banglaMeaning": "ডাকটিকেট"
+          "banglaMeaning": "ডাকটিকিট"
         },
         {
           "hiragana": "はがき",
+          "englishPronunciation": "hagaki",
           "banglaPronunciation": "হাগাকি",
           "kanji": "葉書",
           "englishMeaning": "Post card",
-          "banglaMeaning": "পোষ্ট কার্ড"
+          "banglaMeaning": "পোস্টকার্ড"
         },
         {
           "hiragana": "ふうとう",
-          "banglaPronunciation": "ফৌতৌ",
+          "englishPronunciation": "fuutou",
+          "banglaPronunciation": "ফুউতৌ",
           "kanji": "封筒",
           "englishMeaning": "Envelope",
           "banglaMeaning": "খাম"
         },
         {
           "hiragana": "そくたつ",
+          "englishPronunciation": "sokutatsu",
           "banglaPronunciation": "সোকুতাৎসু",
           "kanji": "速達",
           "englishMeaning": "Special delivery",
-          "banglaMeaning": "বিশেষ বিতরণ"
+          "banglaMeaning": "জরুরি ডাক বিতরণ"
         },
         {
           "hiragana": "かきとめ",
+          "englishPronunciation": "kakitome",
           "banglaPronunciation": "কাকিতোমে",
           "kanji": "書留",
           "englishMeaning": "Registered mail",
-          "banglaMeaning": "নিবন্ধিত মেইল"
+          "banglaMeaning": "রেজিস্ট্রি ডাক"
         },
         {
           "hiragana": "エアメール [こうくうびん]",
+          "englishPronunciation": "eameeru [koukuubin]",
           "banglaPronunciation": "এয়ামেরু [কৌকুবিন]",
           "kanji": "[航空便]",
           "englishMeaning": "Airmail",
-          "banglaMeaning": "এয়ারমেইল"
+          "banglaMeaning": "বিমান ডাক"
         },
         {
           "hiragana": "ふなびん",
+          "englishPronunciation": "funabin",
           "banglaPronunciation": "ফুনাবিন",
           "kanji": "船便",
           "englishMeaning": "Sea mail",
-          "banglaMeaning": "সমুদ্রের মেইল"
+          "banglaMeaning": "জাহাজ ডাক"
         },
         {
           "hiragana": "りょうしん",
-          "banglaPronunciation": "রিয়োউশিন",
+          "englishPronunciation": "ryoushin",
+          "banglaPronunciation": "রিয়ৌশিন",
           "kanji": "両親",
           "englishMeaning": "Parents",
-          "banglaMeaning": "পিতামাতা"
+          "banglaMeaning": "বাবা-মা, পিতামাতা"
         },
         {
           "hiragana": "きょうだい",
-          "banglaPronunciation": "কিয়োউদাই",
+          "englishPronunciation": "kyoudai",
+          "banglaPronunciation": "কিয়ৌদাই",
           "kanji": "兄弟",
           "englishMeaning": "Brothers",
-          "banglaMeaning": "ভাই"
+          "banglaMeaning": "ভাইবোন"
         },
         {
           "hiragana": "しまい",
+          "englishPronunciation": "shimai",
           "banglaPronunciation": "শিমাই",
           "kanji": "姉妹",
           "englishMeaning": "Sisters",
-          "banglaMeaning": "বোন"
+          "banglaMeaning": "বোন (বোনেরা)"
         },
         {
           "hiragana": "あに",
+          "englishPronunciation": "ani",
           "banglaPronunciation": "আনি",
           "kanji": "兄",
           "englishMeaning": "My elder brother",
@@ -3919,6 +4199,7 @@
         },
         {
           "hiragana": "おにいさん",
+          "englishPronunciation": "oniisan",
           "banglaPronunciation": "ওনিইসান",
           "kanji": "お兄さん",
           "englishMeaning": "Someone else's elder brother",
@@ -3926,6 +4207,7 @@
         },
         {
           "hiragana": "あね",
+          "englishPronunciation": "ane",
           "banglaPronunciation": "আনে",
           "kanji": "姉",
           "englishMeaning": "My elder sister",
@@ -3933,6 +4215,7 @@
         },
         {
           "hiragana": "おねえさん",
+          "englishPronunciation": "oneesan",
           "banglaPronunciation": "ওনেএসান",
           "kanji": "お姉さん",
           "englishMeaning": "Someone else's elder sister",
@@ -3940,6 +4223,7 @@
         },
         {
           "hiragana": "おとうと",
+          "englishPronunciation": "otouto",
           "banglaPronunciation": "ওতৌতো",
           "kanji": "弟",
           "englishMeaning": "My younger brother",
@@ -3947,6 +4231,7 @@
         },
         {
           "hiragana": "おとうとさん",
+          "englishPronunciation": "otoutosan",
           "banglaPronunciation": "ওতৌতোসান",
           "kanji": "弟さん",
           "englishMeaning": "Someone else's younger brother",
@@ -3954,6 +4239,7 @@
         },
         {
           "hiragana": "いもうと",
+          "englishPronunciation": "imouto",
           "banglaPronunciation": "ইমৌতো",
           "kanji": "妹",
           "englishMeaning": "My younger sister",
@@ -3961,6 +4247,7 @@
         },
         {
           "hiragana": "いもうとさん",
+          "englishPronunciation": "imoutosan",
           "banglaPronunciation": "ইমৌতোসান",
           "kanji": "妹さん",
           "englishMeaning": "Someone else's younger sister",
@@ -3968,6 +4255,7 @@
         },
         {
           "hiragana": "がいこく",
+          "englishPronunciation": "gaikoku",
           "banglaPronunciation": "গাইকোকু",
           "kanji": "外国",
           "englishMeaning": "Foreign country",
@@ -3975,20 +4263,23 @@
         },
         {
           "hiragana": "〜じかん",
+          "englishPronunciation": "~jikan",
           "banglaPronunciation": "〜জিকান",
           "kanji": "〜時間",
           "englishMeaning": "~hours",
-          "banglaMeaning": "〜সময়/ ঘন্টা"
+          "banglaMeaning": "〜ঘণ্টা"
         },
         {
           "hiragana": "〜しゅうかん",
-          "banglaPronunciation": "〜শুকান",
+          "englishPronunciation": "~shuukan",
+          "banglaPronunciation": "〜শুউকান",
           "kanji": "〜週間",
           "englishMeaning": "~weeks",
           "banglaMeaning": "〜সপ্তাহ"
         },
         {
           "hiragana": "〜かげつ",
+          "englishPronunciation": "~kagetsu",
           "banglaPronunciation": "〜কাগেৎসু",
           "kanji": "〜か月",
           "englishMeaning": "~months",
@@ -3996,6 +4287,7 @@
         },
         {
           "hiragana": "〜ねん",
+          "englishPronunciation": "~nen",
           "banglaPronunciation": "〜নেন",
           "kanji": "〜年",
           "englishMeaning": "~years",
@@ -4003,6 +4295,7 @@
         },
         {
           "hiragana": "〜ぐらい",
+          "englishPronunciation": "~gurai",
           "banglaPronunciation": "〜গুরাই",
           "kanji": "",
           "englishMeaning": "About ~",
@@ -4010,20 +4303,23 @@
         },
         {
           "hiragana": "どのくらい",
-          "banglaPronunciation": "দোনোকুরাই",
+          "englishPronunciation": "dono kurai",
+          "banglaPronunciation": "দোনো কুরাই",
           "kanji": "",
           "englishMeaning": "How long",
-          "banglaMeaning": "কতক্ষন, কত সময়"
+          "banglaMeaning": "কতক্ষণ, কত সময়"
         },
         {
           "hiragana": "ぜんぶで",
-          "banglaPronunciation": "জেনবুদে",
+          "englishPronunciation": "zenbu de",
+          "banglaPronunciation": "জেনবু দে",
           "kanji": "全部で",
           "englishMeaning": "In total",
           "banglaMeaning": "সর্বমোট"
         },
         {
           "hiragana": "みんな",
+          "englishPronunciation": "minna",
           "banglaPronunciation": "মিননা",
           "kanji": "皆",
           "englishMeaning": "All, everything",
@@ -4031,6 +4327,7 @@
         },
         {
           "hiragana": "〜だけ",
+          "englishPronunciation": "~dake",
           "banglaPronunciation": "〜দাকে",
           "kanji": "",
           "englishMeaning": "Only ~",
@@ -4038,63 +4335,64 @@
         },
         {
           "hiragana": "いらっしゃいませ",
+          "englishPronunciation": "irasshaimase",
           "banglaPronunciation": "ইরাশশাইমাসে",
           "kanji": "",
           "englishMeaning": "Welcome./May I help you? (a greeting to a customer or guest entering a shop,etc.)",
-          "banglaMeaning": "স্বাগতম। কিভাবে সাহায্য করতে পারি? (দোকানে গেষ্ট বা কাষ্টমার আসলে বলা হয়)"
+          "banglaMeaning": "স্বাগতম! (দোকানে খদ্দের বা অতিথিকে সম্ভাষণ জানাতে ব্যবহৃত হয়)"
         },
         {
-          "hiragana": "いい [お]",
-          "banglaPronunciation": "ইই [ও]",
-          "kanji": "いい [お]",
+          "hiragana": "いい [お] てんきですね",
+          "englishPronunciation": "ii [o] tenki desu ne",
+          "banglaPronunciation": "ইই [ও] তেনকি দেসু নে",
+          "kanji": "いい [お] 天気ですね",
           "englishMeaning": "Nice weather, isn't it?",
-          "banglaMeaning": "সুন্দর আবহাওয়া, তাই নয় কি?"
-        },
-        {
-          "hiragana": "てんきですね",
-          "banglaPronunciation": "তেনকিদেসনে",
-          "kanji": "天気ですね",
-          "englishMeaning": "Nice weather, isn't it?",
-          "banglaMeaning": "সুন্দর আবহাওয়া, তাই নয় কি?"
+          "banglaMeaning": "সুন্দর আবহাওয়া, তাই না?"
         },
         {
           "hiragana": "おでかけですか。",
-          "banglaPronunciation": "ওদেকাকেদেসকা",
-          "kanji": "お出かけです か。",
+          "englishPronunciation": "odekake desu ka.",
+          "banglaPronunciation": "ওদেকাকে দেসু কা?",
+          "kanji": "お出かけですか。",
           "englishMeaning": "Are you going out?",
-          "banglaMeaning": "বাইরে যাচ্ছো কি?"
+          "banglaMeaning": "বাইরে যাচ্ছেন নাকি?"
         },
         {
           "hiragana": "ちょっと〜まで。",
-          "banglaPronunciation": "চোতো 〜 মাদে",
+          "englishPronunciation": "chotto ~ made.",
+          "banglaPronunciation": "চোত্তো 〜 মাদে।",
           "kanji": "",
           "englishMeaning": "I'm just going to ~.",
-          "banglaMeaning": "আমি একটু ....."
+          "banglaMeaning": "আমি একটু 〜 পর্যন্ত যাচ্ছি।"
         },
         {
           "hiragana": "いって いらっしゃい",
+          "englishPronunciation": "itte irasshai",
           "banglaPronunciation": "ইত্তে ইরাশশাই",
           "kanji": "行って いらっしゃい",
           "englishMeaning": "So long. (go and come back)",
-          "banglaMeaning": "এতক্ষন। (যাও এবং ফিরে এসো)"
+          "banglaMeaning": "আসুন। (যে ব্যক্তি বাইরে যাচ্ছে তাকে বলা হয়)"
         },
         {
           "hiragana": "いって まいります",
+          "englishPronunciation": "itte mairimasu",
           "banglaPronunciation": "ইত্তে মাইরিমাস",
           "kanji": "行って まいります",
           "englishMeaning": "So long. (I'm going and coming back.)",
-          "banglaMeaning": "এতক্ষন। (আমি যাচ্ছি এবং ফিরে আসবো)"
+          "banglaMeaning": "আসছি। (বাইরে যাওয়ার সময় নিজেকে বলা হয়)"
         },
         {
           "hiragana": "それから",
+          "englishPronunciation": "sorekara",
           "banglaPronunciation": "সোরেকারা",
           "kanji": "",
           "englishMeaning": "And, furthermore",
-          "banglaMeaning": "এবং, আরও"
+          "banglaMeaning": "তারপর, এবং"
         },
         {
           "hiragana": "オーストラリア",
-          "banglaPronunciation": "ওসুতোরারিআ",
+          "englishPronunciation": "oosutoraria",
+          "banglaPronunciation": "ওসুতোরাリア / ওসুতোরারিয়া",
           "kanji": "",
           "englishMeaning": "Australia",
           "banglaMeaning": "অস্ট্রেলিয়া"
