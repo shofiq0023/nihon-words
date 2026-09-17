@@ -10,7 +10,7 @@ Practice Japanese vocabulary through multiple choice questions with support for 
 ## What is this?
 
 Nihon Words helps you practice Japanese vocabulary through multiple choice questions, with support for
-both English and Bangla meanings, and Bangla pronunciation guides. It covers all 25 lessons from the
+both English and Bangla meanings, and English or Bangla pronunciation guides. It covers all 25 lessons from the
 Minna no Nihongo Shokyu I (N5) textbook.
 
 ---
@@ -18,7 +18,7 @@ Minna no Nihongo Shokyu I (N5) textbook.
 ## How to use
 
 1. **Select your lessons** — Choose one or more lessons from the 25 available N5 lessons. You must select at least one to start.
-2. **Configure your preferences** — Choose whether questions appear in Hiragana or Kanji, whether answers are in English or Bangla, and whether to show Bangla pronunciation alongside the question.
+2. **Configure your preferences** — Choose whether questions appear in Hiragana or Kanji, whether answers are in English or Bangla, and whether to show a pronunciation guide (off, English, or Bangla) alongside the question.
 3. **Take the quiz** — Each question shows a Japanese word with 4 answer options. Select the correct meaning. Once answered, the correct answer is highlighted and the question is locked.
 4. **See your results** — After finishing, you'll see your score, how many you got correct, wrong, and skipped, along with a performance message.
 
@@ -48,7 +48,7 @@ When timed mode is enabled, a countdown runs for the entire quiz based on the ti
 |---|---|
 | Question script | Hiragana / Kanji |
 | Answer language | English / বাংলা |
-| Show pronunciation | Bangla pronunciation shown beside the question |
+| Show pronunciation | Off / English / বাংলা pronunciation shown beside the question |
 | Timed quiz | Enable countdown timer per question |
 
 ---

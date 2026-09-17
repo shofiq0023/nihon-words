@@ -3,7 +3,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 import {QuizQuestion, QuizService} from '../../services/quiz.service';
 import {Question} from './question/question';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import {faAlarmClock, faArrowRightLong} from '@fortawesome/free-solid-svg-icons';
+import {faAlarmClock} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-quiz',
