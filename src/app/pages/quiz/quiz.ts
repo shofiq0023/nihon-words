@@ -31,8 +31,6 @@ export class Quiz implements OnInit, OnDestroy {
     answerLang: 'english' | 'bangla' = 'english';
     pronunciationLang: 'off' | 'english' | 'bangla' = 'off';
 
-    answeredCount = computed(() => this.answeredMap.size);
-
     constructor(
         private route: ActivatedRoute,
         private router: Router,

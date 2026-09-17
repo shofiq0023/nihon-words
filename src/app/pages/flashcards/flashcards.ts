@@ -17,7 +17,6 @@ export class Flashcards implements OnInit {
     readonly correctIcon = faCheck;
     readonly incorrectIcon = faXmark;
 
-    private readonly topCard = viewChild(FlashcardCard);
     private readonly activeCard = viewChild<FlashcardCard>('activeCard');
 
     cards: FlashcardItem[] = [];

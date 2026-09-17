@@ -14,21 +14,6 @@ export class VocabularyService {
         return this.data.data;
     }
 
-    getLessonNumbers(): number[] {
-        return this.data.data.map((l) => l.lesson);
-    }
-
-    getVocabularyByLessons(lessonNumbers: number[]): Vocabulary[] {
-        return this.data.data
-            .filter((l) => lessonNumbers.includes(l.lesson))
-            .flatMap((l) => l.vocabulary);
-    }
-
-    /**
-     * Selects vocabulary per lesson using the app-wide sampling rule:
-     * 1 lesson -> all its vocabulary, 2 lessons -> half of each,
-     * 3+ lessons -> 15 words from each. Used by both the quiz and flashcards.
-     */
     selectVocabulary(lessonNumbers: number[]): Vocabulary[] {
         const count = lessonNumbers.length;
         const result: Vocabulary[] = [];

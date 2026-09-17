@@ -12,22 +12,6 @@ const EXIT_ANIMATION_MS = 260;
     styleUrl: './flashcard-card.scss'
 })
 export class FlashcardCard {
-    constructor() {
-        effect(() => {
-            // Track the card input to reset state whenever the card updates
-            this.card();
-            this.resetState();
-        });
-    }
-
-    private resetState(): void {
-        this.flipped.set(false);
-        this.dragging.set(false);
-        this.dragX.set(0);
-        this.dragY.set(0);
-        this.exitDirection.set(null);
-    }
-
     card = input.required<FlashcardItem>();
     script = input.required<'hiragana' | 'kanji'>();
     answerLang = input.required<'english' | 'bangla'>();
@@ -80,6 +64,22 @@ export class FlashcardCard {
     private dragStartY = 0;
     private hasDragged = false;
 
+    constructor() {
+        effect(() => {
+            // Track the card input to reset state whenever the card updates
+            this.card();
+            this.resetState();
+        });
+    }
+
+    private resetState(): void {
+        this.flipped.set(false);
+        this.dragging.set(false);
+        this.dragX.set(0);
+        this.dragY.set(0);
+        this.exitDirection.set(null);
+    }
+
     onPointerDown(event: PointerEvent): void {
         if (this.exitDirection()) return;
 
@@ -130,7 +130,7 @@ export class FlashcardCard {
         this.dragY.set(0);
     }
 
-    /** Allows the parent page's Correct/Incorrect buttons to trigger the same animated exit. */
+    // Allows the parent page's Correct/Incorrect buttons to trigger the same animated exit
     forceSwipe(direction: 'left' | 'right'): void {
         if (this.exitDirection()) return;
         this.commitSwipe(direction);
