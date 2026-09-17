@@ -1,0 +1,34 @@
+<div
+    class="card absolute inset-0 select-none touch-none cursor-grab active:cursor-grabbing bg-white border border-gray-100 rounded-2xl shadow-md flex flex-col items-center justify-center p-8 text-center"
+    [style]="cardStyle()"
+    (pointerdown)="onPointerDown($event)"
+    (pointermove)="onPointerMove($event)"
+    (pointerup)="onPointerUp($event)"
+    (pointercancel)="onPointerUp($event)">
+
+    @if (overlayLabel(); as label) {
+        <div
+            class="overlay-label absolute top-6 px-3 py-1 border-2 rounded-lg text-lg font-bold uppercase tracking-wide"
+            [class.overlay-like]="label === 'like'"
+            [class.overlay-nope]="label === 'nope'"
+            [style.opacity]="overlayOpacity()">
+            {{ label === 'like' ? 'Knew it' : "Didn't know" }}
+        </div>
+    }
+
+    @if (!flipped()) {
+        <div>
+            <p class="text-3xl font-bold text-gray-900">{{ questionText() }}</p>
+            @if (pronunciationText()) {
+                <p class="text-lg text-gray-400 mt-3">{{ pronunciationText() }}</p>
+            }
+        </div>
+    } @else {
+        <div>
+            <p class="text-2xl font-bold text-[#185FA5]">{{ answerText() }}</p>
+            <p class="text-sm text-gray-400 mt-3">{{ questionText() }}</p>
+        </div>
+    }
+
+    <p class="absolute bottom-4 text-[11px] text-gray-300">Tap to flip</p>
+</div>

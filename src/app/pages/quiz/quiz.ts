@@ -3,7 +3,8 @@ import {ActivatedRoute, Router} from '@angular/router';
 import {QuizQuestion, QuizService} from '../../services/quiz.service';
 import {Question} from './question/question';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import {faAlarmClock} from '@fortawesome/free-solid-svg-icons';
+import {faAlarmClock, faArrowRightLong} from '@fortawesome/free-solid-svg-icons';
+import {parseAnswerLang, parsePronunciationLang, parseScript} from '../../utils/query-param-parsers.util';
 
 @Component({
     selector: 'app-quiz',
@@ -46,9 +47,9 @@ export class Quiz implements OnInit, OnDestroy {
             .map(Number)
             .filter(Boolean);
 
-        this.script = (params.get('script') ?? 'hiragana') as 'hiragana' | 'kanji';
-        this.answerLang = (params.get('answerLang') ?? 'english') as 'english' | 'bangla';
-        this.pronunciationLang = this.parsePronunciationLang(params.get('pronunciation'));
+        this.script = parseScript(params.get('script'));
+        this.answerLang = parseAnswerLang(params.get('answerLang'));
+        this.pronunciationLang = parsePronunciationLang(params.get('pronunciation'));
         this.timed = params.get('timed') === 'true';
         this.timerSeconds = Number(params.get('timer') ?? 15);
 
@@ -122,10 +123,6 @@ export class Quiz implements OnInit, OnDestroy {
                 return s - 1;
             });
         }, 1000);
-    }
-
-    private parsePronunciationLang(value: string | null): 'off' | 'english' | 'bangla' {
-        return value === 'english' || value === 'bangla' ? value : 'off';
     }
 
     private clearTimer(): void {

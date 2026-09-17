@@ -2,7 +2,7 @@ import {Component, computed, signal} from '@angular/core';
 import {Router, RouterLink} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import {faArrowRightLong} from '@fortawesome/free-solid-svg-icons';
+import {faArrowRightLong, faLayerGroup} from '@fortawesome/free-solid-svg-icons';
 
 export interface QuizConfig {
     lessons: number[];
@@ -21,6 +21,7 @@ export interface QuizConfig {
 })
 export class Home {
     readonly arrowLongRight = faArrowRightLong;
+    readonly flashcardsIcon = faLayerGroup;
     readonly totalLessons = Array.from({ length: 25 }, (_, i) => i + 1);
 
     selectedLessons = signal<Set<number>>(new Set());
@@ -56,19 +57,9 @@ export class Home {
     }
 
     startQuiz(): void {
-        if (this.selectedLessons().size === 0) {
-            this.showError.set(true);
-            return;
-        }
+        if (!this.validateSelection()) return;
 
-        const config: QuizConfig = {
-            lessons: [...this.selectedLessons()].sort((a, b) => a - b),
-            script: this.script(),
-            answerLang: this.answerLang(),
-            pronunciationLang: this.pronunciationLang(),
-            timed: this.timed(),
-            timerSeconds: this.timerSeconds(),
-        };
+        const config = this.buildConfig();
 
         this.router.navigate(['/quiz'], {
             queryParams: {
@@ -80,5 +71,39 @@ export class Home {
                 timer: config.timerSeconds,
             }
         });
+    }
+
+    startFlashcards(): void {
+        if (!this.validateSelection()) return;
+
+        const config = this.buildConfig();
+
+        this.router.navigate(['/flashcards'], {
+            queryParams: {
+                lessons: config.lessons.join(','),
+                script: config.script,
+                answerLang: config.answerLang,
+                pronunciation: config.pronunciationLang,
+            }
+        });
+    }
+
+    private validateSelection(): boolean {
+        if (this.selectedLessons().size === 0) {
+            this.showError.set(true);
+            return false;
+        }
+        return true;
+    }
+
+    private buildConfig(): QuizConfig {
+        return {
+            lessons: [...this.selectedLessons()].sort((a, b) => a - b),
+            script: this.script(),
+            answerLang: this.answerLang(),
+            pronunciationLang: this.pronunciationLang(),
+            timed: this.timed(),
+            timerSeconds: this.timerSeconds(),
+        };
     }
 }
