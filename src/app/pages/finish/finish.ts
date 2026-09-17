@@ -2,11 +2,16 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {
+    IconDefinition,
+    faBookOpen,
     faCircleCheck,
     faCircleXmark,
+    faHandFist,
     faHome,
     faQuestionCircle,
     faRotateLeft,
+    faSeedling,
+    faStar,
     faTrophy
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -33,7 +38,8 @@ export class Finish implements OnInit {
 
     stats: StatCard[] = [];
     performanceMessage = '';
-    performanceEmoji = '';
+    performanceIcon: IconDefinition = faTrophy;
+    performanceIconColor = 'text-yellow-500';
 
     constructor(private route: ActivatedRoute, private router: Router) {}
 
@@ -71,19 +77,24 @@ export class Finish implements OnInit {
     private setPerformance(): void {
         if (this.percentage >= 90) {
             this.performanceMessage = 'Outstanding! You\'re mastering N5!';
-            this.performanceEmoji = '🏆';
+            this.performanceIcon = faTrophy;
+            this.performanceIconColor = 'text-amber-500';
         } else if (this.percentage >= 75) {
             this.performanceMessage = 'Great job! Keep it up!';
-            this.performanceEmoji = '🌟';
+            this.performanceIcon = faStar;
+            this.performanceIconColor = 'text-amber-400';
         } else if (this.percentage >= 50) {
             this.performanceMessage = 'Good effort! A little more practice!';
-            this.performanceEmoji = '💪';
+            this.performanceIcon = faHandFist;
+            this.performanceIconColor = 'text-sky-600';
         } else if (this.percentage >= 25) {
             this.performanceMessage = 'Keep practicing, you\'ll get there!';
-            this.performanceEmoji = '📖';
+            this.performanceIcon = faBookOpen;
+            this.performanceIconColor = 'text-indigo-500';
         } else {
             this.performanceMessage = 'Don\'t give up! Review and try again!';
-            this.performanceEmoji = '🌱';
+            this.performanceIcon = faSeedling;
+            this.performanceIconColor = 'text-emerald-500';
         }
     }
 
