@@ -18,6 +18,7 @@ export class Flashcards implements OnInit {
     readonly incorrectIcon = faXmark;
 
     private readonly topCard = viewChild(FlashcardCard);
+    private readonly activeCard = viewChild<FlashcardCard>('activeCard');
 
     cards: FlashcardItem[] = [];
     script: 'hiragana' | 'kanji' = 'hiragana';
@@ -69,7 +70,7 @@ export class Flashcards implements OnInit {
     }
 
     triggerSwipe(direction: 'left' | 'right'): void {
-        this.topCard()?.forceSwipe(direction);
+        this.activeCard()?.forceSwipe(direction);
     }
 
     goHome(): void {
