@@ -85,12 +85,13 @@
             <div class="flex items-center justify-between gap-3">
                 <div class="flex-1">
                     <p class="text-sm font-medium mb-0.5">Show pronunciation</p>
-                    <p class="text-xs text-gray-400">Bangla pronunciation beside the question</p>
+                    <p class="text-xs text-gray-400">Pronunciation guide beside the question</p>
                 </div>
-                <label class="switch">
-                    <input type="checkbox" [checked]="showPronunciation()" (change)="showPronunciation.set(!showPronunciation())">
-                    <span class="thumb"></span>
-                </label>
+                <div class="toggle-group">
+                    <button [class.active]="pronunciationLang() === 'off'" (click)="pronunciationLang.set('off')">Off</button>
+                    <button [class.active]="pronunciationLang() === 'english'" (click)="pronunciationLang.set('english')">English</button>
+                    <button [class.active]="pronunciationLang() === 'bangla'" (click)="pronunciationLang.set('bangla')">বাংলা</button>
+                </div>
             </div>
 
             <hr class="border-gray-100">

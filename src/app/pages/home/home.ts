@@ -8,7 +8,7 @@ export interface QuizConfig {
     lessons: number[];
     script: 'hiragana' | 'kanji';
     answerLang: 'english' | 'bangla';
-    showPronunciation: boolean;
+    pronunciationLang: 'off' | 'english' | 'bangla';
     timed: boolean;
     timerSeconds: number;
 }
@@ -26,7 +26,7 @@ export class Home {
     selectedLessons = signal<Set<number>>(new Set());
     script = signal<'hiragana' | 'kanji'>('hiragana');
     answerLang = signal<'english' | 'bangla'>('english');
-    showPronunciation = signal(false);
+    pronunciationLang = signal<'off' | 'english' | 'bangla'>('off');
     timed = signal(false);
     timerSeconds = signal(15);
     showError = signal(false);
@@ -65,7 +65,7 @@ export class Home {
             lessons: [...this.selectedLessons()].sort((a, b) => a - b),
             script: this.script(),
             answerLang: this.answerLang(),
-            showPronunciation: this.showPronunciation(),
+            pronunciationLang: this.pronunciationLang(),
             timed: this.timed(),
             timerSeconds: this.timerSeconds(),
         };
@@ -75,7 +75,7 @@ export class Home {
                 lessons: config.lessons.join(','),
                 script: config.script,
                 answerLang: config.answerLang,
-                pronunciation: config.showPronunciation,
+                pronunciation: config.pronunciationLang,
                 timed: config.timed,
                 timer: config.timerSeconds,
             }

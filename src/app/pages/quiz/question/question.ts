@@ -42,10 +42,10 @@ export class Question {
     get pronunciationText(): string {
         const q = this.question();
 
-        if (q.showPronunciation && q.script === 'kanji') {
-            return `(${q.vocab.banglaPronunciation})`;
+        if (q.pronunciationLang === 'english') {
+            return `(${q.vocab.englishPronunciation})`;
         }
-        if (q.showPronunciation) {
+        if (q.pronunciationLang === 'bangla') {
             return `(${q.vocab.banglaPronunciation})`;
         }
         return '';

@@ -9,7 +9,7 @@ export interface QuizQuestion {
     correctAnswer: string;
     script: 'hiragana' | 'kanji';
     answerLang: 'english' | 'bangla';
-    showPronunciation: boolean;
+    pronunciationLang: 'off' | 'english' | 'bangla';
 }
 
 @Injectable({ providedIn: 'root' })
@@ -21,7 +21,7 @@ export class QuizService {
         lessonNumbers: number[],
         script: 'hiragana' | 'kanji',
         answerLang: 'english' | 'bangla',
-        showPronunciation: boolean
+        pronunciationLang: 'off' | 'english' | 'bangla'
     ): QuizQuestion[] {
         const selectedVocab = this.selectVocab(lessonNumbers);
         const shuffled = this.shuffle(selectedVocab);
@@ -44,7 +44,7 @@ export class QuizService {
                 correctAnswer,
                 script,
                 answerLang,
-                showPronunciation
+                pronunciationLang
             };
         });
     }

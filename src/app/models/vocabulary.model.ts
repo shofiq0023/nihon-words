@@ -1,5 +1,6 @@
 export interface Vocabulary {
     hiragana: string;
+    englishPronunciation: string;
     banglaPronunciation: string;
     kanji: string;
     englishMeaning: string;

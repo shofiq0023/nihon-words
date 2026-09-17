@@ -28,7 +28,7 @@ export class Quiz implements OnInit, OnDestroy {
     // Config
     script: 'hiragana' | 'kanji' = 'hiragana';
     answerLang: 'english' | 'bangla' = 'english';
-    showPronunciation = false;
+    pronunciationLang: 'off' | 'english' | 'bangla' = 'off';
 
     answeredCount = computed(() => this.answeredMap.size);
 
@@ -48,12 +48,12 @@ export class Quiz implements OnInit, OnDestroy {
 
         this.script = (params.get('script') ?? 'hiragana') as 'hiragana' | 'kanji';
         this.answerLang = (params.get('answerLang') ?? 'english') as 'english' | 'bangla';
-        this.showPronunciation = params.get('pronunciation') === 'true';
+        this.pronunciationLang = this.parsePronunciationLang(params.get('pronunciation'));
         this.timed = params.get('timed') === 'true';
         this.timerSeconds = Number(params.get('timer') ?? 15);
 
         this.questions = this.quizService.buildQuestions(
-            lessons, this.script, this.answerLang, this.showPronunciation
+            lessons, this.script, this.answerLang, this.pronunciationLang
         );
 
         if (this.timed) {
@@ -122,6 +122,10 @@ export class Quiz implements OnInit, OnDestroy {
                 return s - 1;
             });
         }, 1000);
+    }
+
+    private parsePronunciationLang(value: string | null): 'off' | 'english' | 'bangla' {
+        return value === 'english' || value === 'bangla' ? value : 'off';
     }
 
     private clearTimer(): void {
