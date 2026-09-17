@@ -2,6 +2,7 @@ import {Component, input, output} from '@angular/core';
 import {QuizQuestion} from '../../../services/quiz.service';
 import {faCheck, faXmark} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {getPronunciationText, getScriptText} from '../../../utils/vocab-display.util';
 
 @Component({
     imports: [FontAwesomeModule],
@@ -36,18 +37,11 @@ export class Question {
 
     get questionText(): string {
         const q = this.question();
-        return q.script === 'hiragana' ? q.vocab.hiragana : (q.vocab.kanji || q.vocab.hiragana);
+        return getScriptText(q.vocab, q.script);
     }
 
     get pronunciationText(): string {
         const q = this.question();
-
-        if (q.pronunciationLang === 'english') {
-            return `(${q.vocab.englishPronunciation})`;
-        }
-        if (q.pronunciationLang === 'bangla') {
-            return `(${q.vocab.banglaPronunciation})`;
-        }
-        return '';
+        return getPronunciationText(q.vocab, q.pronunciationLang);
     }
 }

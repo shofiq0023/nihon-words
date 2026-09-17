@@ -12,6 +12,11 @@ export const routes: Routes = [
             import('./pages/quiz/quiz').then((m) => m.Quiz),
     },
     {
+        path: 'flashcards',
+        loadComponent: () =>
+            import('./pages/flashcards/flashcards').then((m) => m.Flashcards),
+    },
+    {
         path: 'finish',
         loadComponent: () =>
             import('./pages/finish/finish').then((m) => m.Finish),

@@ -123,10 +123,17 @@
         </div>
     </section>
 
-    <button
-        class="w-full py-3 text-[15px] font-semibold bg-[#185FA5] text-white rounded-lg cursor-pointer flex items-center justify-center gap-2 hover:opacity-90 active:scale-[0.99] transition-all"
-        (click)="startQuiz()">
-        Start quiz <fa-icon [icon]="arrowLongRight" />
-    </button>
+    <div class="flex flex-col gap-2.5">
+        <button
+            class="w-full py-3 text-[15px] font-semibold bg-[#185FA5] text-white rounded-lg cursor-pointer flex items-center justify-center gap-2 hover:opacity-90 active:scale-[0.99] transition-all"
+            (click)="startQuiz()">
+            Start quiz <fa-icon [icon]="arrowLongRight" />
+        </button>
+        <button
+            class="w-full py-3 text-[15px] font-semibold bg-white text-[#185FA5] border border-[#185FA5] rounded-lg cursor-pointer flex items-center justify-center gap-2 hover:bg-[#f0f4ff] active:scale-[0.99] transition-all"
+            (click)="startFlashcards()">
+            Study with flashcards <fa-icon [icon]="flashcardsIcon" />
+        </button>
+    </div>
 
 </main>

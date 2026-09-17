@@ -1,0 +1,19 @@
+.card {
+    will-change: transform;
+}
+
+.overlay-label {
+    z-index: 10;
+    pointer-events: none;
+
+    &.overlay-like {
+        left: 1.5rem;
+        color: #27ae60;
+        border-color: #27ae60;
+    }
+    &.overlay-nope {
+        right: 1.5rem;
+        color: #e74c3c;
+        border-color: #e74c3c;
+    }
+}
